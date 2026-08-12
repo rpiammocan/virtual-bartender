@@ -3,7 +3,7 @@ name: virtual-bartender
 services:
   virtual-bartender-backend:
     build:
-      context: ./backend
+      context: ../backend
     container_name: virtual-bartender-backend
     restart: unless-stopped
     environment:
@@ -11,8 +11,8 @@ services:
       BACKUPS_PATH: /backups
       MEDIA_PATH: /data/images
     volumes:
-      - ${APP_DATA_DIR:-./data}:/data
-      - ${APP_BACKUP_DIR:-./backups}:/backups
+      - ${APP_DATA_DIR:-../data}:/data
+      - ${APP_BACKUP_DIR:-../backups}:/backups
     ports:
       - "8000:8000"
     networks:
@@ -22,7 +22,7 @@ services:
 
   virtual-bartender-web:
     build:
-      context: ./frontend
+      context: ../frontend
     container_name: virtual-bartender-web
     restart: unless-stopped
     depends_on:
