@@ -25,24 +25,14 @@ Virtual Bartender is a local-first cocktail and mocktail recipe application desi
 
 ## CasaOS installation
 
-A complete step-by-step guide is available in **[CASAOS.md](CASAOS.md)**.
+For CasaOS, the easiest installation is the Compose file at **`casaos/virtual-bartender.yaml`**. It builds directly from this public GitHub repository, so CasaOS does not need to authenticate to GitHub Container Registry.
 
-The short version is:
-
-```bash
-cd /DATA/Apps
-git clone https://github.com/rpiammocan/virtual-bartender.git
-cd virtual-bartender
-mkdir -p data backups
-docker compose -f casaos/docker-compose.yml up --build -d
-```
-
-Because this repository is private, authenticate the CasaOS host with GitHub before cloning it. See `CASAOS.md` for GitHub authentication choices, verification, updating, backups, port changes, and troubleshooting.
+The default Virtual Bartender web port is **9190**.
 
 Once running, open:
 
 ```text
-http://YOUR_CASAOS_IP:8080
+http://YOUR_CASAOS_IP:9190
 ```
 
 Backend health check:
@@ -50,6 +40,8 @@ Backend health check:
 ```text
 http://YOUR_CASAOS_IP:8000/api/health
 ```
+
+A complete source-based installation and troubleshooting guide is available in **[CASAOS.md](CASAOS.md)**.
 
 ## Standard Docker installation
 
@@ -59,43 +51,36 @@ From the repository root:
 docker compose up --build -d
 ```
 
-Then open:
-
-```text
-http://localhost:8080
-```
-
 ## Persistent data
 
-Virtual Bartender keeps user/application data outside disposable containers. The default Compose configuration uses:
+Virtual Bartender keeps user/application data outside disposable containers. CasaOS uses:
 
 ```text
-data/       SQLite database and local media
-backups/    application backups
+/DATA/AppData/virtual-bartender/data
+/DATA/AppData/virtual-bartender/backups
 ```
 
 Do not commit local databases, backups, environment secrets, `node_modules`, or Python virtual environments to Git. The repository `.gitignore` excludes these items.
 
 ## Updating
 
-For a CasaOS source installation:
+Re-import/rebuild the CasaOS application from the current `casaos/virtual-bartender.yaml`, or for a source clone:
 
 ```bash
 git pull
 docker compose -f casaos/docker-compose.yml up --build -d
 ```
 
-See **[CASAOS.md](CASAOS.md)** before updating a system containing data you care about.
-
 ## Project structure
 
 ```text
-backend/                 FastAPI backend
-frontend/                React + TypeScript frontend
-casaos/                  CasaOS-specific Compose configuration
-data/                    Seed content and persistent runtime data
-CASAOS.md                Full CasaOS installation guide
-docker-compose.yml       Standard Docker Compose deployment
+backend/                         FastAPI backend
+frontend/                        React + TypeScript frontend
+casaos/virtual-bartender.yaml    CasaOS direct-import definition
+casaos/docker-compose.yml        CasaOS source-clone Compose configuration
+data/                            Seed content and persistent runtime data
+CASAOS.md                        Full CasaOS installation guide
+docker-compose.yml               Standard Docker Compose deployment
 ```
 
 ## Current status
