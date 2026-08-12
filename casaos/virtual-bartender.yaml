@@ -2,10 +2,7 @@ name: virtual-bartender
 
 services:
   backend:
-    image: virtual-bartender-backend:local
-    build:
-      context: https://github.com/rpiammocan/virtual-bartender.git#main
-      dockerfile: backend/Dockerfile.ghcr
+    image: ghcr.io/rpiammocan/virtual-bartender-backend:latest
     container_name: virtual-bartender-backend
     restart: unless-stopped
     environment:
@@ -23,9 +20,7 @@ services:
           - backend
 
   web:
-    image: virtual-bartender-web:local
-    build:
-      context: https://github.com/rpiammocan/virtual-bartender.git#main:frontend
+    image: ghcr.io/rpiammocan/virtual-bartender-web:latest
     container_name: virtual-bartender-web
     restart: unless-stopped
     depends_on:
