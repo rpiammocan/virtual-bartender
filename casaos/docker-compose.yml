@@ -28,7 +28,7 @@ services:
     depends_on:
       - virtual-bartender-backend
     ports:
-      - "${WEB_PORT:-8080}:80"
+      - "${WEB_PORT:-9190}:80"
 
 x-casaos:
   architectures:
@@ -43,7 +43,7 @@ x-casaos:
   developer: Local
   icon: /icon.svg
   index: /
-  port_map: "8080"
+  port_map: "9190"
   scheme: http
   title:
     en_us: Virtual Bartender
