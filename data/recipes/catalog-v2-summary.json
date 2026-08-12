@@ -1,0 +1,18 @@
+{
+  "catalog_version": 2,
+  "recipe_count_added_in_v2": 40,
+  "new_ingredient_count": 55,
+  "substitution_rules": 8,
+  "notable_variants": [
+    "Margarita -> Mezcal Margarita",
+    "Margarita -> Virgin Margarita",
+    "Mojito -> Virgin Mojito",
+    "Pi\u00f1a Colada -> Virgin Pi\u00f1a Colada",
+    "Moscow Mule -> Virgin Moscow Mule"
+  ],
+  "source_policy": {
+    "IBA": "authoritative reference for standardized classics",
+    "Wikibooks": "open reference for selected classic/general drinks",
+    "Virtual Bartender": "original normalized recipes, variants, mocktails, and instructions"
+  }
+}

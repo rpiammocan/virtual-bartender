@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "purpose": "starter seed dataset only",
+  "recipes": [
+    {
+      "key": "old-fashioned",
+      "name": "Old Fashioned",
+      "type": "cocktail",
+      "version": "1.0",
+      "source_name": "Curated from classic cocktail references",
+      "source_url": "https://iba-world.com/cocktails/",
+      "ingredients": [
+        {
+          "name": "Bourbon",
+          "quantity": 2.0,
+          "unit": "oz",
+          "optional": false
+        },
+        {
+          "name": "Simple Syrup",
+          "quantity": 0.25,
+          "unit": "oz",
+          "optional": false
+        },
+        {
+          "name": "Angostura Bitters",
+          "quantity": 2.0,
+          "unit": "dash",
+          "optional": false
+        },
+        {
+          "name": "Orange Peel",
+          "quantity": 1.0,
+          "unit": "pc",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "key": "margarita",
+      "name": "Margarita",
+      "type": "cocktail",
+      "version": "1.0",
+      "source_name": "Curated from classic cocktail references",
+      "source_url": "https://iba-world.com/cocktails/",
+      "ingredients": [
+        {
+          "name": "Blanco Tequila",
+          "quantity": 2.0,
+          "unit": "oz",
+          "optional": false
+        },
+        {
+          "name": "Triple Sec",
+          "quantity": 1.0,
+          "unit": "oz",
+          "optional": false
+        },
+        {
+          "name": "Lime Juice",
+          "quantity": 1.0,
+          "unit": "oz",
+          "optional": false
+        },
+        {
+          "name": "Salt",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "key": "virgin-moscow-mule",
+      "name": "Virgin Moscow Mule",
+      "type": "mocktail",
+      "version": "1.0",
+      "source_name": "Virtual Bartender curated mocktail",
+      "source_url": "local://virtual-bartender/curated",
+      "ingredients": [
+        {
+          "name": "Ginger Beer",
+          "quantity": 4.0,
+          "unit": "oz",
+          "optional": false
+        },
+        {
+          "name": "Lime Juice",
+          "quantity": 0.75,
+          "unit": "oz",
+          "optional": false
+        },
+        {
+          "name": "Club Soda",
+          "quantity": 1.0,
+          "unit": "oz",
+          "optional": false
+        }
+      ]
+    }
+  ]
+}

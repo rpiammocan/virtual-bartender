@@ -1,0 +1,49 @@
+name: virtual-bartender
+
+services:
+  virtual-bartender-backend:
+    build:
+      context: ./backend
+    container_name: virtual-bartender-backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: sqlite:////data/bartender.db
+      BACKUPS_PATH: /backups
+      MEDIA_PATH: /data/images
+    volumes:
+      - ${APP_DATA_DIR:-./data}:/data
+      - ${APP_BACKUP_DIR:-./backups}:/backups
+    ports:
+      - "8000:8000"
+    networks:
+      default:
+        aliases:
+          - backend
+
+  virtual-bartender-web:
+    build:
+      context: ./frontend
+    container_name: virtual-bartender-web
+    restart: unless-stopped
+    depends_on:
+      - virtual-bartender-backend
+    ports:
+      - "${WEB_PORT:-8080}:80"
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: virtual-bartender-web
+  store_app_id: virtual-bartender
+  author: Local
+  category: Lifestyle
+  description:
+    en_us: Offline-first virtual bartender with local recipes, inventory matching, mocktails, shopping list, and bar sessions.
+  developer: Local
+  icon: /icon.svg
+  index: /
+  port_map: "8080"
+  scheme: http
+  title:
+    en_us: Virtual Bartender

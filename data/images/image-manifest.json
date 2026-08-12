@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "open_image_preferred": true,
+    "ai_fallback_allowed": true,
+    "ai_disclosure_required_on_image": true,
+    "image_optional": true
+  },
+  "items": [
+    {
+      "recipe_key": "margarita",
+      "path": "margarita.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Margarita.jpg",
+      "license": "Public domain / CC0",
+      "attribution": "Jon Sullivan (PD Photo.org)",
+      "ai_generated": false
+    },
+    {
+      "recipe_key": "old-fashioned",
+      "path": "old-fashioned.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Whiskey_Old_Fashioned1.jpg",
+      "license": "CC BY-SA 4.0",
+      "attribution": "\u00a9 Erich Wagner / eventografie.de",
+      "ai_generated": false
+    },
+    {
+      "recipe_key": "mojito",
+      "path": "mojito.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mojito_Cocktail.jpg",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Sunny windy soundy",
+      "ai_generated": false
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+services:
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: sqlite:////data/bartender.db
+      BACKUPS_PATH: /backups
+      MEDIA_PATH: /data/images
+    volumes:
+      - ./data:/data
+      - ./backups:/backups
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
