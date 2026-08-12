@@ -1,0 +1,47 @@
+name: virtual-bartender
+
+services:
+  backend:
+    image: ghcr.io/rpiammocan/virtual-bartender-backend:latest
+    container_name: virtual-bartender-backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: sqlite:////data/bartender.db
+      BACKUPS_PATH: /backups
+      MEDIA_PATH: /app/images
+    volumes:
+      - /DATA/AppData/virtual-bartender/data:/data
+      - /DATA/AppData/virtual-bartender/backups:/backups
+    ports:
+      - "8000:8000"
+    networks:
+      default:
+        aliases:
+          - backend
+
+  web:
+    image: ghcr.io/rpiammocan/virtual-bartender-web:latest
+    container_name: virtual-bartender-web
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+  main: web
+  store_app_id: virtual-bartender
+  author: rpiammocan
+  category: Lifestyle
+  description:
+    en_us: Offline-first virtual bartender with local recipes, inventory matching, mocktails, shopping list, and bar sessions.
+  developer: rpiammocan
+  icon: https://raw.githubusercontent.com/rpiammocan/virtual-bartender/main/casaos/icon.svg
+  index: /
+  port_map: "8080"
+  scheme: http
+  title:
+    en_us: Virtual Bartender
