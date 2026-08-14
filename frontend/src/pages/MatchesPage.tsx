@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { api, type BarSession, type RecipeMatch } from "../api";
 import AppHeader from "../components/AppHeader";
 
-type Props = { onHome: () => void };
+type Props = { onHome: () => void; onTonightBar: () => void };
 
 type Context =
   | { type: "my_bar"; label: "My Bar" }
   | { type: "session"; id: number; label: "Tonight's Bar" };
 
-export default function MatchesPage({ onHome }: Props) {
+export default function MatchesPage({ onHome, onTonightBar }: Props) {
   const [sessions, setSessions] = useState<BarSession[]>([]);
   const [context, setContext] = useState<Context | null>(null);
   const [matches, setMatches] = useState<RecipeMatch[]>([]);
@@ -80,11 +80,13 @@ export default function MatchesPage({ onHome }: Props) {
             </button>
             <button
               className="context-card"
-              disabled={!tonight}
-              onClick={() => tonight && loadMatches({ type: "session", id: tonight.id, label: "Tonight's Bar" })}
+              onClick={() => {
+                if (tonight) loadMatches({ type: "session", id: tonight.id, label: "Tonight's Bar" });
+                else onTonightBar();
+              }}
             >
               <strong>Tonight's Bar</strong>
-              <span>{tonight ? `Use tonight's inventory • ${tonight.session_date}` : "Create a Tonight's Bar first"}</span>
+              <span>{tonight ? `Use tonight's inventory • ${tonight.session_date}` : "Set up tonight's inventory"}</span>
             </button>
           </div>
         </section>
