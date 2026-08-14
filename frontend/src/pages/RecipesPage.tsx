@@ -5,9 +5,10 @@ import AppHeader from "../components/AppHeader";
 type Props = {
   onHome: () => void;
   openRecipe: (id: number) => void;
+  manageRecipes?: () => void;
 };
 
-export default function RecipesPage({ onHome, openRecipe }: Props) {
+export default function RecipesPage({ onHome, openRecipe, manageRecipes }: Props) {
   const [recipes, setRecipes] = useState<any[]>([]);
   const [query, setQuery] = useState("");
   const [type, setType] = useState("all");
@@ -29,8 +30,13 @@ export default function RecipesPage({ onHome, openRecipe }: Props) {
   }, [recipes, query, type, sort]);
 
   return (
-    <main className="page">
+    <main className="page theme-recipes">
       <AppHeader title="Recipes" onHome={onHome} />
+
+      <div className="theme-prop recipe-ledger" aria-hidden="true">
+        <strong>Bootlegger's Recipe Book</strong>
+        <span>House formulas • private stock</span>
+      </div>
 
       <div className="toolbar">
         <input className="wide-input" placeholder="Search recipes..." value={query} onChange={(e) => setQuery(e.target.value)} />
@@ -43,6 +49,7 @@ export default function RecipesPage({ onHome, openRecipe }: Props) {
           <option value="name">Sort: Name</option>
           <option value="type">Sort: Type</option>
         </select>
+        {manageRecipes && <button className="primary" onClick={manageRecipes}>＋ Add / Import Recipe</button>}
       </div>
 
       <p className="lede">{filtered.length} recipes</p>
@@ -51,7 +58,7 @@ export default function RecipesPage({ onHome, openRecipe }: Props) {
         {filtered.map((recipe) => (
           <button className="recipe-list-button" key={recipe.id} onClick={() => openRecipe(recipe.id)}>
             <strong>{recipe.name}</strong>
-            <span>{recipe.recipe_type}</span>
+            <span>{recipe.recipe_type} • {recipe.source_type === "built_in" ? "Built-in" : recipe.source_type === "imported" ? "Imported" : "User Added"}</span>
           </button>
         ))}
       </section>

@@ -1,49 +1,53 @@
 name: virtual-bartender
 
 services:
-  virtual-bartender-backend:
-    build:
-      context: ../backend
+  backend:
+    image: ghcr.io/rpiammocan/virtual-bartender-backend:latest
     container_name: virtual-bartender-backend
     restart: unless-stopped
     environment:
       DATABASE_URL: sqlite:////data/bartender.db
       BACKUPS_PATH: /backups
-      MEDIA_PATH: /data/images
+      MEDIA_PATH: /app/images
     volumes:
-      - ${APP_DATA_DIR:-../data}:/data
-      - ${APP_BACKUP_DIR:-../backups}:/backups
-    ports:
-      - "8000:8000"
+      - /DATA/AppData/virtual-bartender/data:/data
+      - /DATA/AppData/virtual-bartender/backups:/backups
+    expose:
+      - "8000"
     networks:
-      default:
+      virtual-bartender-net:
         aliases:
           - backend
 
-  virtual-bartender-web:
-    build:
-      context: ../frontend
+  web:
+    image: ghcr.io/rpiammocan/virtual-bartender-web:latest
     container_name: virtual-bartender-web
     restart: unless-stopped
     depends_on:
-      - virtual-bartender-backend
+      - backend
     ports:
-      - "${WEB_PORT:-9190}:80"
+      - "9191:80"
+    networks:
+      - virtual-bartender-net
+
+networks:
+  virtual-bartender-net:
+    driver: bridge
 
 x-casaos:
   architectures:
     - amd64
     - arm64
-  main: virtual-bartender-web
+  main: web
   store_app_id: virtual-bartender
-  author: Local
+  author: rpiammocan
   category: Lifestyle
   description:
     en_us: Offline-first virtual bartender with local recipes, inventory matching, mocktails, shopping list, and bar sessions.
-  developer: Local
-  icon: /icon.svg
+  developer: rpiammocan
   index: /
-  port_map: "9190"
+  icon: https://cdn.jsdelivr.net/gh/rpiammocan/virtual-bartender@main/frontend/public/virtual-bartender-icon.svg
+  port_map: "9191"
   scheme: http
   title:
     en_us: Virtual Bartender

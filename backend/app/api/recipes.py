@@ -22,49 +22,39 @@ def get_recipe(recipe_id: int, db: Session = Depends(get_db)):
     recipe = db.get(Recipe, recipe_id)
     if not recipe or not recipe.is_active:
         raise HTTPException(status_code=404, detail="Recipe not found")
-
-    items = db.scalars(
-        select(RecipeIngredient)
-        .where(RecipeIngredient.recipe_id == recipe_id)
-        .order_by(RecipeIngredient.display_order, RecipeIngredient.id)
-    ).all()
-
-    ingredients = []
+    items = db.scalars(select(RecipeIngredient).where(RecipeIngredient.recipe_id == recipe_id).order_by(RecipeIngredient.display_order, RecipeIngredient.id)).all()
+    ingredients=[]
     for item in items:
-        ingredient = db.get(Ingredient, item.ingredient_id)
-        unit = db.get(Unit, item.unit_id) if item.unit_id else None
-        ingredients.append(
-            RecipeIngredientRead(
-                id=item.id,
-                ingredient_id=item.ingredient_id,
-                ingredient_name=ingredient.name if ingredient else f"Ingredient #{item.ingredient_id}",
-                quantity=item.quantity,
-                unit=unit.abbreviation if unit else None,
-                is_optional=item.is_optional,
-                notes=item.notes,
-            )
-        )
-
-    return RecipeDetailRead(
-        id=recipe.id,
-        name=recipe.name,
-        description=recipe.description,
-        recipe_type=recipe.recipe_type,
-        source_type=recipe.source_type,
-        instructions=recipe.instructions,
-        image_path=recipe.image_path,
-        is_active=recipe.is_active,
-        created_at=recipe.created_at,
-        updated_at=recipe.updated_at,
-        ingredients=ingredients,
-        favorite=db.get(Favorite, recipe.id) is not None,
-    )
+        ingredient=db.get(Ingredient,item.ingredient_id)
+        unit=db.get(Unit,item.unit_id) if item.unit_id else None
+        ingredients.append(RecipeIngredientRead(id=item.id,ingredient_id=item.ingredient_id,ingredient_name=ingredient.name if ingredient else f"Ingredient #{item.ingredient_id}",quantity=item.quantity,unit=unit.abbreviation if unit else None,is_optional=item.is_optional,notes=item.notes))
+    return RecipeDetailRead(id=recipe.id,name=recipe.name,description=recipe.description,recipe_type=recipe.recipe_type,source_type=recipe.source_type,instructions=recipe.instructions,image_path=recipe.image_path,is_active=recipe.is_active,created_at=recipe.created_at,updated_at=recipe.updated_at,ingredients=ingredients,favorite=db.get(Favorite,recipe.id) is not None)
 
 
 @router.post("", response_model=RecipeRead, status_code=201)
 def create_recipe(payload: RecipeCreate, db: Session = Depends(get_db)):
-    recipe = Recipe(**payload.model_dump())
-    db.add(recipe)
+    recipe=Recipe(**payload.model_dump())
+    db.add(recipe);db.commit();db.refresh(recipe);return recipe
+
+
+@router.patch("/{recipe_id}", response_model=RecipeRead)
+def update_recipe(recipe_id:int,payload:RecipeCreate,db:Session=Depends(get_db)):
+    recipe=db.get(Recipe,recipe_id)
+    if not recipe or not recipe.is_active:
+        raise HTTPException(status_code=404,detail="Recipe not found")
+    for field,value in payload.model_dump().items():
+        if field=="source_type" and recipe.source_type=="built_in":
+            continue
+        setattr(recipe,field,value)
+    # Editing a built-in is a local override; its built_in_key remains intact so
+    # future catalog upgrades can identify it without deleting the user's copy.
+    db.commit();db.refresh(recipe);return recipe
+
+
+@router.delete("/{recipe_id}", status_code=204)
+def hide_recipe(recipe_id:int,db:Session=Depends(get_db)):
+    recipe=db.get(Recipe,recipe_id)
+    if not recipe:
+        raise HTTPException(status_code=404,detail="Recipe not found")
+    recipe.is_active=False
     db.commit()
-    db.refresh(recipe)
-    return recipe

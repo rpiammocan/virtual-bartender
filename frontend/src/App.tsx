@@ -24,17 +24,18 @@ export default function App() {
   const home = () => setPage("home");
 
   if (page === "home") return <HomePage navigate={setPage} />;
-  if (page === "mybar") return <MyBarPage onHome={home} />;
-  if (page === "tonight") return <TonightsBarPage onHome={home} />;
-  if (page === "matches") return <MatchesPage onHome={home} />;
-  if (page === "recipes") return <RecipesPage onHome={home} openRecipe={openRecipe} />;
-  if (page === "recipe-detail" && recipeId !== null) return <RecipeDetailPage recipeId={recipeId} onHome={home} />;
-  if (page === "shopping") return <ShoppingPage onHome={home} />;
-  if (page === "favorites") return <FavoritesPage onHome={home} openRecipe={openRecipe} />;
-  if (page === "history") return <HistoryPage onHome={home} />;
-  if (page === "surprise") return <SurprisePage onHome={home} openRecipe={openRecipe} />;
-  if (page === "import") return <ImportRecipePage onHome={home} openRecipe={openRecipe} />;
-  if (page === "settings") return <SettingsPage onHome={home} />;
+  if (page === "mybar") return <div className="theme-mybar"><MyBarPage onHome={home} /></div>;
+  if (page === "tonight") return <div className="theme-tonight"><TonightsBarPage onHome={home} /></div>;
+  if (page === "matches") return <div className="theme-matches"><MatchesPage onHome={home} /></div>;
+  if (page === "recipes") return <RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={() => setPage("import")} />;
+  if (page === "recipe-detail" && recipeId !== null) return <div className="theme-recipes"><RecipeDetailPage recipeId={recipeId} onHome={() => setPage("recipes")} /></div>;
+  if (page === "shopping") return <div className="theme-shopping"><ShoppingPage onHome={home} /></div>;
+  if (page === "favorites") return <div className="theme-favorites"><FavoritesPage onHome={home} openRecipe={openRecipe} /></div>;
+  if (page === "history") return <div className="theme-history"><HistoryPage onHome={home} /></div>;
+  if (page === "surprise") return <div className="theme-surprise"><SurprisePage onHome={home} openRecipe={openRecipe} /></div>;
+  if (page === "import") return <div className="theme-recipes"><ImportRecipePage onHome={() => setPage("recipes")} openRecipe={openRecipe} /></div>;
+  if (page === "settings") return <div className="theme-settings"><SettingsPage onHome={home} /></div>;
+  if (page === "display") return <div className="theme-display"><RecipesPage onHome={home} openRecipe={openRecipe} /></div>;
 
   return <HomePage navigate={setPage} />;
 }
