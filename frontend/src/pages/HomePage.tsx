@@ -14,7 +14,7 @@ const groups = [
     title: "My Bar",
     actions: [
       ["🍾", "My Bar", "Manage your permanent inventory", "mybar", "burgundy"],
-      ["🌙", "Tonight's Bar", "Slip through the secret entrance", "tonight", "burgundy"],
+      ["🌙", "Tonight's Bar", "Manage tonight's temporary inventory", "tonight", "burgundy"],
     ],
   },
   {
