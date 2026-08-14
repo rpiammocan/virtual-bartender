@@ -525,3 +525,22 @@ textarea {
     flex-direction: column;
   }
 }
+
+
+
+/* Add these rules to frontend/src/styles.css */
+.print-only { display: none; }
+
+@media print {
+  .print-only { display: block !important; }
+  .recipe-print-title {
+    margin: 0 0 24px;
+    font-size: 28pt;
+    text-align: center;
+    color: #000 !important;
+    text-transform: none;
+  }
+  .shopping-list-print-area .inventory-row {
+    display: flex !important;
+  }
+}

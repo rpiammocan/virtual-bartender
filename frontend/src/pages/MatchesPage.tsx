@@ -6,7 +6,7 @@ type Props = { onHome: () => void };
 
 type Context =
   | { type: "my_bar"; label: "My Bar" }
-  | { type: "session"; id: number; label: string };
+  | { type: "session"; id: number; label: "Tonight's Bar" };
 
 export default function MatchesPage({ onHome }: Props) {
   const [sessions, setSessions] = useState<BarSession[]>([]);
@@ -64,6 +64,8 @@ export default function MatchesPage({ onHome }: Props) {
     );
   }
 
+  const tonight = sessions[0] ?? null;
+
   return (
     <main className="page">
       <AppHeader title="What Can I Make?" onHome={onHome} />
@@ -76,20 +78,14 @@ export default function MatchesPage({ onHome }: Props) {
               <strong>My Bar</strong>
               <span>Use your permanent inventory</span>
             </button>
-            {sessions.map((session) => (
-              <button
-                className="context-card"
-                key={session.id}
-                onClick={() => loadMatches({
-                  type: "session",
-                  id: session.id,
-                  label: `${session.name} — ${session.session_date}`,
-                })}
-              >
-                <strong>{session.name}</strong>
-                <span>{session.session_date}</span>
-              </button>
-            ))}
+            <button
+              className="context-card"
+              disabled={!tonight}
+              onClick={() => tonight && loadMatches({ type: "session", id: tonight.id, label: "Tonight's Bar" })}
+            >
+              <strong>Tonight's Bar</strong>
+              <span>{tonight ? `Use tonight's inventory • ${tonight.session_date}` : "Create a Tonight's Bar first"}</span>
+            </button>
           </div>
         </section>
       ) : (

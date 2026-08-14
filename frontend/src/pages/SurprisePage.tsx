@@ -11,13 +11,16 @@ export default function SurprisePage({ onHome, openRecipe }: Props) {
   const [error, setError] = useState("");
 
   useEffect(() => { api.bars.list().then(setSessions); }, []);
+  const tonight = sessions[0] ?? null;
 
   async function surprise() {
     try {
       setError("");
       const data = context === "my_bar"
         ? await api.surprise.myBar()
-        : await api.surprise.session(Number(context));
+        : tonight
+          ? await api.surprise.session(tonight.id)
+          : Promise.reject(new Error("Create a Tonight's Bar first."));
       setResult(data);
     } catch (err) {
       setResult(null);
@@ -31,9 +34,7 @@ export default function SurprisePage({ onHome, openRecipe }: Props) {
       <div className="toolbar">
         <select value={context} onChange={(e) => setContext(e.target.value)}>
           <option value="my_bar">My Bar</option>
-          {sessions.map((session) => (
-            <option value={session.id} key={session.id}>{session.name} — {session.session_date}</option>
-          ))}
+          <option value="tonight" disabled={!tonight}>Tonight's Bar</option>
         </select>
         <button className="primary" onClick={surprise}>Surprise Me</button>
       </div>
