@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { api, type ShoppingItem } from "../api";
+import { useEffect, useMemo, useState } from "react";
+import { api, type Ingredient, type ShoppingItem } from "../api";
 import AppHeader from "../components/AppHeader";
 
 type Props = { onHome: () => void };
@@ -7,14 +7,17 @@ type Props = { onHome: () => void };
 export default function ShoppingPage({ onHome }: Props) {
   const [items, setItems] = useState<ShoppingItem[]>([]);
   const [suggestions, setSuggestions] = useState<any[]>([]);
+  const [ingredients, setIngredients] = useState<Ingredient[]>([]);
   const [name, setName] = useState("");
 
   async function load() {
-    const [shopping, suggested] = await Promise.all([
+    const [shopping, suggested, ingredientList] = await Promise.all([
       api.shopping.list(),
       api.shoppingSuggestions.myBar(),
+      api.ingredients.list(),
     ]);
     setItems(shopping);
+    setIngredients(ingredientList);
     const existingIds = new Set(shopping.map((item) => item.ingredient_id).filter(Boolean));
     const existingNames = new Set(shopping.map((item) => (item.custom_name || "").toLowerCase()).filter(Boolean));
     setSuggestions(suggested.filter((item: any) =>
@@ -25,11 +28,22 @@ export default function ShoppingPage({ onHome }: Props) {
 
   useEffect(() => { load(); }, []);
 
+  const ingredientById = useMemo(
+    () => new Map(ingredients.map((ingredient) => [ingredient.id, ingredient])),
+    [ingredients]
+  );
+
   const grouped = items.reduce<Record<string, ShoppingItem[]>>((acc, item) => {
     const category = item.category || "Other";
     (acc[category] ||= []).push(item);
     return acc;
   }, {});
+
+  function itemName(item: ShoppingItem) {
+    if (item.custom_name) return item.custom_name;
+    if (item.ingredient_id) return ingredientById.get(item.ingredient_id)?.name ?? `Ingredient #${item.ingredient_id}`;
+    return "Unnamed item";
+  }
 
   return (
     <main className="page">
@@ -62,7 +76,7 @@ export default function ShoppingPage({ onHome }: Props) {
                         await load();
                       }}
                     />
-                    <span className={item.purchased ? "purchased" : ""}>{item.custom_name || `Ingredient #${item.ingredient_id}`}</span>
+                    <span className={item.purchased ? "purchased" : ""}>{itemName(item)}</span>
                   </label>
                   <button className="danger-link no-print" onClick={async () => { await api.shopping.remove(item.id); await load(); }}>Remove</button>
                 </article>
