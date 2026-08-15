@@ -26,7 +26,7 @@ export default function App() {
   if (page === "home") return <HomePage navigate={setPage} />;
   if (page === "mybar") return <div className="theme-mybar"><MyBarPage onHome={home} /></div>;
   if (page === "tonight") return <div className="theme-tonight"><TonightsBarPage onHome={home} /></div>;
-  if (page === "matches") return <div className="theme-matches"><MatchesPage onHome={home} onTonightBar={() => setPage("tonight")} /></div>;
+  if (page === "matches") return <div className="theme-matches"><MatchesPage onHome={home} onTonightBar={() => setPage("tonight")} openRecipe={openRecipe} /></div>;
   if (page === "recipes") return <RecipesPage onHome={home} openRecipe={openRecipe} manageRecipes={() => setPage("import")} />;
   if (page === "recipe-detail" && recipeId !== null) return <div className="theme-recipes"><RecipeDetailPage recipeId={recipeId} onHome={() => setPage("recipes")} /></div>;
   if (page === "shopping") return <div className="theme-shopping"><ShoppingPage onHome={home} /></div>;
