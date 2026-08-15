@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { api, type BarSession, type RecipeMatch } from "../api";
 import AppHeader from "../components/AppHeader";
 
-type Props = { onHome: () => void; onTonightBar: () => void };
+type Props = { onHome: () => void; onTonightBar: () => void; openRecipe: (id: number) => void };
 
 type Context =
   | { type: "my_bar"; label: "My Bar" }
   | { type: "session"; id: number; label: "Tonight's Bar" };
 
-export default function MatchesPage({ onHome, onTonightBar }: Props) {
+export default function MatchesPage({ onHome, onTonightBar, openRecipe }: Props) {
   const [sessions, setSessions] = useState<BarSession[]>([]);
   const [context, setContext] = useState<Context | null>(null);
   const [matches, setMatches] = useState<RecipeMatch[]>([]);
@@ -47,7 +47,19 @@ export default function MatchesPage({ onHome, onTonightBar }: Props) {
     return (
       <div className="result-list">
         {items.map((item) => (
-          <article className="recipe-card" key={`${item.status}-${item.recipe_id}`}>
+          <article
+            className="recipe-card recipe-card-link"
+            key={`${item.status}-${item.recipe_id}`}
+            role="button"
+            tabIndex={0}
+            onClick={() => openRecipe(item.recipe_id)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                openRecipe(item.recipe_id);
+              }
+            }}
+          >
             <div>
               <strong>{item.recipe_name}</strong>
               <p>{item.explanation}</p>
@@ -56,6 +68,7 @@ export default function MatchesPage({ onHome, onTonightBar }: Props) {
               {item.missing_required.length > 0 && <small>Missing: {item.missing_required.join(", ")}</small>}
               {item.quantity_issues.length > 0 && <small>Quantity shortfall: {item.quantity_issues.join(", ")}</small>}
               {item.optional_missing.length > 0 && <small>Optional missing: {item.optional_missing.join(", ")}</small>}
+              <small>View recipe →</small>
             </div>
             <span className={`status ${className}`}>{badge}</span>
           </article>
