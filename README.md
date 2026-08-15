@@ -2,6 +2,22 @@
 
 Virtual Bartender is a local-first cocktail and mocktail recipe application designed to run on a home server such as CasaOS and be accessed from a laptop, phone, or tablet.
 
+## 🍹 Install on CasaOS
+
+### ⬇️ [Download the latest CasaOS installation YAML](https://raw.githubusercontent.com/rpiammocan/virtual-bartender-casaos/main/casaos/virtual-bartender.yaml)
+
+Download the YAML above, then import it into CasaOS to install Virtual Bartender.
+
+[View the YAML on GitHub](https://github.com/rpiammocan/virtual-bartender-casaos/blob/main/casaos/virtual-bartender.yaml) · [CasaOS installation and troubleshooting guide](CASAOS.md)
+
+The default Virtual Bartender web port is **9191**.
+
+Once running, open:
+
+```text
+http://YOUR_CASAOS_IP:9191
+```
+
 ## V1 highlights
 
 - 250 seeded built-in recipes
@@ -14,7 +30,7 @@ Virtual Bartender is a local-first cocktail and mocktail recipe application desi
 - Favorites and history
 - Surprise Me
 - Recipe import with review before saving
-- Human-readable recipe export and printing
+- Human-readable recipe printing
 - Metric display option
 - Local SQLite storage
 - Backup/restore support
@@ -22,26 +38,6 @@ Virtual Bartender is a local-first cocktail and mocktail recipe application desi
 - FastAPI backend
 - Docker/CasaOS deployment
 - Optional locally stored recipe images with provenance metadata
-
-## CasaOS installation
-
-For CasaOS, the easiest installation is the Compose file at **`casaos/virtual-bartender.yaml`**. It builds directly from this public GitHub repository, so CasaOS does not need to authenticate to GitHub Container Registry.
-
-The default Virtual Bartender web port is **9190**.
-
-Once running, open:
-
-```text
-http://YOUR_CASAOS_IP:9190
-```
-
-Backend health check:
-
-```text
-http://YOUR_CASAOS_IP:8000/api/health
-```
-
-A complete source-based installation and troubleshooting guide is available in **[CASAOS.md](CASAOS.md)**.
 
 ## Standard Docker installation
 
@@ -64,12 +60,7 @@ Do not commit local databases, backups, environment secrets, `node_modules`, or 
 
 ## Updating
 
-Re-import/rebuild the CasaOS application from the current `casaos/virtual-bartender.yaml`, or for a source clone:
-
-```bash
-git pull
-docker compose -f casaos/docker-compose.yml up --build -d
-```
+Pull the latest container images and recreate the CasaOS containers, or reinstall using the current CasaOS YAML linked at the top of this README.
 
 ## Project structure
 
@@ -85,4 +76,4 @@ docker-compose.yml               Standard Docker Compose deployment
 
 ## Current status
 
-V1 is at release-candidate stage. The built-in recipe target has been reached. Backend validation and tests have passed in the development artifact environment; the final production frontend build and full CasaOS-host smoke test should be completed on the deployment machine.
+Virtual Bartender V1 is actively being tested and refined for CasaOS deployment.
