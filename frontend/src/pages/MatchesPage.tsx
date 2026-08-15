@@ -47,30 +47,24 @@ export default function MatchesPage({ onHome, onTonightBar, openRecipe }: Props)
     return (
       <div className="result-list">
         {items.map((item) => (
-          <article
-            className="recipe-card recipe-card-link"
-            key={`${item.status}-${item.recipe_id}`}
-            role="button"
-            tabIndex={0}
-            onClick={() => openRecipe(item.recipe_id)}
-            onKeyDown={(event) => {
-              if (event.key === "Enter" || event.key === " ") {
-                event.preventDefault();
-                openRecipe(item.recipe_id);
-              }
-            }}
-          >
+          <article className="recipe-card" key={`${item.status}-${item.recipe_id}`}>
             <div>
-              <strong>{item.recipe_name}</strong>
+              <button className="link-button" type="button" onClick={() => openRecipe(item.recipe_id)}>
+                {item.recipe_name}
+              </button>
               <p>{item.explanation}</p>
               {item.substitutions.length > 0 && <small>Substitutions: {item.substitutions.join(", ")}</small>}
               {item.variant_recipe_name && <small>Variant: {item.variant_recipe_name}</small>}
               {item.missing_required.length > 0 && <small>Missing: {item.missing_required.join(", ")}</small>}
               {item.quantity_issues.length > 0 && <small>Quantity shortfall: {item.quantity_issues.join(", ")}</small>}
               {item.optional_missing.length > 0 && <small>Optional missing: {item.optional_missing.join(", ")}</small>}
-              <small>View recipe →</small>
             </div>
-            <span className={`status ${className}`}>{badge}</span>
+            <div className="match-actions">
+              <span className={`status ${className}`}>{badge}</span>
+              <button className="link-button" type="button" onClick={() => openRecipe(item.recipe_id)}>
+                View Recipe →
+              </button>
+            </div>
           </article>
         ))}
       </div>
