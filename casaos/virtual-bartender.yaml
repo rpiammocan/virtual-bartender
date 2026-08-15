@@ -45,6 +45,7 @@ x-casaos:
   description:
     en_us: Offline-first virtual bartender with local recipes, inventory matching, mocktails, shopping list, and bar sessions.
   developer: rpiammocan
+  icon: https://cdn.jsdelivr.net/gh/rpiammocan/virtual-bartender-casaos@main/frontend/public/virtual-bartender-icon.svg
   index: /
   port_map: "9191"
   scheme: http
