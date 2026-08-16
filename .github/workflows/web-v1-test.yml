@@ -20,11 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: frontend/package-lock.json
       - name: Install frontend dependencies
         working-directory: frontend
-        run: npm ci
+        run: npm install
       - name: Build frontend
         working-directory: frontend
         run: npm run build
@@ -69,12 +67,13 @@ jobs:
           docker compose -f web/docker-compose.yml ps
           docker compose -f web/docker-compose.yml logs
           exit 1
-      - name: Smoke-test browser endpoints
+      - name: Smoke-test browser shell
         run: |
           curl -fsS http://127.0.0.1:8080/ >/dev/null
           curl -fsS http://127.0.0.1:8080/manifest.webmanifest >/dev/null
           curl -fsS http://127.0.0.1:8080/service-worker.js >/dev/null
-          curl -fsS http://127.0.0.1:8080/api/health | grep '"status":"ok"'
+      - name: Functional Virtual Bartender smoke test
+        run: python web/smoke_test.py http://127.0.0.1:8080
       - name: Show service status
         if: always()
         run: docker compose -f web/docker-compose.yml ps
