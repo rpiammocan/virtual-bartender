@@ -72,8 +72,21 @@ jobs:
           curl -fsS http://127.0.0.1:8080/ >/dev/null
           curl -fsS http://127.0.0.1:8080/manifest.webmanifest >/dev/null
           curl -fsS http://127.0.0.1:8080/service-worker.js >/dev/null
-      - name: Functional Virtual Bartender smoke test
-        run: python web/smoke_test.py http://127.0.0.1:8080
+      - name: Functional Virtual Bartender test
+        run: python web/smoke_test.py http://127.0.0.1:8080 exercise
+      - name: Restart Web edition without removing volumes
+        run: |
+          docker compose -f web/docker-compose.yml restart
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:8080/api/health >/dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          docker compose -f web/docker-compose.yml logs
+          exit 1
+      - name: Verify persistent data after restart
+        run: python web/smoke_test.py http://127.0.0.1:8080 verify-persistence
       - name: Show service status
         if: always()
         run: docker compose -f web/docker-compose.yml ps
