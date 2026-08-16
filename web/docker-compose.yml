@@ -1,0 +1,37 @@
+name: virtual-bartender-web
+
+services:
+  backend:
+    build:
+      context: ../backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: sqlite:////data/bartender.db
+      BACKUPS_PATH: /backups
+      MEDIA_PATH: /data/images
+    volumes:
+      - bartender_web_data:/data
+      - bartender_web_backups:/backups
+    expose:
+      - "8000"
+    networks:
+      - bartender_web
+
+  web:
+    build:
+      context: ../frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+    networks:
+      - bartender_web
+
+volumes:
+  bartender_web_data:
+  bartender_web_backups:
+
+networks:
+  bartender_web:
+    driver: bridge
