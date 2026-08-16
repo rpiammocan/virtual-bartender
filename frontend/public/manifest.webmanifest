@@ -1,0 +1,18 @@
+{
+  "name": "Virtual Bartender",
+  "short_name": "Bartender",
+  "description": "Cocktail and mocktail recipes, My Bar matching, shopping, favorites, history, and more.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#17100c",
+  "theme_color": "#17100c",
+  "icons": [
+    {
+      "src": "/virtual-bartender-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
