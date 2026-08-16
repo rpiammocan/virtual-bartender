@@ -1,0 +1,83 @@
+name: Web V1 Test
+
+on:
+  pull_request:
+    paths:
+      - "frontend/**"
+      - "backend/**"
+      - "web/**"
+      - ".github/workflows/web-v1-test.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  frontend-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+      - name: Build frontend
+        working-directory: frontend
+        run: npm run build
+
+  backend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements.txt
+      - name: Install backend dependencies
+        run: pip install -r backend/requirements.txt
+      - name: Run backend tests
+        working-directory: backend
+        env:
+          DATABASE_URL: sqlite:///./data/test-bartender.db
+          BACKUPS_PATH: ./backups
+          MEDIA_PATH: ../data/images
+        run: pytest -q
+
+  web-compose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Web Compose
+        run: docker compose -f web/docker-compose.yml config
+      - name: Build Web edition containers
+        run: docker compose -f web/docker-compose.yml build
+      - name: Start Web edition
+        run: docker compose -f web/docker-compose.yml up -d
+      - name: Wait for healthy services
+        run: |
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:8080/api/health >/dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          docker compose -f web/docker-compose.yml ps
+          docker compose -f web/docker-compose.yml logs
+          exit 1
+      - name: Smoke-test browser endpoints
+        run: |
+          curl -fsS http://127.0.0.1:8080/ >/dev/null
+          curl -fsS http://127.0.0.1:8080/manifest.webmanifest >/dev/null
+          curl -fsS http://127.0.0.1:8080/service-worker.js >/dev/null
+          curl -fsS http://127.0.0.1:8080/api/health | grep '"status":"ok"'
+      - name: Show service status
+        if: always()
+        run: docker compose -f web/docker-compose.yml ps
+      - name: Stop Web edition
+        if: always()
+        run: docker compose -f web/docker-compose.yml down -v
