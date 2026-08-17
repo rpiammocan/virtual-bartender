@@ -35,7 +35,6 @@ export default function App() {
   if (page === "surprise") return <div className="theme-surprise"><SurprisePage onHome={home} openRecipe={openRecipe} /></div>;
   if (page === "import") return <div className="theme-recipes"><ImportRecipePage onHome={() => setPage("recipes")} openRecipe={openRecipe} /></div>;
   if (page === "settings") return <div className="theme-settings"><SettingsPage onHome={home} /></div>;
-  if (page === "display") return <div className="theme-display"><RecipesPage onHome={home} openRecipe={openRecipe} /></div>;
 
   return <HomePage navigate={setPage} />;
 }
