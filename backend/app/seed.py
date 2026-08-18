@@ -87,6 +87,20 @@ def seed_builtin_data(db: Session) -> dict[str, int]:
 
     recipes_added = 0
     all_recipes = BASE_RECIPES + RECIPES_V2 + RECIPES_V3 + RECIPES_V4 + RECIPES_V5 + RECIPES_V6 + RECIPES_V7 + RECIPES_V8
+
+    # Catalog validation safety net: every ingredient referenced by a recipe must
+    # exist before recipe rows are inserted. This keeps a metadata omission from
+    # crashing the entire application at startup.
+    for recipe_data in all_recipes:
+        for ingredient_name, _quantity, _unit_abbr, _optional in recipe_data["ingredients"]:
+            if ingredient_name not in ingredients:
+                ingredient = db.scalar(select(Ingredient).where(Ingredient.name == ingredient_name))
+                if not ingredient:
+                    ingredient = Ingredient(name=ingredient_name, category="Other", is_user_created=False, is_active=True)
+                    db.add(ingredient)
+                    db.flush()
+                ingredients[ingredient_name] = ingredient
+
     recipes_by_key = {}
     for data in all_recipes:
         recipe = db.scalar(select(Recipe).where(Recipe.built_in_key == data["key"]))
