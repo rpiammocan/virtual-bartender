@@ -37,6 +37,13 @@ IMAGE_METADATA = {
     "margarita":{"image_path":"/media/margarita.jpg","image_source_url":"https://commons.wikimedia.org/wiki/File:Margarita.jpg","image_license":"Public domain / CC0","image_attribution":"Jon Sullivan (PD Photo.org)","image_ai_generated":False},
     "old-fashioned":{"image_path":"/media/old-fashioned.jpg","image_source_url":"https://commons.wikimedia.org/wiki/File:Whiskey_Old_Fashioned1.jpg","image_license":"CC BY-SA 4.0","image_attribution":"© Erich Wagner / eventografie.de","image_ai_generated":False},
     "mojito":{"image_path":"/media/mojito.jpg","image_source_url":"https://commons.wikimedia.org/wiki/File:Mojito_Cocktail.jpg","image_license":"CC BY-SA 4.0","image_attribution":"Sunny windy soundy","image_ai_generated":False},
+    "manhattan":{"image_path":"/media/manhattan.webp","image_source_url":"https://commons.wikimedia.org/wiki/File:Manhattan_Cocktail.jpg","image_license":"CC BY-SA 3.0","image_attribution":"Hayford Peirce","image_ai_generated":False},
+    "martini":{"image_path":"/media/dry-martini.webp","image_source_url":"https://commons.wikimedia.org/wiki/File:Dry_martini.jpg","image_license":"CC BY-SA 4.0","image_attribution":"Arnaud 25","image_ai_generated":False},
+    "negroni":{"image_path":"/media/negroni.webp","image_source_url":"https://commons.wikimedia.org/wiki/File:Negroni_(cocktail).jpg","image_license":"CC BY-SA 4.0","image_attribution":"Sudhertzen","image_ai_generated":False},
+    "sidecar":{"image_path":"/media/sidecar.webp","image_source_url":"https://commons.wikimedia.org/wiki/File:Sidecar-cocktail.jpg","image_license":"CC BY 2.0","image_attribution":"Evan Swigart / TheCulinaryGeek","image_ai_generated":False},
+    "singapore-sling":{"image_path":"/media/singapore-sling.webp","image_source_url":"https://commons.wikimedia.org/wiki/File:Singapore_Sling_Cocktail.jpg","image_license":"CC BY 2.0","image_attribution":"James Cridland","image_ai_generated":False},
+    "whiskey-sour":{"image_path":"/media/whiskey-sour.webp","image_source_url":"https://commons.wikimedia.org/wiki/File:Whiskey_Sour.jpg","image_license":"CC BY-SA 3.0","image_attribution":"Jgilgamesh","image_ai_generated":False},
+    "pina-colada":{"image_path":"/media/pina-colada.webp","image_source_url":"https://commons.wikimedia.org/wiki/File:Pina_Colada_(Cocktail).jpg","image_license":"CC BY-SA 3.0","image_attribution":"Martin Asche","image_ai_generated":False},
 }
 
 BASE_RECIPES = [
