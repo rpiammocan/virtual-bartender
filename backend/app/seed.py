@@ -6,6 +6,7 @@ from app.catalog_v3 import RECIPES_V3
 from app.catalog_v4 import RECIPES_V4
 from app.catalog_v5 import RECIPES_V5
 from app.catalog_v6 import INGREDIENTS_V6, RECIPES_V6, UNITS_V6
+from app.catalog_v7 import INGREDIENTS_V7, RECIPES_V7, UNITS_V7
 from app.services.ingredient_normalization import seed_aliases
 from app.models import (
     Ingredient,
@@ -140,7 +141,7 @@ BASE_RECIPES = [
 
 def seed_builtin_data(db: Session) -> dict[str, int]:
     units = {}
-    for data in BUILTIN_UNITS + UNITS_V6:
+    for data in BUILTIN_UNITS + UNITS_V6 + UNITS_V7:
         unit = db.scalar(select(Unit).where(Unit.abbreviation == data["abbreviation"]))
         if not unit:
             unit = Unit(**data)
@@ -149,7 +150,7 @@ def seed_builtin_data(db: Session) -> dict[str, int]:
         units[unit.abbreviation] = unit
 
     ingredients = {}
-    for name, category in BASE_INGREDIENTS + INGREDIENTS_V2 + INGREDIENTS_V6:
+    for name, category in BASE_INGREDIENTS + INGREDIENTS_V2 + INGREDIENTS_V6 + INGREDIENTS_V7:
         ingredient = db.scalar(select(Ingredient).where(Ingredient.name == name))
         if not ingredient:
             ingredient = Ingredient(name=name, category=category, is_user_created=False, is_active=True)
@@ -174,7 +175,7 @@ def seed_builtin_data(db: Session) -> dict[str, int]:
             substitution_count += 1
 
     recipes_added = 0
-    all_recipes = BASE_RECIPES + RECIPES_V2 + RECIPES_V3 + RECIPES_V4 + RECIPES_V5 + RECIPES_V6
+    all_recipes = BASE_RECIPES + RECIPES_V2 + RECIPES_V3 + RECIPES_V4 + RECIPES_V5 + RECIPES_V6 + RECIPES_V7
 
     # First pass creates recipes so parent links can resolve.
     recipes_by_key = {}
