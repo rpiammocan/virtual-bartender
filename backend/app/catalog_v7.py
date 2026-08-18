@@ -5,22 +5,12 @@
 UNITS_V7 = []
 
 INGREDIENTS_V7 = [
-    ("Cachaca", "Spirits"),
-    ("Lime", "Fresh Ingredients"),
-    ("Pisco", "Brandy"),
-    ("Galliano", "Liqueurs"),
-    ("Green Creme de Menthe", "Liqueurs"),
-    ("White Creme de Cacao", "Liqueurs"),
-    ("Prosecco", "Sparkling Wine"),
-    ("Champagne", "Sparkling Wine"),
-    ("Dry White Wine", "Wine"),
-    ("Creme de Cassis", "Liqueurs"),
-    ("Lillet Blanc", "Fortified Wine"),
-    ("Cherry Liqueur", "Liqueurs"),
-    ("Falernum", "Liqueurs"),
-    ("Demerara Syrup", "Syrups"),
-    ("Cinnamon Syrup", "Syrups"),
-    ("Passion Fruit Syrup", "Syrups"),
+    ("Cachaca", "Spirits"), ("Lime", "Fresh Ingredients"), ("Pisco", "Brandy"),
+    ("Green Creme de Menthe", "Liqueurs"), ("White Creme de Cacao", "Liqueurs"),
+    ("Prosecco", "Sparkling Wine"), ("Dry White Wine", "Wine"), ("Creme de Cassis", "Liqueurs"),
+    ("Lillet Blanc", "Fortified Wine"), ("Cherry Liqueur", "Liqueurs"), ("Falernum", "Liqueurs"),
+    ("Demerara Syrup", "Syrups"), ("Cinnamon Syrup", "Syrups"),
+    ("Amaretto", "Liqueurs"), ("Cynar", "Liqueurs"),
 ]
 
 RECIPES_V7 = [
