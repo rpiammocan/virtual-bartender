@@ -1,10 +1,32 @@
 # Virtual Bartender V6 catalog expansion.
 # Formulas are normalized from the IBA official cocktail references; preparation text is original Virtual Bartender wording.
 
+UNITS_V6 = [
+    {"name": "milliliter", "abbreviation": "ml", "metric_equivalent": 1.0, "metric_unit": "ml"},
+    {"name": "bar spoon", "abbreviation": "barspoon", "metric_equivalent": 5.0, "metric_unit": "ml"},
+    {"name": "drop", "abbreviation": "drop", "metric_equivalent": None, "metric_unit": None},
+    {"name": "splash", "abbreviation": "splash", "metric_equivalent": None, "metric_unit": None},
+    {"name": "rim", "abbreviation": "rim", "metric_equivalent": None, "metric_unit": None},
+    {"name": "pinch", "abbreviation": "pinch", "metric_equivalent": None, "metric_unit": None},
+    {"name": "top", "abbreviation": "top", "metric_equivalent": None, "metric_unit": None},
+]
+
+INGREDIENTS_V6 = [
+    ("Apricot Brandy", "Liqueurs"), ("Calvados", "Brandy"), ("Cognac", "Brandy"),
+    ("Brandy", "Brandy"), ("Maraschino Liqueur", "Liqueurs"), ("Orange Liqueur", "Liqueurs"),
+    ("Aromatic Bitters", "Bitters"), ("Citrus Peel", "Garnishes"), ("Old Tom Gin", "Spirits"),
+    ("Orange Bitters", "Bitters"), ("Raspberry Syrup", "Syrups"), ("Soda Water", "Mixers"),
+    ("London Dry Gin", "Spirits"), ("Fernet", "Liqueurs"), ("Tawny Port", "Fortified Wine"),
+    ("Egg Yolk", "Fresh Ingredients"), ("Nutmeg", "Pantry / Kitchen"), ("Cream", "Dairy"),
+    ("Orange Flower Water", "Mixers"), ("Vanilla Extract", "Pantry / Kitchen"),
+    ("Cherry Brandy", "Liqueurs"), ("Absinthe", "Spirits"), ("White Creme de Menthe", "Liqueurs"),
+    ("Benedictine", "Liqueurs"), ("Peychaud's Bitters", "Bitters"),
+]
+
 RECIPES_V6 = [
     {'key':'angel-face','name':'Angel Face','type':'cocktail','version':'1.0','description':'A spirit-forward gin, apricot brandy, and Calvados classic.','instructions':'Shake all ingredients with ice and strain into a chilled cocktail glass.','source':'IBA reference; Virtual Bartender normalized recipe','url':'https://iba-world.com/iba-cocktail/angel-face/','ingredients':[('Gin',30.0,'ml',False),('Apricot Brandy',30.0,'ml',False),('Calvados',30.0,'ml',False)]},
     {'key':'between-the-sheets','name':'Between the Sheets','type':'cocktail','version':'1.0','description':'Rum and Cognac brightened with orange liqueur and lemon.','instructions':'Shake all ingredients with ice and strain into a chilled cocktail glass.','source':'IBA reference; Virtual Bartender normalized recipe','url':'https://iba-world.com/iba-cocktail/between-the-sheets/','ingredients':[('White Rum',30.0,'ml',False),('Cognac',30.0,'ml',False),('Triple Sec',30.0,'ml',False),('Lemon Juice',20.0,'ml',False)]},
-    {'key':'brandy-crusta','name':'Brandy Crusta','type':'cocktail','version':'1.0','description':'Brandy with maraschino, citrus, syrup, and aromatic bitters.','instructions':'Stir the liquid ingredients with ice and strain into a sugar-rimmed cocktail glass. Add a broad citrus peel inside the glass.','source':'IBA reference; Virtual Bartender normalized recipe','url':'https://iba-world.com/iba-cocktail/brandy-crusta/','ingredients':[('Brandy',52.5,'ml',False),('Maraschino Liqueur',7.5,'ml',False),('Orange Liqueur',1.0,'barspoon',False),('Lemon Juice',15.0,'ml',False),('Simple Syrup',1.0,'barspoon',False),('Aromatic Bitters',2.0,'dash',False),('Sugar',1.0,'rim',True),('Citrus Peel',1.0,'piece',True)]},
+    {'key':'brandy-crusta','name':'Brandy Crusta','type':'cocktail','version':'1.0','description':'Brandy with maraschino, citrus, syrup, and aromatic bitters.','instructions':'Stir the liquid ingredients with ice and strain into a sugar-rimmed cocktail glass. Add a broad citrus peel inside the glass.','source':'IBA reference; Virtual Bartender normalized recipe','url':'https://iba-world.com/iba-cocktail/brandy-crusta/','ingredients':[('Brandy',52.5,'ml',False),('Maraschino Liqueur',7.5,'ml',False),('Orange Liqueur',1.0,'barspoon',False),('Lemon Juice',15.0,'ml',False),('Simple Syrup',1.0,'barspoon',False),('Aromatic Bitters',2.0,'dash',False),('Sugar',1.0,'rim',True),('Citrus Peel',1.0,'pc',True)]},
     {'key':'casino','name':'Casino','type':'cocktail','version':'1.0','description':'Old Tom gin with maraschino, lemon, and orange bitters.','instructions':'Shake all ingredients with ice and strain into a chilled rocks glass over fresh ice.','source':'IBA reference; Virtual Bartender normalized recipe','url':'https://iba-world.com/iba-cocktail/casino/','ingredients':[('Old Tom Gin',40.0,'ml',False),('Maraschino Liqueur',10.0,'ml',False),('Lemon Juice',10.0,'ml',False),('Orange Bitters',2.0,'dash',False)]},
     {'key':'clover-club','name':'Clover Club','type':'cocktail','version':'1.0','description':'A tart raspberry gin sour with egg white.','instructions':'Shake all ingredients thoroughly with ice and strain into a chilled cocktail glass.','source':'IBA reference; Virtual Bartender normalized recipe','url':'https://iba-world.com/iba-cocktail/clover-club/','ingredients':[('Gin',45.0,'ml',False),('Raspberry Syrup',15.0,'ml',False),('Lemon Juice',15.0,'ml',False),('Egg White',3.0,'drop',False)]},
     {'key':'gin-fizz','name':'Gin Fizz','type':'cocktail','version':'1.0','description':'A refreshing gin sour lengthened with soda.','instructions':'Shake gin, lemon juice, and syrup with ice. Strain into a tall glass without ice and finish with a splash of soda water.','source':'IBA reference; Virtual Bartender normalized recipe','url':'https://iba-world.com/iba-cocktail/gin-fizz/','ingredients':[('Gin',45.0,'ml',False),('Lemon Juice',30.0,'ml',False),('Simple Syrup',10.0,'ml',False),('Soda Water',1.0,'splash',False)]},
