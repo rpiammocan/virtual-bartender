@@ -1,0 +1,1019 @@
+{
+  "catalog_total": 310,
+  "starting_image_total": 68,
+  "approved_unique_commons_total": 111,
+  "built_new_recipe_images_total": 108,
+  "margarita_corrected": true,
+  "duplicate_output_hashes_rejected_total": 0,
+  "duplicate_output_hashes_rejected": [],
+  "build_failures_total": 3,
+  "build_failures": [
+    {
+      "key": "honey-lemon-soda",
+      "name": "Honey Lemon Soda",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Honey_Lemon_Soda_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Honey_Lemon_Soda_logo.svg",
+      "error": "RuntimeError: Downloaded Commons file is not a Pillow-readable raster image: https://upload.wikimedia.org/wikipedia/commons/0/03/Honey_Lemon_Soda_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "key": "irish-coffee",
+      "name": "Irish Coffee",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Alcohol_glass_irish_coffee.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Alcohol_glass_irish_coffee.svg",
+      "error": "RuntimeError: Downloaded Commons file is not a Pillow-readable raster image: https://upload.wikimedia.org/wikipedia/commons/6/6c/Alcohol_glass_irish_coffee.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    },
+    {
+      "key": "virgin-mojito",
+      "name": "Virgin Mojito",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mojito_Cocktail_Drawing_Icon.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Mojito_Cocktail_Drawing_Icon.svg",
+      "error": "RuntimeError: Downloaded Commons file is not a Pillow-readable raster image: https://upload.wikimedia.org/wikipedia/commons/5/50/Mojito_Cocktail_Drawing_Icon.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+    }
+  ],
+  "needs_original_image_total_before_hash_rejections": 131,
+  "needs_original_image_total_after_build": 134,
+  "expected_image_total_after_build": 176,
+  "built": [
+    {
+      "key": "cardinale",
+      "name": "Cardinale",
+      "file": "frontend/public/media/cardinale.webp",
+      "width": 783,
+      "height": 800,
+      "bytes": 35824,
+      "sha256": "a9d9cb210a56f181719ac3518684078abda681bb6dd832ab9d9b492c304cc8f5"
+    },
+    {
+      "key": "gimlet",
+      "name": "Gimlet",
+      "file": "frontend/public/media/gimlet.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 48510,
+      "sha256": "872984163025f190974232ccfa230aafb7f92628c3dffe9f03507c24f235772c"
+    },
+    {
+      "key": "gin-tonic",
+      "name": "Gin and Tonic",
+      "file": "frontend/public/media/gin-tonic.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 43272,
+      "sha256": "e3dead7c11ab2fb80473738eea2a2b235444b60322417624c2c0d8d42c013e13"
+    },
+    {
+      "key": "gin-basil-smash",
+      "name": "Gin Basil Smash",
+      "file": "frontend/public/media/gin-basil-smash.webp",
+      "width": 675,
+      "height": 800,
+      "bytes": 27674,
+      "sha256": "2775fe7e67ff6d9d67ae5181620daf499b99ae0dae18622a2485e6b5089597ab"
+    },
+    {
+      "key": "gin-cranberry",
+      "name": "Gin Cranberry",
+      "file": "frontend/public/media/gin-cranberry.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 49016,
+      "sha256": "67470f8e79984f9333c619a2dd11b22585a9c465c244418ceb14794e8fada5d2"
+    },
+    {
+      "key": "gin-fizz",
+      "name": "Gin Fizz",
+      "file": "frontend/public/media/gin-fizz.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 20662,
+      "sha256": "8f8378e5e283802726ef37830b3c66fa51b9c5f0909ecdacebb735c76064bbe4"
+    },
+    {
+      "key": "gin-grapefruit",
+      "name": "Gin Grapefruit",
+      "file": "frontend/public/media/gin-grapefruit.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 20630,
+      "sha256": "e15be2355b2ee793ce18ea81348ad40fa589b333156d976461ceb0279cde4f52"
+    },
+    {
+      "key": "gin-lemonade",
+      "name": "Gin Lemonade",
+      "file": "frontend/public/media/gin-lemonade.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 22860,
+      "sha256": "768c832c47c31e71b39176864b89399904f056b949f373cec2fbf15b4faca51e"
+    },
+    {
+      "key": "gin-rickey",
+      "name": "Gin Rickey",
+      "file": "frontend/public/media/gin-rickey.webp",
+      "width": 404,
+      "height": 800,
+      "bytes": 9038,
+      "sha256": "bcf557760d84f01249433b2b7c7e86d5210f25b185ee9abb635d9ec4c0333161"
+    },
+    {
+      "key": "gin-soda",
+      "name": "Gin Soda",
+      "file": "frontend/public/media/gin-soda.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 59514,
+      "sha256": "a2879777e24a98bd908a734f6b9da10544188cf3e5c2cd4884cfd999c1d77e59"
+    },
+    {
+      "key": "gin-sour",
+      "name": "Gin Sour",
+      "file": "frontend/public/media/gin-sour.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 18684,
+      "sha256": "3e803bb5d49cca97fd451566fcbe9893370a35dda894eaa4a924de63d451011e"
+    },
+    {
+      "key": "gin-spritz",
+      "name": "Gin Spritz",
+      "file": "frontend/public/media/gin-spritz.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 30202,
+      "sha256": "8afcad71e558ea491047de7accab0b8c3c9b39706ed8f4347ea3b5bc4d12fd7d"
+    },
+    {
+      "key": "godfather",
+      "name": "Godfather",
+      "file": "frontend/public/media/godfather.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 53720,
+      "sha256": "7df7f29e2118473c1a9c790021e5f7df949c210b01684dde32936abccfcdec0a"
+    },
+    {
+      "key": "gold-rush",
+      "name": "Gold Rush",
+      "file": "frontend/public/media/gold-rush.webp",
+      "width": 800,
+      "height": 453,
+      "bytes": 78090,
+      "sha256": "2fb6efa2a1e0d90ae176224dea732677910ba09708610ddb3581f60a0f560d58"
+    },
+    {
+      "key": "grasshopper",
+      "name": "Grasshopper",
+      "file": "frontend/public/media/grasshopper.webp",
+      "width": 450,
+      "height": 800,
+      "bytes": 11764,
+      "sha256": "4a736e960c5f75bade9b61906e110c66417711c929c397fad5326e32f87e7bd3"
+    },
+    {
+      "key": "greyhound",
+      "name": "Greyhound",
+      "file": "frontend/public/media/greyhound.webp",
+      "width": 800,
+      "height": 755,
+      "bytes": 24598,
+      "sha256": "107ecf069c8a461a1a5b88200102b1b4bab724a6f5fee2aff98a89bcd2097355"
+    },
+    {
+      "key": "hanky-panky",
+      "name": "Hanky Panky",
+      "file": "frontend/public/media/hanky-panky.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 10818,
+      "sha256": "27aef877f78aa8158b88b73cd2bffab9448e6b8fe6d0ca3e3da1e80e5c1568f4"
+    },
+    {
+      "key": "horses-neck",
+      "name": "Horse’s Neck",
+      "file": "frontend/public/media/horses-neck.webp",
+      "width": 480,
+      "height": 640,
+      "bytes": 31612,
+      "sha256": "8f521501cd0ce12ceafa34a4466dd2296721ba3322f6c48373ac187da5b8ab63"
+    },
+    {
+      "key": "iba-tiki",
+      "name": "IBA Tiki",
+      "file": "frontend/public/media/iba-tiki.webp",
+      "width": 581,
+      "height": 800,
+      "bytes": 49990,
+      "sha256": "1bbb00ec353fd797ba9a37cb8c1285aa55661118a4173c159c33f9818b7cf5cd"
+    },
+    {
+      "key": "illegal",
+      "name": "Illegal",
+      "file": "frontend/public/media/illegal.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 24602,
+      "sha256": "f4140b021dc3fabdb235cc45e4b657ec72359029a5662d34a981ce981e7331f2"
+    },
+    {
+      "key": "john-collins",
+      "name": "John Collins",
+      "file": "frontend/public/media/john-collins.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 49968,
+      "sha256": "5735765d4121abaecc35973e7653260d66efcb1edf9769e3969468c4c141aa8a"
+    },
+    {
+      "key": "jungle-bird",
+      "name": "Jungle Bird",
+      "file": "frontend/public/media/jungle-bird.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 33160,
+      "sha256": "2e12ffcc857e690b6b89509d67c0d1aee675220b049c8077a89a2a25539ca49d"
+    },
+    {
+      "key": "kir",
+      "name": "Kir",
+      "file": "frontend/public/media/kir.webp",
+      "width": 532,
+      "height": 800,
+      "bytes": 9224,
+      "sha256": "260565d36f42b8a283e4a961117bcadfc8b2dae0a79312517545c81d5a24cbfc"
+    },
+    {
+      "key": "last-word",
+      "name": "Last Word",
+      "file": "frontend/public/media/last-word.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 35940,
+      "sha256": "3c4556e27d473a7b15dff2faadd456439bb893213c93478c7a892f04237c8808"
+    },
+    {
+      "key": "lemon-soda-mocktail",
+      "name": "Lemon Soda",
+      "file": "frontend/public/media/lemon-soda-mocktail.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 17304,
+      "sha256": "140f7ba84042d71f4a8eaa7a84704fdacdb3e654307e9dd112ad2ffcc1b225db"
+    },
+    {
+      "key": "lime-soda-mocktail",
+      "name": "Lime Soda",
+      "file": "frontend/public/media/lime-soda-mocktail.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 23650,
+      "sha256": "1926d8e48e0dfb27cad5e449970cd0d98bd2a1962ea73fe8a0ca12ebe235113e"
+    },
+    {
+      "key": "lime-tonic-mocktail",
+      "name": "Lime Tonic",
+      "file": "frontend/public/media/lime-tonic-mocktail.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 16708,
+      "sha256": "29a3f10ad451d93902706a7d8347e7ab5ad5b565c59d5bef80def6b0663f1295"
+    },
+    {
+      "key": "long-island-iced-tea",
+      "name": "Long Island Iced Tea",
+      "file": "frontend/public/media/long-island-iced-tea.webp",
+      "width": 531,
+      "height": 800,
+      "bytes": 19000,
+      "sha256": "aad21bd58a5a65ba2692427202cac1ebe0297b5a2144fc86586384bc62c6a42c"
+    },
+    {
+      "key": "mai-tai",
+      "name": "Mai Tai",
+      "file": "frontend/public/media/mai-tai.webp",
+      "width": 602,
+      "height": 800,
+      "bytes": 26376,
+      "sha256": "9de812a584441c0e93f803e321a8e6e6405b32aa38745ba988409eee41d48af2"
+    },
+    {
+      "key": "martinez",
+      "name": "Martinez",
+      "file": "frontend/public/media/martinez.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 27922,
+      "sha256": "e479a4a6418549fe19f865a7b64564445dffca0eef851aa2ba3e916d6902c034"
+    },
+    {
+      "key": "mary-pickford",
+      "name": "Mary Pickford",
+      "file": "frontend/public/media/mary-pickford.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 27498,
+      "sha256": "b21350d94dc65e342caa0e571bc194804560c86913ce64dd54106fcd6b0f002a"
+    },
+    {
+      "key": "mezcal-ginger",
+      "name": "Mezcal Ginger",
+      "file": "frontend/public/media/mezcal-ginger.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 53226,
+      "sha256": "163b57f1d49471f6aac267c326936a4d6b98618c30e3ffd5959ba7de98100624"
+    },
+    {
+      "key": "mezcal-margarita",
+      "name": "Mezcal Margarita",
+      "file": "frontend/public/media/mezcal-margarita.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 35444,
+      "sha256": "a5f1d522278fbfcee9a2411e1ba19a21b3f42bc8dfddaafcfbe051827694e8f7"
+    },
+    {
+      "key": "mezcal-pineapple",
+      "name": "Mezcal Pineapple",
+      "file": "frontend/public/media/mezcal-pineapple.webp",
+      "width": 450,
+      "height": 800,
+      "bytes": 41974,
+      "sha256": "c1d79985bb3cdbc13d101684d5fb23bb1334eeeb4ae5d0ffb9ebce5ab616974a"
+    },
+    {
+      "key": "mezcal-sour",
+      "name": "Mezcal Sour",
+      "file": "frontend/public/media/mezcal-sour.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 34718,
+      "sha256": "6780c8d1bcfdb4db9ec55e32c8f3c6938f7680b1daaa8bb36529beec7e14178b"
+    },
+    {
+      "key": "mimosa",
+      "name": "Mimosa",
+      "file": "frontend/public/media/mimosa.webp",
+      "width": 664,
+      "height": 800,
+      "bytes": 43932,
+      "sha256": "8d14e18b0330c9d2ead7496ccccf3bb354b12dc84ed7ed1b23e759cec667d6bb"
+    },
+    {
+      "key": "mint-julep",
+      "name": "Mint Julep",
+      "file": "frontend/public/media/mint-julep.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 35832,
+      "sha256": "af554e6c4d1c9dc51a4e65e5bb7f6ff89ac48ba5ed154e132eef5bbef57f8d78"
+    },
+    {
+      "key": "missionarys-downfall",
+      "name": "Missionary's Downfall",
+      "file": "frontend/public/media/missionarys-downfall.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 23796,
+      "sha256": "12e6464c5fb1c30300f35240ffb3c8ab1294f73fb6128700ddf38c7345f24160"
+    },
+    {
+      "key": "monkey-gland",
+      "name": "Monkey Gland",
+      "file": "frontend/public/media/monkey-gland.webp",
+      "width": 463,
+      "height": 800,
+      "bytes": 18238,
+      "sha256": "551d99f5218d31b12e50649efdd8a1f098668784be6f1a0a3f4e3310b11070af"
+    },
+    {
+      "key": "moscow-mule",
+      "name": "Moscow Mule",
+      "file": "frontend/public/media/moscow-mule.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 73896,
+      "sha256": "7f9c62d262a5f88d3e5a4a04684a78bed758aa7163ae60012d5548bb28171c93"
+    },
+    {
+      "key": "naked-and-famous",
+      "name": "Naked and Famous",
+      "file": "frontend/public/media/naked-and-famous.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 25358,
+      "sha256": "66d20743ec45b0a449a49aa26382d35876594c151e9d22da6ee67e800c0ef80b"
+    },
+    {
+      "key": "new-york-sour",
+      "name": "New York Sour",
+      "file": "frontend/public/media/new-york-sour.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 24782,
+      "sha256": "0847f7408bcef25dea726aeac3dba86dde86269b19678c3c1aef0d452df9b12b"
+    },
+    {
+      "key": "old-cuban",
+      "name": "Old Cuban",
+      "file": "frontend/public/media/old-cuban.webp",
+      "width": 591,
+      "height": 800,
+      "bytes": 15620,
+      "sha256": "754f465216fbd8ceaadf9e344e733ffc5d9bfe8fca5a08ebd7a9de4e246545b1"
+    },
+    {
+      "key": "orange-blossom",
+      "name": "Orange Blossom",
+      "file": "frontend/public/media/orange-blossom.webp",
+      "width": 800,
+      "height": 598,
+      "bytes": 42612,
+      "sha256": "bf8beecc118ed49f10421e8209f6b10559233fd1fd29f758363c9d205592d245"
+    },
+    {
+      "key": "paloma",
+      "name": "Paloma",
+      "file": "frontend/public/media/paloma.webp",
+      "width": 800,
+      "height": 450,
+      "bytes": 20842,
+      "sha256": "53c90527679261a6dc9c52b58df9cf34e03541221f9795a60c1f68006d3b1f1a"
+    },
+    {
+      "key": "paper-plane",
+      "name": "Paper Plane",
+      "file": "frontend/public/media/paper-plane.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 21304,
+      "sha256": "4aee057833462f2af4db445153aa20d37ea8501e3acbd8319de00d83f326f1ea"
+    },
+    {
+      "key": "paradise",
+      "name": "Paradise",
+      "file": "frontend/public/media/paradise.webp",
+      "width": 534,
+      "height": 800,
+      "bytes": 15248,
+      "sha256": "3fc0f4a6b56a1b66ea10c2fbdae8d567fe17a723f6d81fd4ed1b5f89f3a99adc"
+    },
+    {
+      "key": "penicillin",
+      "name": "Penicillin",
+      "file": "frontend/public/media/penicillin.webp",
+      "width": 534,
+      "height": 800,
+      "bytes": 5404,
+      "sha256": "187505a0ce8ff81c28e49aade50c93fa54c73c06469a546c275bfa0f4b903b18"
+    },
+    {
+      "key": "pineapple-daiquiri",
+      "name": "Pineapple Daiquiri",
+      "file": "frontend/public/media/pineapple-daiquiri.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 40114,
+      "sha256": "1f0723da465a933a57adaa37387e7c0aac8fc674b777ae8b239d0ae7d2d51b6f"
+    },
+    {
+      "key": "pineapple-fizz",
+      "name": "Pineapple Fizz",
+      "file": "frontend/public/media/pineapple-fizz.webp",
+      "width": 602,
+      "height": 800,
+      "bytes": 59918,
+      "sha256": "06bb395286f33783c48f8b56ad77124baaa1a3d2ca9ed61cb32063c553905abd"
+    },
+    {
+      "key": "pineapple-ginger-mocktail",
+      "name": "Pineapple Ginger",
+      "file": "frontend/public/media/pineapple-ginger-mocktail.webp",
+      "width": 532,
+      "height": 608,
+      "bytes": 44016,
+      "sha256": "2fbe7c90e669f781a332d078ba86924bf0628610e1680305cf4ec67cd030ba05"
+    },
+    {
+      "key": "club-pineapple-mocktail",
+      "name": "Pineapple Soda",
+      "file": "frontend/public/media/club-pineapple-mocktail.webp",
+      "width": 565,
+      "height": 800,
+      "bytes": 29762,
+      "sha256": "e506a10d4c7667cf853a041b49d4c6bc7a1a19bee5c6204c2f53c52c00eabd26"
+    },
+    {
+      "key": "pisco-punch",
+      "name": "Pisco Punch",
+      "file": "frontend/public/media/pisco-punch.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 27134,
+      "sha256": "220fabb330f74848f8fe45bdc5ef85634a05a27259be74159cc729ed70156dbb"
+    },
+    {
+      "key": "pisco-sour",
+      "name": "Pisco Sour",
+      "file": "frontend/public/media/pisco-sour.webp",
+      "width": 764,
+      "height": 800,
+      "bytes": 55716,
+      "sha256": "cd6abc4559bc8331d520c64f446f9b90ec8d6086b39220cf8ddf51e6778d4f67"
+    },
+    {
+      "key": "planters-punch",
+      "name": "Planter's Punch",
+      "file": "frontend/public/media/planters-punch.webp",
+      "width": 577,
+      "height": 800,
+      "bytes": 49894,
+      "sha256": "acde1d60993421022c8ef55723208c6f8d7cafd93df0eccabfeb2eb085188771"
+    },
+    {
+      "key": "porn-star-martini",
+      "name": "Porn Star Martini",
+      "file": "frontend/public/media/porn-star-martini.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 36792,
+      "sha256": "abbd6df7ed19cc59ae25be755eb777e7ce7f74c5fc332e48252dc7c83b5e1252"
+    },
+    {
+      "key": "porto-flip",
+      "name": "Porto Flip",
+      "file": "frontend/public/media/porto-flip.webp",
+      "width": 532,
+      "height": 800,
+      "bytes": 18612,
+      "sha256": "eefeec88b06bb10c74771c6e446680fcf0b5caf787f97392ab5a82d599078fe5"
+    },
+    {
+      "key": "rabo-de-galo",
+      "name": "Rabo de Galo",
+      "file": "frontend/public/media/rabo-de-galo.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 72666,
+      "sha256": "881ea3b89f5e2a2cb041726695db2a9f39e6d9eaacc5ff4f420d26097aefc5be"
+    },
+    {
+      "key": "ramos-fizz",
+      "name": "Ramos Fizz",
+      "file": "frontend/public/media/ramos-fizz.webp",
+      "width": 532,
+      "height": 800,
+      "bytes": 14802,
+      "sha256": "9da16206b5a7c1722f9166cb97fa4c4d2e122c6d728d308533be607eb34419cd"
+    },
+    {
+      "key": "remember-the-maine",
+      "name": "Remember the Maine",
+      "file": "frontend/public/media/remember-the-maine.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 27994,
+      "sha256": "09354cfea44d086f782259a3f320c4d8b833df919356d8133aa727653822ad1e"
+    },
+    {
+      "key": "rob-roy",
+      "name": "Rob Roy",
+      "file": "frontend/public/media/rob-roy.webp",
+      "width": 532,
+      "height": 800,
+      "bytes": 9814,
+      "sha256": "8e1f0aa373a6f81fe26d8082497664b1c3b0ca51967617ec9295b0ce9ad5344f"
+    },
+    {
+      "key": "rum-lemonade",
+      "name": "Rum Lemonade",
+      "file": "frontend/public/media/rum-lemonade.webp",
+      "width": 800,
+      "height": 699,
+      "bytes": 43370,
+      "sha256": "89056161b5f60c9abdeb3ef3ef9397f51c5e6d2085d865f99198dffce4140b36"
+    },
+    {
+      "key": "rum-old-fashioned",
+      "name": "Rum Old Fashioned",
+      "file": "frontend/public/media/rum-old-fashioned.webp",
+      "width": 800,
+      "height": 489,
+      "bytes": 38150,
+      "sha256": "c6fade503d3091e06213ffddbc25f3a8bda897bacbb13d31aee8353b1c7bea4e"
+    },
+    {
+      "key": "rum-punch",
+      "name": "Rum Punch",
+      "file": "frontend/public/media/rum-punch.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 61976,
+      "sha256": "c90d79a65bfbe2e5fc87a45bc7d420f5cd0808f2c0e2e59433fc08af41be3d2e"
+    },
+    {
+      "key": "rusty-nail",
+      "name": "Rusty Nail",
+      "file": "frontend/public/media/rusty-nail.webp",
+      "width": 640,
+      "height": 640,
+      "bytes": 28412,
+      "sha256": "e4048656ee2d7ef9b005911d9b6d840734ea1f16d136af59dfb9e34d0972cb82"
+    },
+    {
+      "key": "rye-sour",
+      "name": "Rye Sour",
+      "file": "frontend/public/media/rye-sour.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 19846,
+      "sha256": "f8ce79e81917e2a054d52df05b3e80b3bad801b287ea875463b9b3f2ede1eb05"
+    },
+    {
+      "key": "salty-dog",
+      "name": "Salty Dog",
+      "file": "frontend/public/media/salty-dog.webp",
+      "width": 480,
+      "height": 640,
+      "bytes": 39598,
+      "sha256": "51f75729e21a32585c889ab356e75fc4470ac4f090d2225a4d4a69dc67cd9159"
+    },
+    {
+      "key": "sazerac",
+      "name": "Sazerac",
+      "file": "frontend/public/media/sazerac.webp",
+      "width": 800,
+      "height": 716,
+      "bytes": 88978,
+      "sha256": "26d1d203c9eb6454fa0a0816d63f8e6c53217532606fb4f67593b05fd97444f1"
+    },
+    {
+      "key": "scotch-soda",
+      "name": "Scotch and Soda",
+      "file": "frontend/public/media/scotch-soda.webp",
+      "width": 706,
+      "height": 800,
+      "bytes": 26354,
+      "sha256": "fcea6354fdf667f61957b3a7f933be772534734b5a4288ad35a9e0972c99a951"
+    },
+    {
+      "key": "scotch-sour",
+      "name": "Scotch Sour",
+      "file": "frontend/public/media/scotch-sour.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 37308,
+      "sha256": "42279f902b565378e678432c0a833dd5dbeffbd3fc151222d3e7adb3e8473c43"
+    },
+    {
+      "key": "screwdriver",
+      "name": "Screwdriver",
+      "file": "frontend/public/media/screwdriver.webp",
+      "width": 664,
+      "height": 800,
+      "bytes": 27424,
+      "sha256": "952e17a1d845f3acd99e84a304b8c523a6b0fe303a48f7d7f62c2a384c699619"
+    },
+    {
+      "key": "sex-on-the-beach",
+      "name": "Sex on the Beach",
+      "file": "frontend/public/media/sex-on-the-beach.webp",
+      "width": 538,
+      "height": 800,
+      "bytes": 32522,
+      "sha256": "a827310a4c07ac0a23894fa0bfcf263fc84407c0cadb911df5a03f740a781235"
+    },
+    {
+      "key": "sherry-cobbler",
+      "name": "Sherry Cobbler",
+      "file": "frontend/public/media/sherry-cobbler.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 51992,
+      "sha256": "58c4005b2a9faeb93ad54c48e0ee157ed5e3fb1b93709a4cc2802ea7e88d0644"
+    },
+    {
+      "key": "shirley-temple",
+      "name": "Shirley Temple",
+      "file": "frontend/public/media/shirley-temple.webp",
+      "width": 800,
+      "height": 710,
+      "bytes": 53154,
+      "sha256": "e6f1f4053731bf1bc4a8ac06c98dafd04cc919a3bad84fc55f565eb6713a522b"
+    },
+    {
+      "key": "southside",
+      "name": "Southside",
+      "file": "frontend/public/media/southside.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 13804,
+      "sha256": "381080f993f2f40387be149eb9d643e4c1d1b580af33e99cd168a02acb885359"
+    },
+    {
+      "key": "spicy-fifty",
+      "name": "Spicy Fifty",
+      "file": "frontend/public/media/spicy-fifty.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 52254,
+      "sha256": "1da0cfb6ebfc4d332a06f912128a87708fcfdad8b1c55ed140e29be262910a17"
+    },
+    {
+      "key": "stinger",
+      "name": "Stinger",
+      "file": "frontend/public/media/stinger.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 30550,
+      "sha256": "206c081de0d9d6e92d8d93402592611eb1a8f6825fa5fbc6a40e79e4223d6ceb"
+    },
+    {
+      "key": "strawberry-daiquiri",
+      "name": "Strawberry Daiquiri",
+      "file": "frontend/public/media/strawberry-daiquiri.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 21868,
+      "sha256": "9887902b0075fb238f6935d0e8a40793ac669c13f0b58a51cd21b557b26a9053"
+    },
+    {
+      "key": "suffering-bastard",
+      "name": "Suffering Bastard",
+      "file": "frontend/public/media/suffering-bastard.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 44598,
+      "sha256": "d49577b32f892f93b7e8fc99882b929a63893b62c05efd458ef115b51154f86c"
+    },
+    {
+      "key": "tequila-grapefruit",
+      "name": "Tequila Grapefruit",
+      "file": "frontend/public/media/tequila-grapefruit.webp",
+      "width": 639,
+      "height": 800,
+      "bytes": 34420,
+      "sha256": "5972887bf6c99878fd8bc1247d64a116662dbe4db03ffc3537e8fba33e537145"
+    },
+    {
+      "key": "tequila-lemonade",
+      "name": "Tequila Lemonade",
+      "file": "frontend/public/media/tequila-lemonade.webp",
+      "width": 691,
+      "height": 800,
+      "bytes": 35512,
+      "sha256": "a4b7e7bcfc2b54a16ee7b86d9dd724867dd7bf913756ad246438fa2268ce3205"
+    },
+    {
+      "key": "tequila-old-fashioned",
+      "name": "Tequila Old Fashioned",
+      "file": "frontend/public/media/tequila-old-fashioned.webp",
+      "width": 800,
+      "height": 489,
+      "bytes": 37318,
+      "sha256": "d865c4aa44d8a60215a972f266f642ece6344796d60bbb53bcfef1ccd7d8b34e"
+    },
+    {
+      "key": "tequila-orange",
+      "name": "Tequila Orange",
+      "file": "frontend/public/media/tequila-orange.webp",
+      "width": 602,
+      "height": 800,
+      "bytes": 60254,
+      "sha256": "85a333cf92fb987d9ee200fb7ff180ae57169e834d16af2258b213d151396162"
+    },
+    {
+      "key": "tequila-pineapple",
+      "name": "Tequila Pineapple",
+      "file": "frontend/public/media/tequila-pineapple.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 90184,
+      "sha256": "e3c0c8c32b01251bd5581153eb06408a25baa0bf88ac9f48a901baf3074dd9e7"
+    },
+    {
+      "key": "tequila-sour",
+      "name": "Tequila Sour",
+      "file": "frontend/public/media/tequila-sour.webp",
+      "width": 766,
+      "height": 800,
+      "bytes": 31604,
+      "sha256": "b13fdaa0cd5c4f98a652eea1d00fb72ef65e5154322d6f43d00ced32ee04c1f8"
+    },
+    {
+      "key": "tequila-sunrise",
+      "name": "Tequila Sunrise",
+      "file": "frontend/public/media/tequila-sunrise.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 36306,
+      "sha256": "b9a364f909c057cf99acf94164a9dc04d958fa2aa436869ee75c637f1c899a8b"
+    },
+    {
+      "key": "tequila-tonic",
+      "name": "Tequila Tonic",
+      "file": "frontend/public/media/tequila-tonic.webp",
+      "width": 516,
+      "height": 800,
+      "bytes": 49070,
+      "sha256": "92041cce0650086d0c38ec577f5f020afd9db356ebc15e8696a87df8ad42b04f"
+    },
+    {
+      "key": "three-dots-and-a-dash",
+      "name": "Three Dots and a Dash",
+      "file": "frontend/public/media/three-dots-and-a-dash.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 49588,
+      "sha256": "eaf428f42585f4232c9661ad2f93c73e65bb0e60bbdd64ec6a1684cdf4e7abce"
+    },
+    {
+      "key": "tipperary",
+      "name": "Tipperary",
+      "file": "frontend/public/media/tipperary.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 36140,
+      "sha256": "072aa1b926a9cd1d0fa7d25a943416bc43d24b7c4f4e3f63bb8e3711beb8f418"
+    },
+    {
+      "key": "tom-collins",
+      "name": "Tom Collins",
+      "file": "frontend/public/media/tom-collins.webp",
+      "width": 480,
+      "height": 640,
+      "bytes": 22332,
+      "sha256": "575dac6fefcd00e7883f864869f1d59e7ad50a7f2958ced65cf523676f416287"
+    },
+    {
+      "key": "tommys-margarita",
+      "name": "Tommy's Margarita",
+      "file": "frontend/public/media/tommys-margarita.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 65292,
+      "sha256": "f17db36f979ccea00ea56997b4bbd65d8d4f291b83709b90fcf4bbdf597e7005"
+    },
+    {
+      "key": "trinidad-sour",
+      "name": "Trinidad Sour",
+      "file": "frontend/public/media/trinidad-sour.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 21814,
+      "sha256": "d3a3beb65bab8f3dc6ef93d91489066b3e755a2341a80ed316a1fbd8191bc8de"
+    },
+    {
+      "key": "tuxedo",
+      "name": "Tuxedo",
+      "file": "frontend/public/media/tuxedo.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 22732,
+      "sha256": "14a467e15a37f5a3a58aeb0d7f72d22ee5b2cd225841f61c83feb949c760f9f7"
+    },
+    {
+      "key": "ve-n-to",
+      "name": "Ve.N.To",
+      "file": "frontend/public/media/ve-n-to.webp",
+      "width": 666,
+      "height": 800,
+      "bytes": 61692,
+      "sha256": "1f0a268f88ffd7f7008f24c00361b5d0c64f396eb0cfbedc3d6d68e0dc90b9ed"
+    },
+    {
+      "key": "vesper",
+      "name": "Vesper",
+      "file": "frontend/public/media/vesper.webp",
+      "width": 664,
+      "height": 800,
+      "bytes": 17192,
+      "sha256": "93877267e16fed13649ea846badc4011ff3c50539ed5ede0b2b057d68387d582"
+    },
+    {
+      "key": "vieux-carre",
+      "name": "Vieux Carré",
+      "file": "frontend/public/media/vieux-carre.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 27890,
+      "sha256": "4a4e1f504eba9bb634535a86b0d4b1603641819701e9a85d80d4f8be383c52e2"
+    },
+    {
+      "key": "virgin-pina-colada",
+      "name": "Virgin Piña Colada",
+      "file": "frontend/public/media/virgin-pina-colada.webp",
+      "width": 580,
+      "height": 800,
+      "bytes": 43158,
+      "sha256": "8ea60b5091fdf2d855375326ee4e41878db71c909646c4b9a6391c05d9935f0a"
+    },
+    {
+      "key": "vodka-collins",
+      "name": "Vodka Collins",
+      "file": "frontend/public/media/vodka-collins.webp",
+      "width": 800,
+      "height": 723,
+      "bytes": 97292,
+      "sha256": "6ae84ef8a2ce50a09db8c65bb785f123e5208b9ac8e47cf18996371d03b74c47"
+    },
+    {
+      "key": "vodka-cranberry",
+      "name": "Vodka Cranberry",
+      "file": "frontend/public/media/vodka-cranberry.webp",
+      "width": 500,
+      "height": 750,
+      "bytes": 31310,
+      "sha256": "cb18bf6da0f24a6199e564563b346dc015cee0514d4ebacbb850a40daee5e880"
+    },
+    {
+      "key": "vodka-pineapple",
+      "name": "Vodka Pineapple",
+      "file": "frontend/public/media/vodka-pineapple.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 13940,
+      "sha256": "414f7ecddc78b61fb0294a93c624a960b3fac4c2b122e62f10174c3c6aaacd6d"
+    },
+    {
+      "key": "vodka-soda",
+      "name": "Vodka Soda",
+      "file": "frontend/public/media/vodka-soda.webp",
+      "width": 800,
+      "height": 743,
+      "bytes": 78572,
+      "sha256": "64e412dc6db61065110340f4410fd5f946277c1f9c0f753eb2bbcf62b7fde38f"
+    },
+    {
+      "key": "vodka-sour",
+      "name": "Vodka Sour",
+      "file": "frontend/public/media/vodka-sour.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 18056,
+      "sha256": "b8ac47f3a7e44d1e565ee70fe90c588407558f67900a4ffc95c8144cebdf020d"
+    },
+    {
+      "key": "vodka-tonic",
+      "name": "Vodka Tonic",
+      "file": "frontend/public/media/vodka-tonic.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 32210,
+      "sha256": "8ffbeca98d4089c6055ea23aa1e165a27b66598ed56bf8c1b4dac13aaf007a43"
+    },
+    {
+      "key": "irish-creamless-coffee",
+      "name": "Whiskey Coffee",
+      "file": "frontend/public/media/irish-creamless-coffee.webp",
+      "width": 523,
+      "height": 800,
+      "bytes": 85868,
+      "sha256": "7596255c6e3456935c399621f13721c82fab709658699d072561e3a6ff6c69fe"
+    },
+    {
+      "key": "whiskey-ginger",
+      "name": "Whiskey Ginger",
+      "file": "frontend/public/media/whiskey-ginger.webp",
+      "width": 800,
+      "height": 534,
+      "bytes": 72258,
+      "sha256": "e8fac34fb9a975fa3194da257d000ac6037f32bf7fa35272ecdef6c446a94b62"
+    },
+    {
+      "key": "white-lady",
+      "name": "White Lady",
+      "file": "frontend/public/media/white-lady.webp",
+      "width": 480,
+      "height": 640,
+      "bytes": 55436,
+      "sha256": "b15b6b774a83ac954b524bca2755101543e95a5d926b05dc18275b58abc1ef90"
+    },
+    {
+      "key": "white-russian",
+      "name": "White Russian",
+      "file": "frontend/public/media/white-russian.webp",
+      "width": 800,
+      "height": 640,
+      "bytes": 12162,
+      "sha256": "a14307f0a9934ae7cfb9b597bff6f348a7394cac5a41a20b78f69700d71c8041"
+    },
+    {
+      "key": "zombie",
+      "name": "Zombie",
+      "file": "frontend/public/media/zombie.webp",
+      "width": 800,
+      "height": 534,
+      "bytes": 59522,
+      "sha256": "37c2c0f8ec54f0e9df25ca578082fdd758d736dc0750095762661c9d3b1e4f43"
+    },
+    {
+      "key": "margarita",
+      "name": "Margarita",
+      "file": "frontend/public/media/margarita.webp",
+      "width": 681,
+      "height": 800,
+      "bytes": 138038,
+      "sha256": "e316e7943de5bfee22933d3186a1a504d1a4bd6650264113e0dc9de752f16d05"
+    }
+  ]
+}

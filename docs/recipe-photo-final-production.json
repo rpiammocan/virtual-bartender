@@ -1,0 +1,2971 @@
+{
+  "catalog_total": 310,
+  "starting_image_total": 68,
+  "final_batch_size": 242,
+  "approved_unique_commons_total": 111,
+  "needs_original_image_total": 131,
+  "duplicate_candidate_rejections_total": 6,
+  "policy": {
+    "image_files_only": true,
+    "strong_name_match_required": true,
+    "unique_commons_source_required": true,
+    "max_dimensions": [
+      800,
+      800
+    ],
+    "format": "WebP",
+    "quality": 80,
+    "crop": false
+  },
+  "selected": [
+    {
+      "key": "cardinale",
+      "name": "Cardinale",
+      "recipe_type": "cocktail",
+      "output_file": "cardinale.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Rosa 'Claudia Cardinale', Château d'Eu-76 (2) '.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rosa_%27Claudia_Cardinale%27,_Ch%C3%A2teau_d%27Eu-76_(2)_%27.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Rosa_%27Claudia_Cardinale%27%2C_Ch%C3%A2teau_d%27Eu-76_%282%29_%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "APictche",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "gimlet",
+      "name": "Gimlet",
+      "recipe_type": "cocktail",
+      "output_file": "gimlet.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:A Gimlet cocktail (Isla Holbox).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:A_Gimlet_cocktail_(Isla_Holbox).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/A_Gimlet_cocktail_%28Isla_Holbox%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Bruno Rijsman",
+        "credit": "Isla Holbox (Mexico, November 2018) - 98"
+      }
+    },
+    {
+      "key": "gin-tonic",
+      "name": "Gin and Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "gin-tonic.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Gin and tonic cocktail with wedge of lime.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Gin_and_tonic_cocktail_with_wedge_of_lime.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Gin_and_tonic_cocktail_with_wedge_of_lime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Davidnuescheler",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "gin-basil-smash",
+      "name": "Gin Basil Smash",
+      "recipe_type": "cocktail",
+      "output_file": "gin-basil-smash.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Gin Basil Smash.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Gin_Basil_Smash.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Gin_Basil_Smash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Erich Wagner (www.eventografie.de)",
+        "credit": "uploaded on behalf of the creator / hochgeladen im Auftrag des Urhebers"
+      }
+    },
+    {
+      "key": "gin-cranberry",
+      "name": "Gin Cranberry",
+      "recipe_type": "cocktail",
+      "output_file": "gin-cranberry.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Water Grill - Las Vegas - Dec 2019 - Stierch 06.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Water_Grill_-_Las_Vegas_-_Dec_2019_-_Stierch_06.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Water_Grill_-_Las_Vegas_-_Dec_2019_-_Stierch_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Missvain",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "gin-fizz",
+      "name": "Gin Fizz",
+      "recipe_type": "cocktail",
+      "output_file": "gin-fizz.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Tropical Gin Fizz Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Tropical_Gin_Fizz_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Tropical_Gin_Fizz_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "mkorcuska",
+        "credit": "https://www.flickr.com/photos/mkorcuska/3779444330/in/photostream/"
+      }
+    },
+    {
+      "key": "gin-grapefruit",
+      "name": "Gin Grapefruit",
+      "recipe_type": "cocktail",
+      "output_file": "gin-grapefruit.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Self-made gin grapefruit long drink.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Self-made_gin_grapefruit_long_drink.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Self-made_gin_grapefruit_long_drink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "JIP",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "gin-lemonade",
+      "name": "Gin Lemonade",
+      "recipe_type": "cocktail",
+      "output_file": "gin-lemonade.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Self-made gin pink grapefruit long drink.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Self-made_gin_pink_grapefruit_long_drink.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Self-made_gin_pink_grapefruit_long_drink.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "JIP",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "gin-rickey",
+      "name": "Gin Rickey",
+      "recipe_type": "cocktail",
+      "output_file": "gin-rickey.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Gin Rickey.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Gin_Rickey.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Gin_Rickey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Scott Veg",
+        "credit": "Gin Rickey"
+      }
+    },
+    {
+      "key": "gin-soda",
+      "name": "Gin Soda",
+      "recipe_type": "cocktail",
+      "output_file": "gin-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Gin and tonic at Grand Marina terrace with Vappu decorations.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Gin_and_tonic_at_Grand_Marina_terrace_with_Vappu_decorations.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Gin_and_tonic_at_Grand_Marina_terrace_with_Vappu_decorations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "JIP",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "gin-sour",
+      "name": "Gin Sour",
+      "recipe_type": "cocktail",
+      "output_file": "gin-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Spiced Sloe Sour.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Spiced_Sloe_Sour.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Spiced_Sloe_Sour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "SyrupDee",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "gin-spritz",
+      "name": "Gin Spritz",
+      "recipe_type": "cocktail",
+      "output_file": "gin-spritz.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Red Spritz.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Red_Spritz.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Red_Spritz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "JIP",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "godfather",
+      "name": "Godfather",
+      "recipe_type": "cocktail",
+      "output_file": "godfather.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Godfather cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Godfather_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Godfather_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Stuart Webster from Southampton, England",
+        "credit": "Godfather"
+      }
+    },
+    {
+      "key": "gold-rush",
+      "name": "Gold Rush",
+      "recipe_type": "cocktail",
+      "output_file": "gold-rush.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:City of Downey - The Gold Rush (31785441094).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:City_of_Downey_-_The_Gold_Rush_(31785441094).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/City_of_Downey_-_The_Gold_Rush_%2831785441094%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Prayitno / Thank you for (12 millions +) view from Los Angeles, USA",
+        "credit": "City of Downey : The Gold Rush"
+      }
+    },
+    {
+      "key": "grasshopper",
+      "name": "Grasshopper",
+      "recipe_type": "cocktail",
+      "output_file": "grasshopper.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Grasshopper Cocktail, French Quarter, New Orleans.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Grasshopper_Cocktail,_French_Quarter,_New_Orleans.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Grasshopper_Cocktail%2C_French_Quarter%2C_New_Orleans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Miguel Discart",
+        "credit": "https://www.flickr.com/photos/miguel_discart/33814491276/"
+      }
+    },
+    {
+      "key": "greyhound",
+      "name": "Greyhound",
+      "recipe_type": "cocktail",
+      "output_file": "greyhound.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Greyhound Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Greyhound_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Greyhound_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Scott Veg",
+        "credit": "https://www.flickr.com/photos/thrivingveg/9612782882/"
+      }
+    },
+    {
+      "key": "hanky-panky",
+      "name": "Hanky Panky",
+      "recipe_type": "cocktail",
+      "output_file": "hanky-panky.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Hanky Panky cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Hanky_Panky_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hanky_Panky_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Tim Sackton from Somerville, MA",
+        "credit": "Hanky Panky [283/366]"
+      }
+    },
+    {
+      "key": "honey-lemon-soda",
+      "name": "Honey Lemon Soda",
+      "recipe_type": "mocktail",
+      "output_file": "honey-lemon-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Honey Lemon Soda logo.svg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Honey_Lemon_Soda_logo.svg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Honey_Lemon_Soda_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/svg+xml",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "©村田真優／集英社・ハニーレモンソーダ製作委員会",
+        "credit": ".mw-parser-output .plainlist ul{line-height:inherit;list-style:none none;margin:0}.mw-parser-output .plainlist ul li{margin-bottom:0}\nhttps://honeylemon-anime.com/\nhttps://honeylemon-anime.com/wp/wp-content/themes/honeylemonsoda_v2/images/loading.svg"
+      }
+    },
+    {
+      "key": "horses-neck",
+      "name": "Horse’s Neck",
+      "recipe_type": "cocktail",
+      "output_file": "horses-neck.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Horse's Neck cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Horse%27s_Neck_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Horse%27s_Neck_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Plume.janvier",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "iba-tiki",
+      "name": "IBA Tiki",
+      "recipe_type": "cocktail",
+      "output_file": "iba-tiki.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:IBA Tiki at Civil Liberties in Toronto.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:IBA_Tiki_at_Civil_Liberties_in_Toronto.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/IBA_Tiki_at_Civil_Liberties_in_Toronto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Adanicklmao",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "illegal",
+      "name": "Illegal",
+      "recipe_type": "cocktail",
+      "output_file": "illegal.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Illegal cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Illegal_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Illegal_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "irish-coffee",
+      "name": "Irish Coffee",
+      "recipe_type": "cocktail",
+      "output_file": "irish-coffee.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Alcohol glass irish coffee.svg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Alcohol_glass_irish_coffee.svg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Alcohol_glass_irish_coffee.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/svg+xml",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Smugleafdev",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "john-collins",
+      "name": "John Collins",
+      "recipe_type": "cocktail",
+      "output_file": "john-collins.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:IBA Cocktail John Collins (29221732881).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:IBA_Cocktail_John_Collins_(29221732881).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/IBA_Cocktail_John_Collins_%2829221732881%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Michael Styne from Averill Park, NY, USA",
+        "credit": "IBA Cocktail John Collins"
+      }
+    },
+    {
+      "key": "jungle-bird",
+      "name": "Jungle Bird",
+      "recipe_type": "cocktail",
+      "output_file": "jungle-bird.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Jungle bird cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Jungle_bird_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jungle_bird_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "kir",
+      "name": "Kir",
+      "recipe_type": "cocktail",
+      "output_file": "kir.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Kir cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Kir_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Kir_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Stuart Webster from Southampton, England",
+        "credit": "Kir"
+      }
+    },
+    {
+      "key": "last-word",
+      "name": "Last Word",
+      "recipe_type": "cocktail",
+      "output_file": "last-word.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Last Word cocktail, Baton Rouge 2025.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Last_Word_cocktail,_Baton_Rouge_2025.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Last_Word_cocktail%2C_Baton_Rouge_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Paul Lowry",
+        "credit": "https://www.flickr.com/photos/paul_lowry/54891462008/"
+      }
+    },
+    {
+      "key": "lemon-soda-mocktail",
+      "name": "Lemon Soda",
+      "recipe_type": "mocktail",
+      "output_file": "lemon-soda-mocktail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Long Shot Lemon.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Long_Shot_Lemon.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Long_Shot_Lemon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "JIP",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "lime-soda-mocktail",
+      "name": "Lime Soda",
+      "recipe_type": "mocktail",
+      "output_file": "lime-soda-mocktail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Adios Motherfucker Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Adios_Motherfucker_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Adios_Motherfucker_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/adios-motherfucker/zms"
+      }
+    },
+    {
+      "key": "lime-tonic-mocktail",
+      "name": "Lime Tonic",
+      "recipe_type": "mocktail",
+      "output_file": "lime-tonic-mocktail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Lime tonic water.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Lime_tonic_water.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lime_tonic_water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Corn cheese",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "long-island-iced-tea",
+      "name": "Long Island Iced Tea",
+      "recipe_type": "cocktail",
+      "output_file": "long-island-iced-tea.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Long Island Iced Tea with Lemon and Straw.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Long_Island_Iced_Tea_with_Lemon_and_Straw.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Long_Island_Iced_Tea_with_Lemon_and_Straw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Alisdair McDiarmid from Glasgow, United Kingdom",
+        "credit": "Long Island Iced Tea"
+      }
+    },
+    {
+      "key": "mai-tai",
+      "name": "Mai Tai",
+      "recipe_type": "cocktail",
+      "output_file": "mai-tai.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Love in Goa & Mai Tai - Calcutta 16 2026-07-11.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Love_in_Goa_%26_Mai_Tai_-_Calcutta_16_2026-07-11.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Love_in_Goa_%26_Mai_Tai_-_Calcutta_16_2026-07-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Andy Li",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "martinez",
+      "name": "Martinez",
+      "recipe_type": "cocktail",
+      "output_file": "martinez.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Martinez Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Martinez_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Martinez_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/martinez/jyea"
+      }
+    },
+    {
+      "key": "mary-pickford",
+      "name": "Mary Pickford",
+      "recipe_type": "cocktail",
+      "output_file": "mary-pickford.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Mary Pickford Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mary_Pickford_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Mary_Pickford_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/mary-pickford-cocktail/eyp"
+      }
+    },
+    {
+      "key": "mezcal-ginger",
+      "name": "Mezcal Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-ginger.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Har Mar Superstar Mezcal, Ginger, Lemon, Local Honey, Thyme (34320058573).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Har_Mar_Superstar_Mezcal,_Ginger,_Lemon,_Local_Honey,_Thyme_(34320058573).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Har_Mar_Superstar_Mezcal%2C_Ginger%2C_Lemon%2C_Local_Honey%2C_Thyme_%2834320058573%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "T.Tseng",
+        "credit": "Har Mar Superstar: Mezcal, Ginger, Lemon, Local Honey, Thyme"
+      }
+    },
+    {
+      "key": "mezcal-margarita",
+      "name": "Mezcal Margarita",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-margarita.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:El Grito at Kina's Kitchen and Bar, Sonoma, California - Sarah Stierch 10.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:El_Grito_at_Kina%27s_Kitchen_and_Bar,_Sonoma,_California_-_Sarah_Stierch_10.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/El_Grito_at_Kina%27s_Kitchen_and_Bar%2C_Sonoma%2C_California_-_Sarah_Stierch_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Missvain",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "mezcal-pineapple",
+      "name": "Mezcal Pineapple",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-pineapple.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Sip I, Mérida, Yucatán 2024.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Sip_I,_M%C3%A9rida,_Yucat%C3%A1n_2024.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sip_I%2C_M%C3%A9rida%2C_Yucat%C3%A1n_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "edenpictures",
+        "credit": "https://www.flickr.com/photos/10485077@N06/53796940304/"
+      }
+    },
+    {
+      "key": "mezcal-sour",
+      "name": "Mezcal Sour",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Delicious Mezcal Sour.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Delicious_Mezcal_Sour.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Delicious_Mezcal_Sour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "https://www.flickr.com/photos/bexwalton/",
+        "credit": "https://www.flickr.com/photos/bexwalton/17842151596/"
+      }
+    },
+    {
+      "key": "mimosa",
+      "name": "Mimosa",
+      "recipe_type": "cocktail",
+      "output_file": "mimosa.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Mimosa cocktail ingredients.png",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mimosa_cocktail_ingredients.png",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Mimosa_cocktail_ingredients.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/png",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "GeoO",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "mint-julep",
+      "name": "Mint Julep",
+      "recipe_type": "cocktail",
+      "output_file": "mint-julep.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Mint julep at Revel in New Orleans.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mint_julep_at_Revel_in_New_Orleans.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mint_julep_at_Revel_in_New_Orleans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Jami430",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "missionarys-downfall",
+      "name": "Missionary's Downfall",
+      "recipe_type": "cocktail",
+      "output_file": "missionarys-downfall.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Missionary's downfall.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Missionary%27s_downfall.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Missionary%27s_downfall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "monkey-gland",
+      "name": "Monkey Gland",
+      "recipe_type": "cocktail",
+      "output_file": "monkey-gland.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Monkey Gland (11677703163).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Monkey_Gland_(11677703163).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Monkey_Gland_%2811677703163%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Adrian Scottow from London, England",
+        "credit": "Monkey Gland"
+      }
+    },
+    {
+      "key": "moscow-mule",
+      "name": "Moscow Mule",
+      "recipe_type": "cocktail",
+      "output_file": "moscow-mule.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Moscow mule Cocktail im Kupferbecher.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Moscow_mule_Cocktail_im_Kupferbecher.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Moscow_mule_Cocktail_im_Kupferbecher.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Gordito1869",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "naked-and-famous",
+      "name": "Naked and Famous",
+      "recipe_type": "cocktail",
+      "output_file": "naked-and-famous.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Naked and Famous cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Naked_and_Famous_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Naked_and_Famous_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Rascalisimo",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "new-york-sour",
+      "name": "New York Sour",
+      "recipe_type": "cocktail",
+      "output_file": "new-york-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:New York Sour.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:New_York_Sour.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/New_York_Sour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Erich Wagner (www.eventografie.de)",
+        "credit": "uploaded on behalf of the creator / hochgeladen im Auftrag des Urhebers"
+      }
+    },
+    {
+      "key": "old-cuban",
+      "name": "Old Cuban",
+      "recipe_type": "cocktail",
+      "output_file": "old-cuban.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:15-09-26-RalfR-WLC-0312.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0312.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/15-09-26-RalfR-WLC-0312.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Ralf Roletschek",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "orange-blossom",
+      "name": "Orange Blossom",
+      "recipe_type": "cocktail",
+      "output_file": "orange-blossom.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Kitchen Table Café, Arabi, Louisiana - Orange Blossom Special cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Kitchen_Table_Caf%C3%A9,_Arabi,_Louisiana_-_Orange_Blossom_Special_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Kitchen_Table_Caf%C3%A9%2C_Arabi%2C_Louisiana_-_Orange_Blossom_Special_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Infrogmation of New Orleans",
+        "credit": "https://www.flickr.com/photos/infrogmation/29901414080/"
+      }
+    },
+    {
+      "key": "paloma",
+      "name": "Paloma",
+      "recipe_type": "cocktail",
+      "output_file": "paloma.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Cóctel paloma y sangrita, Mazatlán, 23 de noviembre de 2022 02.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:C%C3%B3ctel_paloma_y_sangrita,_Mazatl%C3%A1n,_23_de_noviembre_de_2022_02.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/C%C3%B3ctel_paloma_y_sangrita%2C_Mazatl%C3%A1n%2C_23_de_noviembre_de_2022_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "El Nuevo Doge",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "paper-plane",
+      "name": "Paper Plane",
+      "recipe_type": "cocktail",
+      "output_file": "paper-plane.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Taub Famiy Outpost - June 9 2021 - Sarah Stierch.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Taub_Famiy_Outpost_-_June_9_2021_-_Sarah_Stierch.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Taub_Famiy_Outpost_-_June_9_2021_-_Sarah_Stierch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Missvain",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "paradise",
+      "name": "Paradise",
+      "recipe_type": "cocktail",
+      "output_file": "paradise.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Rainbow-paradise-cocktail-scaled-scaled-735x1102.webp",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rainbow-paradise-cocktail-scaled-scaled-735x1102.webp",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Rainbow-paradise-cocktail-scaled-scaled-735x1102.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/webp",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Nicole Goldman",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "penicillin",
+      "name": "Penicillin",
+      "recipe_type": "cocktail",
+      "output_file": "penicillin.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Penicillin Cocktail.png",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Penicillin_Cocktail.png",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Penicillin_Cocktail.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/png",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Matthias Friedlein (www.augustine-bar.de)",
+        "credit": "uploaded on behalf of the creator / hochgeladen im Auftrag des Urhebers"
+      }
+    },
+    {
+      "key": "pineapple-daiquiri",
+      "name": "Pineapple Daiquiri",
+      "recipe_type": "cocktail",
+      "output_file": "pineapple-daiquiri.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Garden Daiquiri and Cocktail Snacks (42941099655).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Garden_Daiquiri_and_Cocktail_Snacks_(42941099655).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Garden_Daiquiri_and_Cocktail_Snacks_%2842941099655%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "T.Tseng",
+        "credit": "Garden Daiquiri and Cocktail Snacks"
+      }
+    },
+    {
+      "key": "pineapple-fizz",
+      "name": "Pineapple Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "pineapple-fizz.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Virgin Pina Colada and Strawberry Fizz - Etci Kitchen 2025-09-22.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Virgin_Pina_Colada_and_Strawberry_Fizz_-_Etci_Kitchen_2025-09-22.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Virgin_Pina_Colada_and_Strawberry_Fizz_-_Etci_Kitchen_2025-09-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Andy Li",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "pineapple-ginger-mocktail",
+      "name": "Pineapple Ginger",
+      "recipe_type": "mocktail",
+      "output_file": "pineapple-ginger-mocktail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Sobo Juice In Northern Nigeria 5.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Sobo_Juice_In_Northern_Nigeria_5.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sobo_Juice_In_Northern_Nigeria_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Hajjare",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "club-pineapple-mocktail",
+      "name": "Pineapple Soda",
+      "recipe_type": "mocktail",
+      "output_file": "club-pineapple-mocktail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Recipes for the Manufacture of Aerated & Mineral Waters and Non-Alcoholic Cordials - DPLA - f0f1ad85cbe19998d323fc350788106e (page 51).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Recipes_for_the_Manufacture_of_Aerated_%26_Mineral_Waters_and_Non-Alcoholic_Cordials_-_DPLA_-_f0f1ad85cbe19998d323fc350788106e_(page_51).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipes_for_the_Manufacture_of_Aerated_%26_Mineral_Waters_and_Non-Alcoholic_Cordials_-_DPLA_-_f0f1ad85cbe19998d323fc350788106e_%28page_51%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bush, William Ernest, 1861-1903",
+        "credit": "This file was contributed to Wikimedia Commons by Science History Institute as part of a cooperation project. The donation was facilitated by the Digital Public Library of America, via its partner PA Digital.\nRecord in source catalog\nDPLA identifier: f0f1ad85cbe19998d323fc350788106e\nScience History Institute identifier: padig:SHI-ru09hu5"
+      }
+    },
+    {
+      "key": "pisco-punch",
+      "name": "Pisco Punch",
+      "recipe_type": "cocktail",
+      "output_file": "pisco-punch.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Pisco Punch.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Pisco_Punch.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pisco_Punch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Ministerio de Relaciones Exteriores",
+        "credit": "https://www.flickr.com/photos/cancilleriadeperu/15417944987/"
+      }
+    },
+    {
+      "key": "pisco-sour",
+      "name": "Pisco Sour",
+      "recipe_type": "cocktail",
+      "output_file": "pisco-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Pérou Préparation d'un cocktail Pisco Sour.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:P%C3%A9rou_Pr%C3%A9paration_d%27un_cocktail_Pisco_Sour.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/P%C3%A9rou_Pr%C3%A9paration_d%27un_cocktail_Pisco_Sour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Pierre André Leclercq",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "planters-punch",
+      "name": "Planter's Punch",
+      "recipe_type": "cocktail",
+      "output_file": "planters-punch.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Planters Punch 1.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Planters_Punch_1.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Planters_Punch_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "artist": "Achim Schleuning (E-Mail: comander02_de@yahoo.de)",
+        "credit": "hochgeladen im Auftrag von / uploaded on behalf of:  Achim Schleuning"
+      }
+    },
+    {
+      "key": "porn-star-martini",
+      "name": "Porn Star Martini",
+      "recipe_type": "cocktail",
+      "output_file": "porn-star-martini.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Porn star martini cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Porn_star_martini_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Porn_star_martini_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Ben Sutherland",
+        "credit": "https://www.flickr.com/photos/bensutherland/439607012/"
+      }
+    },
+    {
+      "key": "porto-flip",
+      "name": "Porto Flip",
+      "recipe_type": "cocktail",
+      "output_file": "porto-flip.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Porto Flip.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Porto_Flip.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Porto_Flip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Stuart Webster",
+        "credit": "Flickr: Porto Flip"
+      }
+    },
+    {
+      "key": "rabo-de-galo",
+      "name": "Rabo de Galo",
+      "recipe_type": "cocktail",
+      "output_file": "rabo-de-galo.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Rabo de Galo (1511113688).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rabo_de_Galo_(1511113688).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Rabo_de_Galo_%281511113688%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Stella Dauer from São Bernardo do Campo, Brasil",
+        "credit": "Rabo de Galo"
+      }
+    },
+    {
+      "key": "ramos-fizz",
+      "name": "Ramos Fizz",
+      "recipe_type": "cocktail",
+      "output_file": "ramos-fizz.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Ramos Fizz.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Ramos_Fizz.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Ramos_Fizz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Stuart Webster",
+        "credit": "https://www.flickr.com/photos/stuartwebster/4309505533/"
+      }
+    },
+    {
+      "key": "remember-the-maine",
+      "name": "Remember the Maine",
+      "recipe_type": "cocktail",
+      "output_file": "remember-the-maine.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Remember the Maine - Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Remember_the_Maine_-_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Remember_the_Maine_-_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Adrian Scottow",
+        "credit": "https://www.flickr.com/photos/chodhound/17107576715/"
+      }
+    },
+    {
+      "key": "rob-roy",
+      "name": "Rob Roy",
+      "recipe_type": "cocktail",
+      "output_file": "rob-roy.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Rob Roy Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rob_Roy_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Rob_Roy_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "TheCulinaryGeek",
+        "credit": "https://www.flickr.com/photos/preppybyday/5057781371/"
+      }
+    },
+    {
+      "key": "rum-lemonade",
+      "name": "Rum Lemonade",
+      "recipe_type": "cocktail",
+      "output_file": "rum-lemonade.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Cocktails (5297823968).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cocktails_(5297823968).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Cocktails_%285297823968%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Rishabh Mathur from Bangalore, India",
+        "credit": "Cocktails"
+      }
+    },
+    {
+      "key": "rum-old-fashioned",
+      "name": "Rum Old Fashioned",
+      "recipe_type": "cocktail",
+      "output_file": "rum-old-fashioned.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Rum, Manhattan, Tequila Old Fashioned (1).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rum,_Manhattan,_Tequila_Old_Fashioned_(1).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Rum%2C_Manhattan%2C_Tequila_Old_Fashioned_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "File:Rum, Manhattan, Tequila Old Fashioned.jpg: Cocktailmarler\nderivative work: Jocian",
+        "credit": "This file was derived from:  Rum, Manhattan, Tequila Old Fashioned.jpg:"
+      }
+    },
+    {
+      "key": "rum-punch",
+      "name": "Rum Punch",
+      "recipe_type": "cocktail",
+      "output_file": "rum-punch.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:2 1-2 dollar note and rum punch - Paramaribo (23728395922).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:2_1-2_dollar_note_and_rum_punch_-_Paramaribo_(23728395922).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/2_1-2_dollar_note_and_rum_punch_-_Paramaribo_%2823728395922%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Dan Sloan",
+        "credit": "2 1/2 dollar note and rum punch - Paramaribo"
+      }
+    },
+    {
+      "key": "rusty-nail",
+      "name": "Rusty Nail",
+      "recipe_type": "cocktail",
+      "output_file": "rusty-nail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Rusty Nail a cocktail by @tokenchick13 (16503594826).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rusty_Nail_a_cocktail_by_@tokenchick13_(16503594826).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Rusty_Nail_a_cocktail_by_%40tokenchick13_%2816503594826%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Brian Child",
+        "credit": "Rusty Nail a cocktail by @tokenchick13"
+      }
+    },
+    {
+      "key": "rye-sour",
+      "name": "Rye Sour",
+      "recipe_type": "cocktail",
+      "output_file": "rye-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:VTR - Rye Sour.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:VTR_-_Rye_Sour.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/VTR_-_Rye_Sour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Edsel L",
+        "credit": "https://www.flickr.com/photos/27119975@N00/5438197847/"
+      }
+    },
+    {
+      "key": "salty-dog",
+      "name": "Salty Dog",
+      "recipe_type": "cocktail",
+      "output_file": "salty-dog.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Salty Dog.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Salty_Dog.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Salty_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Momoji3",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "sazerac",
+      "name": "Sazerac",
+      "recipe_type": "cocktail",
+      "output_file": "sazerac.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Sazerac Cocktail - New Orleans April 2022.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Sazerac_Cocktail_-_New_Orleans_April_2022.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sazerac_Cocktail_-_New_Orleans_April_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Carnaval.com Studios",
+        "credit": "https://www.flickr.com/photos/aforum/52026921437/"
+      }
+    },
+    {
+      "key": "scotch-soda",
+      "name": "Scotch and Soda",
+      "recipe_type": "cocktail",
+      "output_file": "scotch-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Glass of Scotch and soda.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Glass_of_Scotch_and_soda.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Glass_of_Scotch_and_soda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DoubleGrazing",
+        "credit": "Own work by the original uploader"
+      }
+    },
+    {
+      "key": "scotch-sour",
+      "name": "Scotch Sour",
+      "recipe_type": "cocktail",
+      "output_file": "scotch-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:NewYork Sour scotch.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:NewYork_Sour_scotch.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/NewYork_Sour_scotch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Corvus",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "screwdriver",
+      "name": "Screwdriver",
+      "recipe_type": "cocktail",
+      "output_file": "screwdriver.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Screwdriver cocktail ingredients.png",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Screwdriver_cocktail_ingredients.png",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Screwdriver_cocktail_ingredients.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/png",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "GeoO",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "sex-on-the-beach",
+      "name": "Sex on the Beach",
+      "recipe_type": "cocktail",
+      "output_file": "sex-on-the-beach.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Sex On The Beach Cocktail @ Clare Hotel 20250123-124727.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Sex_On_The_Beach_Cocktail_@_Clare_Hotel_20250123-124727.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sex_On_The_Beach_Cocktail_%40_Clare_Hotel_20250123-124727.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "RegionVisitor90",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "sherry-cobbler",
+      "name": "Sherry Cobbler",
+      "recipe_type": "cocktail",
+      "output_file": "sherry-cobbler.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Sherry cobbler.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Sherry_cobbler.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sherry_cobbler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "shirley-temple",
+      "name": "Shirley Temple",
+      "recipe_type": "mocktail",
+      "output_file": "shirley-temple.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Shirley Temple & Cosmopolitan cocktails.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Shirley_Temple_%26_Cosmopolitan_cocktails.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Shirley_Temple_%26_Cosmopolitan_cocktails.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "cbgrfx123",
+        "credit": "Flickr: Cocktails!"
+      }
+    },
+    {
+      "key": "southside",
+      "name": "Southside",
+      "recipe_type": "cocktail",
+      "output_file": "southside.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Clover club southside fizz (3285775440).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Clover_club_southside_fizz_(3285775440).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Clover_club_southside_fizz_%283285775440%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Krista",
+        "credit": "clover club southside fizz"
+      }
+    },
+    {
+      "key": "spicy-fifty",
+      "name": "Spicy Fifty",
+      "recipe_type": "cocktail",
+      "output_file": "spicy-fifty.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Spicy Fifty.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Spicy_Fifty.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Spicy_Fifty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "stinger",
+      "name": "Stinger",
+      "recipe_type": "cocktail",
+      "output_file": "stinger.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Stinger Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Stinger_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Stinger_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/stinger/dpo"
+      }
+    },
+    {
+      "key": "strawberry-daiquiri",
+      "name": "Strawberry Daiquiri",
+      "recipe_type": "cocktail",
+      "output_file": "strawberry-daiquiri.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Rose, Strawberry Daiquiri, バラ, ストロベリー ダイキリ, (15712192726).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rose,_Strawberry_Daiquiri,_%E3%83%90%E3%83%A9,_%E3%82%B9%E3%83%88%E3%83%AD%E3%83%99%E3%83%AA%E3%83%BC_%E3%83%80%E3%82%A4%E3%82%AD%E3%83%AA,_(15712192726).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Rose%2C_Strawberry_Daiquiri%2C_%E3%83%90%E3%83%A9%2C_%E3%82%B9%E3%83%88%E3%83%AD%E3%83%99%E3%83%AA%E3%83%BC_%E3%83%80%E3%82%A4%E3%82%AD%E3%83%AA%2C_%2815712192726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "T.Kiya from Japan",
+        "credit": "Rose, Strawberry Daiquiri, バラ, ストロベリー ダイキリ,"
+      }
+    },
+    {
+      "key": "suffering-bastard",
+      "name": "Suffering Bastard",
+      "recipe_type": "cocktail",
+      "output_file": "suffering-bastard.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Suffering Bastard Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Suffering_Bastard_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Suffering_Bastard_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/suffering-bastard/cfhy"
+      }
+    },
+    {
+      "key": "tequila-grapefruit",
+      "name": "Tequila Grapefruit",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-grapefruit.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:TequilaPaloma.JPG",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:TequilaPaloma.JPG",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/TequilaPaloma.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Antonio Cavallo",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tequila-lemonade",
+      "name": "Tequila Lemonade",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-lemonade.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Cheers !!! (5297201751).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cheers_!!!_(5297201751).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cheers_%21%21%21_%285297201751%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Rishabh Mathur from Bangalore, India",
+        "credit": "Cheers !!!"
+      }
+    },
+    {
+      "key": "tequila-old-fashioned",
+      "name": "Tequila Old Fashioned",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-old-fashioned.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Rum, Manhattan, Tequila Old Fashioned.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Rum,_Manhattan,_Tequila_Old_Fashioned.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Rum%2C_Manhattan%2C_Tequila_Old_Fashioned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Cocktailmarler",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tequila-orange",
+      "name": "Tequila Orange",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-orange.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Mardi Gras Carnival and Mexican Melon - Montagues Tex Mex 2026-06-03.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mardi_Gras_Carnival_and_Mexican_Melon_-_Montagues_Tex_Mex_2026-06-03.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Mardi_Gras_Carnival_and_Mexican_Melon_-_Montagues_Tex_Mex_2026-06-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Andy Li",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tequila-pineapple",
+      "name": "Tequila Pineapple",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-pineapple.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:La base del tequila agave azul tequilana Weber.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:La_base_del_tequila_agave_azul_tequilana_Weber.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/La_base_del_tequila_agave_azul_tequilana_Weber.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alfonso Jiménez",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tequila-sour",
+      "name": "Tequila Sour",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Tequila sour.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Tequila_sour.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Tequila_sour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Jennight",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tequila-sunrise",
+      "name": "Tequila Sunrise",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-sunrise.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Tequila Sunrise 2013.JPG",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Tequila_Sunrise_2013.JPG",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tequila_Sunrise_2013.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "stavros1",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tequila-tonic",
+      "name": "Tequila Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-tonic.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Tequila & Tonic.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Tequila_%26_Tonic.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Tequila_%26_Tonic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Surv1v4l1st",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "three-dots-and-a-dash",
+      "name": "Three Dots and a Dash",
+      "recipe_type": "cocktail",
+      "output_file": "three-dots-and-a-dash.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Three Dots and a Dash cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Three_Dots_and_a_Dash_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Three_Dots_and_a_Dash_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tipperary",
+      "name": "Tipperary",
+      "recipe_type": "cocktail",
+      "output_file": "tipperary.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Tipperary.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Tipperary.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tipperary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "tom-collins",
+      "name": "Tom Collins",
+      "recipe_type": "cocktail",
+      "output_file": "tom-collins.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Tom Collins cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Tom_Collins_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Tom_Collins_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Daniel Nguyen",
+        "credit": "originally posted to Flickr as Tom Collins in the city"
+      }
+    },
+    {
+      "key": "tommys-margarita",
+      "name": "Tommy's Margarita",
+      "recipe_type": "cocktail",
+      "output_file": "tommys-margarita.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:TommysMargarita.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:TommysMargarita.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/TommysMargarita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Rick Audet",
+        "credit": "https://www.flickr.com/photos/spine/2497600689/in/photolist-4NGRER-NbHQX-28RLYt-crwr7h-gR3jf-ek5Rp-ek7TR-5en6k5-6rSjdr-4XjMQ-dAHwY-wa8fyj-wscMHg/"
+      }
+    },
+    {
+      "key": "trinidad-sour",
+      "name": "Trinidad Sour",
+      "recipe_type": "cocktail",
+      "output_file": "trinidad-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:VTR - Trinidad Sour (18045674468).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:VTR_-_Trinidad_Sour_(18045674468).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/VTR_-_Trinidad_Sour_%2818045674468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Edsel Little",
+        "credit": "VTR - Trinidad Sour"
+      }
+    },
+    {
+      "key": "tuxedo",
+      "name": "Tuxedo",
+      "recipe_type": "cocktail",
+      "output_file": "tuxedo.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Tuxedo No. 2 cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Tuxedo_No._2_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Tuxedo_No._2_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "ve-n-to",
+      "name": "Ve.N.To",
+      "recipe_type": "cocktail",
+      "output_file": "ve-n-to.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Ve.n.to cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Ve.n.to_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ve.n.to_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Jonsico",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "vesper",
+      "name": "Vesper",
+      "recipe_type": "cocktail",
+      "output_file": "vesper.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Vesper cocktail ingredients.png",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Vesper_cocktail_ingredients.png",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Vesper_cocktail_ingredients.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/png",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "GeoO",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "vieux-carre",
+      "name": "Vieux Carré",
+      "recipe_type": "cocktail",
+      "output_file": "vieux-carre.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Vieux Carre Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Vieux_Carre_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Vieux_Carre_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Adrian Scottow",
+        "credit": "https://www.flickr.com/photos/chodhound/16487278093/"
+      }
+    },
+    {
+      "key": "virgin-mojito",
+      "name": "Virgin Mojito",
+      "recipe_type": "mocktail",
+      "output_file": "virgin-mojito.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 82,
+        "file_title": "File:Mojito Cocktail Drawing Icon.svg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mojito_Cocktail_Drawing_Icon.svg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mojito_Cocktail_Drawing_Icon.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/svg+xml",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "OpenClipart",
+        "credit": "https://freesvg.org/mojito-cocktail"
+      }
+    },
+    {
+      "key": "virgin-pina-colada",
+      "name": "Virgin Piña Colada",
+      "recipe_type": "mocktail",
+      "output_file": "virgin-pina-colada.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Pina Colada at Aruba.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Pina_Colada_at_Aruba.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Pina_Colada_at_Aruba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DDJJ",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "vodka-collins",
+      "name": "Vodka Collins",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-collins.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Vodka-1972.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Vodka-1972.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Vodka-1972.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vanwalker",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "vodka-cranberry",
+      "name": "Vodka Cranberry",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-cranberry.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Vodka Cranberry Cocktail (5408164203).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Vodka_Cranberry_Cocktail_(5408164203).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vodka_Cranberry_Cocktail_%285408164203%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "MoneyBlogNewz",
+        "credit": "Mixed drink"
+      }
+    },
+    {
+      "key": "vodka-pineapple",
+      "name": "Vodka Pineapple",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-pineapple.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 96,
+        "file_title": "File:Catwalk cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Catwalk_cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Catwalk_cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Charandeep Singh",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "vodka-soda",
+      "name": "Vodka Soda",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Vodka Soda (cropped).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Vodka_Soda_(cropped).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Vodka_Soda_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Molly1900",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "vodka-sour",
+      "name": "Vodka Sour",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Sour Fisk Watermelon.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Sour_Fisk_Watermelon.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sour_Fisk_Watermelon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "JIP",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "vodka-tonic",
+      "name": "Vodka Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-tonic.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Vodka tonic.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Vodka_tonic.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Vodka_tonic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "FIshstick at English Wikipedia",
+        "credit": "Transferred from en.wikipedia to Commons."
+      }
+    },
+    {
+      "key": "irish-creamless-coffee",
+      "name": "Whiskey Coffee",
+      "recipe_type": "cocktail",
+      "output_file": "irish-creamless-coffee.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 88,
+        "file_title": "File:Thomas Butler Gunn Diaries- Volume 9, page 223, October 11, 1858.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Thomas_Butler_Gunn_Diaries-_Volume_9,_page_223,_October_11,_1858.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Thomas_Butler_Gunn_Diaries-_Volume_9%2C_page_223%2C_October_11%2C_1858.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Gunn, Thomas Butler, 1826-1903",
+        "credit": "Missouri History MuseumURL: http://images.mohistory.org/image/D5392932-338B-8968-183A-5ED454953378/original.jpgGallery: http://collections.mohistory.org/resource/181128"
+      }
+    },
+    {
+      "key": "whiskey-ginger",
+      "name": "Whiskey Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "whiskey-ginger.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Whiskey Ginger, London Bridge, SE1.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Whiskey_Ginger,_London_Bridge,_SE1.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Whiskey_Ginger%2C_London_Bridge%2C_SE1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Ewan-M",
+        "credit": "https://www.flickr.com/photos/55935853@N00/30348973028/"
+      }
+    },
+    {
+      "key": "white-lady",
+      "name": "White Lady",
+      "recipe_type": "cocktail",
+      "output_file": "white-lady.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:White Lady (cocktail).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:White_Lady_(cocktail).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/White_Lady_%28cocktail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Momoji3",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "white-russian",
+      "name": "White Russian",
+      "recipe_type": "cocktail",
+      "output_file": "white-russian.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:White Russian - CrystalMixer.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:White_Russian_-_CrystalMixer.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/White_Russian_-_CrystalMixer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "CrystalMixer - CrystalMixer.com",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "zombie",
+      "name": "Zombie",
+      "recipe_type": "cocktail",
+      "output_file": "zombie.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Zombie cocktail gianni zottola.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Zombie_cocktail_gianni_zottola.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Zombie_cocktail_gianni_zottola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "GianniZottola",
+        "credit": "Own work"
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "amaretto-cola",
+      "name": "Amaretto and Cola",
+      "recipe_type": "cocktail",
+      "output_file": "amaretto-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "amaretto-coffee-sour",
+      "name": "Amaretto Espresso Sour",
+      "recipe_type": "cocktail",
+      "output_file": "amaretto-coffee-sour.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "amaretto-ginger",
+      "name": "Amaretto Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "amaretto-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "amaretto-spritz",
+      "name": "Amaretto Spritz",
+      "recipe_type": "cocktail",
+      "output_file": "amaretto-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "aperol-tonic",
+      "name": "Aperol Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "aperol-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "basil-gimlet",
+      "name": "Basil Gimlet",
+      "recipe_type": "cocktail",
+      "output_file": "basil-gimlet.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "black-and-tan-coffee",
+      "name": "Black Coffee Cocktail",
+      "recipe_type": "cocktail",
+      "output_file": "black-and-tan-coffee.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bourbon-root-beer",
+      "name": "Bourbon and Root Beer",
+      "recipe_type": "cocktail",
+      "output_file": "bourbon-root-beer.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "coffee-bourbon",
+      "name": "Bourbon Coffee",
+      "recipe_type": "cocktail",
+      "output_file": "coffee-bourbon.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bourbon-daisy",
+      "name": "Bourbon Daisy",
+      "recipe_type": "cocktail",
+      "output_file": "bourbon-daisy.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bourbon-lemonade",
+      "name": "Bourbon Lemonade",
+      "recipe_type": "cocktail",
+      "output_file": "bourbon-lemonade.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bourbon-party-punch",
+      "name": "Bourbon Party Punch",
+      "recipe_type": "cocktail",
+      "output_file": "bourbon-party-punch.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bourbon-soda",
+      "name": "Bourbon Soda",
+      "recipe_type": "cocktail",
+      "output_file": "bourbon-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bourbon-sour-no-egg",
+      "name": "Bourbon Sour",
+      "recipe_type": "cocktail",
+      "output_file": "bourbon-sour-no-egg.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bourbon-tonic",
+      "name": "Bourbon Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "bourbon-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "brandy-coffee",
+      "name": "Brandy Coffee",
+      "recipe_type": "cocktail",
+      "output_file": "brandy-coffee.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "brandy-collins",
+      "name": "Brandy Collins",
+      "recipe_type": "cocktail",
+      "output_file": "brandy-collins.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "brandy-daisy",
+      "name": "Brandy Daisy",
+      "recipe_type": "cocktail",
+      "output_file": "brandy-daisy.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "brandy-ginger",
+      "name": "Brandy Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "brandy-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "brandy-sour-lemon",
+      "name": "Brandy Lemon Sour",
+      "recipe_type": "cocktail",
+      "output_file": "brandy-sour-lemon.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "brandy-soda",
+      "name": "Brandy Soda",
+      "recipe_type": "cocktail",
+      "output_file": "brandy-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "brandy-spritz",
+      "name": "Brandy Spritz",
+      "recipe_type": "cocktail",
+      "output_file": "brandy-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "bronx",
+      "name": "Bronx",
+      "recipe_type": "cocktail",
+      "output_file": "bronx.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "virgin-whiskey-sour",
+      "name": "Citrus Sour Mocktail",
+      "recipe_type": "mocktail",
+      "output_file": "virgin-whiskey-sour.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "coffee-liqueur-cola",
+      "name": "Coffee Liqueur and Cola",
+      "recipe_type": "cocktail",
+      "output_file": "coffee-liqueur-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cognac-cola",
+      "name": "Cognac and Cola",
+      "recipe_type": "cocktail",
+      "output_file": "cognac-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cognac-collins",
+      "name": "Cognac Collins",
+      "recipe_type": "cocktail",
+      "output_file": "cognac-collins.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cognac-ginger",
+      "name": "Cognac Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "cognac-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cognac-sour",
+      "name": "Cognac Sour",
+      "recipe_type": "cocktail",
+      "output_file": "cognac-sour.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cognac-spritz",
+      "name": "Cognac Spritz",
+      "recipe_type": "cocktail",
+      "output_file": "cognac-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cognac-tonic",
+      "name": "Cognac Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "cognac-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cranberry-ginger-mocktail",
+      "name": "Cranberry Ginger",
+      "recipe_type": "mocktail",
+      "output_file": "cranberry-ginger-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cranberry-lime-spritz",
+      "name": "Cranberry Lime Spritz",
+      "recipe_type": "mocktail",
+      "output_file": "cranberry-lime-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cranberry-orange-spritz",
+      "name": "Cranberry Orange Spritz",
+      "recipe_type": "mocktail",
+      "output_file": "cranberry-orange-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "cucumber-mint-soda",
+      "name": "Cucumber Mint Soda",
+      "recipe_type": "mocktail",
+      "output_file": "cucumber-mint-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "dark-rum-coffee",
+      "name": "Dark Rum Coffee",
+      "recipe_type": "cocktail",
+      "output_file": "dark-rum-coffee.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "dark-rum-ginger",
+      "name": "Dark Rum Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "dark-rum-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "dark-rum-orange",
+      "name": "Dark Rum Orange",
+      "recipe_type": "cocktail",
+      "output_file": "dark-rum-orange.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "dark-rum-tonic",
+      "name": "Dark Rum Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "dark-rum-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "dons-special-daiquiri",
+      "name": "Don's Special Daiquiri",
+      "recipe_type": "cocktail",
+      "output_file": "dons-special-daiquiri.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "fernandito",
+      "name": "Fernandito",
+      "recipe_type": "cocktail",
+      "output_file": "fernandito.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gin-campari-tonic",
+      "name": "Gin Campari Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "gin-campari-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gin-daisy",
+      "name": "Gin Daisy",
+      "recipe_type": "cocktail",
+      "output_file": "gin-daisy.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gin-ginger",
+      "name": "Gin Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "gin-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gin-old-fashioned",
+      "name": "Gin Old Fashioned",
+      "recipe_type": "cocktail",
+      "output_file": "gin-old-fashioned.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gin-orange",
+      "name": "Gin Orange",
+      "recipe_type": "cocktail",
+      "output_file": "gin-orange.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "ginger-cranberry-spritz",
+      "name": "Ginger Cranberry Spritz",
+      "recipe_type": "mocktail",
+      "output_file": "ginger-cranberry-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "ginger-grapefruit-spritz",
+      "name": "Ginger Grapefruit Spritz",
+      "recipe_type": "mocktail",
+      "output_file": "ginger-grapefruit-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "ginger-lime-fizz",
+      "name": "Ginger Lime Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "ginger-lime-fizz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "ginger-orange-spritz",
+      "name": "Ginger Orange Spritz",
+      "recipe_type": "mocktail",
+      "output_file": "ginger-orange-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "godmother",
+      "name": "Godmother",
+      "recipe_type": "cocktail",
+      "output_file": "godmother.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gold-rum-cola",
+      "name": "Gold Rum and Cola",
+      "recipe_type": "cocktail",
+      "output_file": "gold-rum-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gold-rum-ginger",
+      "name": "Gold Rum Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "gold-rum-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gold-rum-pineapple",
+      "name": "Gold Rum Pineapple",
+      "recipe_type": "cocktail",
+      "output_file": "gold-rum-pineapple.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gold-rum-sour",
+      "name": "Gold Rum Sour",
+      "recipe_type": "cocktail",
+      "output_file": "gold-rum-sour.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "gold-rum-tonic",
+      "name": "Gold Rum Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "gold-rum-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "grand-margarita",
+      "name": "Grand Margarita",
+      "recipe_type": "cocktail",
+      "output_file": "grand-margarita.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "grapefruit-fizz-mocktail",
+      "name": "Grapefruit Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "grapefruit-fizz-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "grapefruit-lime-spritz",
+      "name": "Grapefruit Lime Spritz",
+      "recipe_type": "mocktail",
+      "output_file": "grapefruit-lime-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "grapefruit-tonic-mocktail",
+      "name": "Grapefruit Tonic",
+      "recipe_type": "mocktail",
+      "output_file": "grapefruit-tonic-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "grenadine-lemon-fizz",
+      "name": "Grenadine Lemon Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "grenadine-lemon-fizz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "hemingway-special",
+      "name": "Hemingway Special",
+      "recipe_type": "cocktail",
+      "output_file": "hemingway-special.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "irish-whiskey-cola",
+      "name": "Irish Whiskey Cola",
+      "recipe_type": "cocktail",
+      "output_file": "irish-whiskey-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "irish-whiskey-cranberry",
+      "name": "Irish Whiskey Cranberry",
+      "recipe_type": "cocktail",
+      "output_file": "irish-whiskey-cranberry.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "irish-whiskey-ginger",
+      "name": "Irish Whiskey Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "irish-whiskey-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "irish-whiskey-soda",
+      "name": "Irish Whiskey Soda",
+      "recipe_type": "cocktail",
+      "output_file": "irish-whiskey-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "irish-whiskey-sour",
+      "name": "Irish Whiskey Sour",
+      "recipe_type": "cocktail",
+      "output_file": "irish-whiskey-sour.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "lemon-drop-martini",
+      "name": "Lemon Drop Martini",
+      "recipe_type": "cocktail",
+      "output_file": "lemon-drop-martini.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "lemon-tonic-mocktail",
+      "name": "Lemon Tonic",
+      "recipe_type": "mocktail",
+      "output_file": "lemon-tonic-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mezcal-grapefruit",
+      "name": "Mezcal Grapefruit",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-grapefruit.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mezcal-old-fashioned",
+      "name": "Mezcal Old Fashioned",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-old-fashioned.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mezcal-soda",
+      "name": "Mezcal Soda",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mezcal-tonic",
+      "name": "Mezcal Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "mezcal-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mint-lemon-fizz",
+      "name": "Mint Lemon Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "mint-lemon-fizz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mint-lime-fizz",
+      "name": "Mint Lime Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "mint-lime-fizz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "orange-fizz-mocktail",
+      "name": "Orange Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "orange-fizz-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "orange-ginger-mocktail",
+      "name": "Orange Ginger",
+      "recipe_type": "mocktail",
+      "output_file": "orange-ginger-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "orange-lime-soda",
+      "name": "Orange Lime Soda",
+      "recipe_type": "mocktail",
+      "output_file": "orange-lime-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "tonic-orange-mocktail",
+      "name": "Orange Tonic",
+      "recipe_type": "mocktail",
+      "output_file": "tonic-orange-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "orgeat-lime-soda",
+      "name": "Orgeat Lime Soda",
+      "recipe_type": "mocktail",
+      "output_file": "orgeat-lime-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mocktail-party-punch",
+      "name": "Party Punch Mocktail",
+      "recipe_type": "mocktail",
+      "output_file": "mocktail-party-punch.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "perfect-manhattan",
+      "name": "Perfect Manhattan",
+      "recipe_type": "cocktail",
+      "output_file": "perfect-manhattan.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "perfect-martini",
+      "name": "Perfect Martini",
+      "recipe_type": "cocktail",
+      "output_file": "perfect-martini.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "pineapple-colada-soda",
+      "name": "Pineapple Colada Soda",
+      "recipe_type": "mocktail",
+      "output_file": "pineapple-colada-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "pineapple-orange-spritz",
+      "name": "Pineapple Orange Spritz",
+      "recipe_type": "mocktail",
+      "output_file": "pineapple-orange-spritz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "tonic-pineapple-mocktail",
+      "name": "Pineapple Tonic",
+      "recipe_type": "mocktail",
+      "output_file": "tonic-pineapple-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "raspberry-gimlet",
+      "name": "Raspberry Gimlet",
+      "recipe_type": "cocktail",
+      "output_file": "raspberry-gimlet.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "raspberry-lime-soda",
+      "name": "Raspberry Lime Soda",
+      "recipe_type": "mocktail",
+      "output_file": "raspberry-lime-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "reposado-cola",
+      "name": "Reposado and Cola",
+      "recipe_type": "cocktail",
+      "output_file": "reposado-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "reposado-ginger",
+      "name": "Reposado Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "reposado-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "reposado-grapefruit",
+      "name": "Reposado Grapefruit",
+      "recipe_type": "cocktail",
+      "output_file": "reposado-grapefruit.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "reposado-pineapple",
+      "name": "Reposado Pineapple",
+      "recipe_type": "cocktail",
+      "output_file": "reposado-pineapple.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "reposado-sour",
+      "name": "Reposado Sour",
+      "recipe_type": "cocktail",
+      "output_file": "reposado-sour.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "reposado-tonic",
+      "name": "Reposado Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "reposado-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-cola",
+      "name": "Rum and Cola",
+      "recipe_type": "cocktail",
+      "output_file": "rum-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-root-beer",
+      "name": "Rum and Root Beer",
+      "recipe_type": "cocktail",
+      "output_file": "rum-root-beer.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-sprite",
+      "name": "Rum and Sprite",
+      "recipe_type": "cocktail",
+      "output_file": "rum-sprite.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "coffee-rum",
+      "name": "Rum Coffee",
+      "recipe_type": "cocktail",
+      "output_file": "coffee-rum.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-collins",
+      "name": "Rum Collins",
+      "recipe_type": "cocktail",
+      "output_file": "rum-collins.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-cranberry",
+      "name": "Rum Cranberry",
+      "recipe_type": "cocktail",
+      "output_file": "rum-cranberry.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-daisy",
+      "name": "Rum Daisy",
+      "recipe_type": "cocktail",
+      "output_file": "rum-daisy.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-ginger",
+      "name": "Rum Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "rum-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-orange",
+      "name": "Rum Orange",
+      "recipe_type": "cocktail",
+      "output_file": "rum-orange.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-party-punch",
+      "name": "Rum Party Punch",
+      "recipe_type": "cocktail",
+      "output_file": "rum-party-punch.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-pineapple",
+      "name": "Rum Pineapple",
+      "recipe_type": "cocktail",
+      "output_file": "rum-pineapple.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-sour",
+      "name": "Rum Sour",
+      "recipe_type": "cocktail",
+      "output_file": "rum-sour.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "rum-tonic",
+      "name": "Rum Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "rum-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "russian-spring-punch",
+      "name": "Russian Spring Punch",
+      "recipe_type": "cocktail",
+      "output_file": "russian-spring-punch.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "dirty-vodka-style",
+      "name": "Savory Vodka Martini",
+      "recipe_type": "cocktail",
+      "output_file": "dirty-vodka-style.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "scotch-cola",
+      "name": "Scotch and Cola",
+      "recipe_type": "cocktail",
+      "output_file": "scotch-cola.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "scotch-coffee",
+      "name": "Scotch Coffee",
+      "recipe_type": "cocktail",
+      "output_file": "scotch-coffee.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "scotch-ginger",
+      "name": "Scotch Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "scotch-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "scotch-grapefruit",
+      "name": "Scotch Grapefruit",
+      "recipe_type": "cocktail",
+      "output_file": "scotch-grapefruit.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "scotch-tonic",
+      "name": "Scotch Tonic",
+      "recipe_type": "cocktail",
+      "output_file": "scotch-tonic.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "sea-breeze",
+      "name": "Sea Breeze",
+      "recipe_type": "cocktail",
+      "output_file": "sea-breeze.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "mocktail-sunrise",
+      "name": "Sunrise Mocktail",
+      "recipe_type": "mocktail",
+      "output_file": "mocktail-sunrise.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "tequila-collins",
+      "name": "Tequila Collins",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-collins.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "tequila-cranberry",
+      "name": "Tequila Cranberry",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-cranberry.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "tequila-ginger",
+      "name": "Tequila Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "tequila-party-punch",
+      "name": "Tequila Party Punch",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-party-punch.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "tequila-soda",
+      "name": "Tequila Soda",
+      "recipe_type": "cocktail",
+      "output_file": "tequila-soda.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "vanilla-cola-mocktail",
+      "name": "Vanilla Cola",
+      "recipe_type": "mocktail",
+      "output_file": "vanilla-cola-mocktail.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "vanilla-orange-fizz",
+      "name": "Vanilla Orange Fizz",
+      "recipe_type": "mocktail",
+      "output_file": "vanilla-orange-fizz.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "virgin-margarita",
+      "name": "Virgin Margarita",
+      "recipe_type": "mocktail",
+      "output_file": "virgin-margarita.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "virgin-moscow-mule",
+      "name": "Virgin Moscow Mule",
+      "recipe_type": "mocktail",
+      "output_file": "virgin-moscow-mule.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "vodka-daisy",
+      "name": "Vodka Daisy",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-daisy.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "vodka-ginger",
+      "name": "Vodka Ginger",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-ginger.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "vodka-lemonade",
+      "name": "Vodka Lemonade",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-lemonade.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "vodka-martini",
+      "name": "Vodka Martini",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-martini.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "vodka-party-punch",
+      "name": "Vodka Party Punch",
+      "recipe_type": "cocktail",
+      "output_file": "vodka-party-punch.webp",
+      "status": "needs_original_image"
+    },
+    {
+      "key": "whiskey-cola",
+      "name": "Whiskey Cola",
+      "recipe_type": "cocktail",
+      "output_file": "whiskey-cola.webp",
+      "status": "needs_original_image"
+    }
+  ],
+  "duplicate_rejections": [
+    {
+      "recipe": "Gold Rum Pineapple",
+      "file_title": "File:Zombiecocktail.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Zombiecocktail.jpg"
+    },
+    {
+      "recipe": "Rum Ginger",
+      "file_title": "File:15-09-26-RalfR-WLC-0202.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0202.jpg"
+    },
+    {
+      "recipe": "Rum Pineapple",
+      "file_title": "File:Mary Pickford Cocktail.jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Mary_Pickford_Cocktail.jpg"
+    },
+    {
+      "recipe": "Tequila Lemonade",
+      "file_title": "File:Cocktails (5297823968).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Cocktails_(5297823968).jpg"
+    },
+    {
+      "recipe": "Tequila Soda",
+      "file_title": "File:TequilaPaloma.JPG",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:TequilaPaloma.JPG"
+    },
+    {
+      "recipe": "Vodka Lemonade",
+      "file_title": "File:Cheers !!! (5297201751).jpg",
+      "commons_page": "https://commons.wikimedia.org/wiki/File:Cheers_!!!_(5297201751).jpg"
+    }
+  ]
+}
