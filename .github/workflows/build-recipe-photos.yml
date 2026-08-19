@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_recipe_photos.py'
+      - 'scripts/make_recipe_photo_production_manifest.py'
       - '.github/workflows/build-recipe-photos.yml'
   workflow_dispatch:
 
@@ -27,17 +28,35 @@ jobs:
           python-version: '3.12'
       - name: Install Pillow
         run: python -m pip install Pillow
-      - name: Build 800px WebP recipe photos
+      - name: Create Batch 1 production manifest
+        run: python scripts/make_recipe_photo_production_manifest.py
+      - name: Build 800px WebP Batch 1 recipe photos
         run: python scripts/build_recipe_photos.py
-      - name: Commit optimized photos
+      - name: Validate Batch 1 outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('docs/recipe-photo-build-report-batch-1.json').read_text())
+          print(f"Built: {report['built_total']}")
+          print(f"Unresolved: {report['unresolved_total']}")
+          print(f"Expected integrated total: {report['expected_integrated_total_after_build']}/{report['catalog_total']}")
+          if report['built_total'] == 0:
+              raise SystemExit('No Batch 1 photos were approved/built; refusing to commit an empty production run.')
+          PY
+      - name: Commit Batch 1 production photos and metadata
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add frontend/public/media/*.webp
+          git add \
+            docs/recipe-photo-production-batch-1.json \
+            docs/recipe-photo-build-report-batch-1.json \
+            backend/app/recipe_photo_metadata_batch_1.json \
+            frontend/public/media/*.webp
           if git diff --cached --quiet; then
-            echo "Recipe photos are already current."
+            echo "Batch 1 recipe photos are already current."
           else
-            git commit -m "Add optimized proof recipe photos"
+            git commit -m "Integrate Batch 1 recipe photos"
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
