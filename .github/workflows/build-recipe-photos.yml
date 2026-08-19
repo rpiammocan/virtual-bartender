@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/build_recipe_photos.py'
       - 'scripts/make_recipe_photo_production_manifest.py'
+      - 'scripts/integrate_recipe_photo_metadata.py'
       - '.github/workflows/build-recipe-photos.yml'
   workflow_dispatch:
 
@@ -32,6 +33,8 @@ jobs:
         run: python scripts/make_recipe_photo_production_manifest.py
       - name: Build 800px WebP Batch 1 recipe photos
         run: python scripts/build_recipe_photos.py
+      - name: Integrate Batch 1 image metadata into canonical seed
+        run: python scripts/integrate_recipe_photo_metadata.py
       - name: Validate Batch 1 outputs
         run: |
           python - <<'PY'
@@ -52,6 +55,7 @@ jobs:
             docs/recipe-photo-production-batch-1.json \
             docs/recipe-photo-build-report-batch-1.json \
             backend/app/recipe_photo_metadata_batch_1.json \
+            backend/app/seed.py \
             frontend/public/media/*.webp
           if git diff --cached --quiet; then
             echo "Batch 1 recipe photos are already current."
