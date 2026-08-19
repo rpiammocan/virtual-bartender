@@ -1,0 +1,69 @@
+name: Build final recipe photos
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-final-recipe-photos
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image dependency
+        run: python -m pip install Pillow
+      - name: Create duplicate-safe final production manifest
+        run: python scripts/make_final_recipe_photo_production_manifest.py
+      - name: Build final Commons photos and corrected Margarita
+        run: python scripts/build_final_recipe_photos.py
+      - name: Integrate final image metadata into canonical seed
+        run: python scripts/integrate_final_recipe_photo_metadata.py
+      - name: Validate outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          production = json.loads(Path('docs/recipe-photo-final-production.json').read_text())
+          report = json.loads(Path('docs/recipe-photo-final-build-report.json').read_text())
+          metadata = json.loads(Path('backend/app/recipe_photo_metadata_final.json').read_text())
+          print(f"Final batch: {production['final_batch_size']}")
+          print(f"Unique Commons approved: {production['approved_unique_commons_total']}")
+          print(f"Needs original image: {production['needs_original_image_total']}")
+          print(f"Duplicate candidate rejections: {production['duplicate_candidate_rejections_total']}")
+          print(f"Built new images: {report['built_new_recipe_images_total']}")
+          print(f"Duplicate output hashes rejected: {report['duplicate_output_hashes_rejected_total']}")
+          print(f"Expected coverage: {report['expected_image_total_after_build']}/{report['catalog_total']}")
+          assert report['margarita_corrected'] is True
+          assert metadata['margarita']['image_path'] == '/media/margarita.webp'
+          assert 'MargaritaReal.jpg' in metadata['margarita']['image_source_url']
+          if report['built_new_recipe_images_total'] == 0:
+              raise SystemExit('No final Commons images were built; refusing empty integration.')
+          PY
+      - name: Commit final production images, reports, and metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            docs/recipe-photo-final-production.json \
+            docs/recipe-photo-final-build-report.json \
+            backend/app/recipe_photo_metadata_final.json \
+            backend/app/seed.py \
+            frontend/public/media/*.webp
+          if git diff --cached --quiet; then
+            echo "Final recipe photos are already current."
+          else
+            git commit -m "Integrate final Commons recipe photos and fix Margarita"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
