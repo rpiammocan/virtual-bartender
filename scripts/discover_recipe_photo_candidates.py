@@ -1,11 +1,12 @@
-"""Discover Wikimedia Commons image candidates for the current recipe-photo batch.
+"""Discover Wikimedia Commons image candidates for a recipe-photo batch.
 
-Reads docs/recipe-photo-batch-1.json and writes a review manifest containing up to
-five Commons candidates per recipe, including source URL and license metadata.
-Nothing is automatically approved or downloaded into the application.
+Reads a planner JSON and writes a review manifest containing up to five Commons
+candidates per recipe, including source URL and license metadata. Nothing is
+automatically approved or downloaded into the application.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import time
 from pathlib import Path
@@ -13,8 +14,6 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 
-BATCH_PATH = Path("docs/recipe-photo-batch-1.json")
-OUT_PATH = Path("docs/recipe-photo-candidates-batch-1.json")
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "VirtualBartender/1.0 recipe-photo-candidate-discovery"
 ALLOWED_LICENSE_HINTS = ("CC0", "Public domain", "CC BY", "CC BY-SA")
@@ -31,8 +30,15 @@ def api(params: dict) -> dict:
                 return json.loads(response.read().decode("utf-8"))
         except HTTPError as exc:
             if exc.code == 429 and attempt < 6:
-                time.sleep(delay)
-                delay *= 2
+                retry_after = exc.headers.get("Retry-After")
+                try:
+                    wait = int(retry_after) if retry_after else delay
+                except (TypeError, ValueError):
+                    wait = delay
+                wait = max(wait, delay)
+                print(f"Wikimedia rate limit: waiting {wait}s before retry...", flush=True)
+                time.sleep(wait)
+                delay = min(delay * 2, 120)
                 continue
             raise
 
@@ -52,7 +58,6 @@ def ext(meta: dict, key: str) -> str:
 
 
 def search_candidates(name: str) -> list[dict]:
-    # Quoted title first; adding cocktail/drink reduces unrelated matches for generic names.
     queries = [f'"{name}" cocktail', f'"{name}" drink', name]
     seen: set[str] = set()
     titles: list[str] = []
@@ -105,7 +110,14 @@ def search_candidates(name: str) -> list[dict]:
 
 
 def main() -> None:
-    batch = json.loads(BATCH_PATH.read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--batch", default="docs/recipe-photo-batch-1.json")
+    parser.add_argument("--output", default="docs/recipe-photo-candidates-batch-1.json")
+    args = parser.parse_args()
+
+    batch_path = Path(args.batch)
+    out_path = Path(args.output)
+    batch = json.loads(batch_path.read_text(encoding="utf-8"))
     rows = batch["batch"]
     out = {
         "catalog_total": batch["catalog_total"],
@@ -124,9 +136,9 @@ def main() -> None:
         out["recipes"].append({**recipe, "candidates": candidates})
         time.sleep(1.0)
 
-    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUT_PATH.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {OUT_PATH}")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"Wrote {out_path}")
 
 
 if __name__ == "__main__":
