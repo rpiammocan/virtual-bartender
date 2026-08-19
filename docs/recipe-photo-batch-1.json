@@ -1,0 +1,622 @@
+{
+  "catalog_total": 310,
+  "image_metadata_total": 10,
+  "missing_image_total": 300,
+  "batch_size_requested": 100,
+  "batch_size_selected": 100,
+  "duplicate_catalog_keys_ignored": [],
+  "existing_image_keys": [
+    "manhattan",
+    "margarita",
+    "martini",
+    "mojito",
+    "negroni",
+    "old-fashioned",
+    "pina-colada",
+    "sidecar",
+    "singapore-sling",
+    "whiskey-sour"
+  ],
+  "batch": [
+    {
+      "key": "agave-lime-soda",
+      "name": "Agave Lime Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "amaretto-cola",
+      "name": "Amaretto and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "amaretto-coffee",
+      "name": "Amaretto Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated hot drink"
+    },
+    {
+      "key": "amaretto-cream",
+      "name": "Amaretto Cream",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "amaretto-coffee-sour",
+      "name": "Amaretto Espresso Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "amaretto-ginger",
+      "name": "Amaretto Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "amaretto-sour",
+      "name": "Amaretto Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated classic"
+    },
+    {
+      "key": "amaretto-spritz",
+      "name": "Amaretto Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "americano",
+      "name": "Americano",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "angel-face",
+      "name": "Angel Face",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "aperol-soda",
+      "name": "Aperol Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "aperol-spritz",
+      "name": "Aperol Spritz",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "aperol-tonic",
+      "name": "Aperol Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "aviation",
+      "name": "Aviation",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "basil-gimlet",
+      "name": "Basil Gimlet",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "basil-lime-soda",
+      "name": "Basil Lime Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "bees-knees",
+      "name": "Bee's Knees",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "bellini",
+      "name": "Bellini",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "between-the-sheets",
+      "name": "Between the Sheets",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "black-and-tan-coffee",
+      "name": "Black Coffee Cocktail",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "black-russian",
+      "name": "Black Russian",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "bloody-mary",
+      "name": "Bloody Mary",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "boulevardier",
+      "name": "Boulevardier",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "bourbon-cola",
+      "name": "Bourbon and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball"
+    },
+    {
+      "key": "bourbon-root-beer",
+      "name": "Bourbon and Root Beer",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball"
+    },
+    {
+      "key": "coffee-bourbon",
+      "name": "Bourbon Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated hot drink"
+    },
+    {
+      "key": "bourbon-daisy",
+      "name": "Bourbon Daisy",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "bourbon-lemonade",
+      "name": "Bourbon Lemonade",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball"
+    },
+    {
+      "key": "bourbon-party-punch",
+      "name": "Bourbon Party Punch",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "bourbon-soda",
+      "name": "Bourbon Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball"
+    },
+    {
+      "key": "bourbon-sour-no-egg",
+      "name": "Bourbon Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated classic"
+    },
+    {
+      "key": "bourbon-tonic",
+      "name": "Bourbon Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball"
+    },
+    {
+      "key": "bramble",
+      "name": "Bramble",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "brandy-alexander",
+      "name": "Brandy Alexander",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "brandy-cola",
+      "name": "Brandy and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-coffee",
+      "name": "Brandy Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-collins",
+      "name": "Brandy Collins",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-crusta",
+      "name": "Brandy Crusta",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "brandy-daisy",
+      "name": "Brandy Daisy",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-ginger",
+      "name": "Brandy Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-sour-lemon",
+      "name": "Brandy Lemon Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-orange",
+      "name": "Brandy Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-pineapple",
+      "name": "Brandy Pineapple",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-soda",
+      "name": "Brandy Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "brandy-sour",
+      "name": "Brandy Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated classic"
+    },
+    {
+      "key": "brandy-spritz",
+      "name": "Brandy Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "bronx",
+      "name": "Bronx",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "caipirinha",
+      "name": "Caipirinha",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "campari-orange",
+      "name": "Campari Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "campari-soda",
+      "name": "Campari Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "campari-spritz",
+      "name": "Campari Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "campari-tonic",
+      "name": "Campari Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "canchanchara",
+      "name": "Canchanchara",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "cape-codder",
+      "name": "Cape Codder",
+      "recipe_type": "cocktail",
+      "source": "Classic reference"
+    },
+    {
+      "key": "cardinale",
+      "name": "Cardinale",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "casino",
+      "name": "Casino",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "champagne-cocktail",
+      "name": "Champagne Cocktail",
+      "recipe_type": "cocktail",
+      "source": "Classic reference"
+    },
+    {
+      "key": "chartreuse-swizzle",
+      "name": "Chartreuse Swizzle",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "cherry-cola-style",
+      "name": "Cherry Cola",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "virgin-whiskey-sour",
+      "name": "Citrus Sour Mocktail",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "clover-club",
+      "name": "Clover Club",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "coffee-cognac",
+      "name": "Coffee and Cognac",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated hot drink"
+    },
+    {
+      "key": "coffee-liqueur-cola",
+      "name": "Coffee Liqueur and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "coffee-liqueur-cream",
+      "name": "Coffee Liqueur Cream",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "coffee-old-fashioned",
+      "name": "Coffee Old Fashioned",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-cola",
+      "name": "Cognac and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-coffee",
+      "name": "Cognac Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-collins",
+      "name": "Cognac Collins",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-cranberry",
+      "name": "Cognac Cranberry",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-ginger",
+      "name": "Cognac Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-orange",
+      "name": "Cognac Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-sour",
+      "name": "Cognac Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-spritz",
+      "name": "Cognac Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cognac-tonic",
+      "name": "Cognac Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "corpse-reviver-2",
+      "name": "Corpse Reviver #2",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "cranberry-ginger-mocktail",
+      "name": "Cranberry Ginger",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated mocktail"
+    },
+    {
+      "key": "cranberry-lime-spritz",
+      "name": "Cranberry Lime Spritz",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated mocktail"
+    },
+    {
+      "key": "cranberry-orange-spritz",
+      "name": "Cranberry Orange Spritz",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "club-cranberry-mocktail",
+      "name": "Cranberry Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cuba-libre",
+      "name": "Cuba Libre",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "cucumber-cooler",
+      "name": "Cucumber Cooler",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated mocktail"
+    },
+    {
+      "key": "cucumber-gimlet",
+      "name": "Cucumber Gimlet",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "cucumber-mint-soda",
+      "name": "Cucumber Mint Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "daiquiri",
+      "name": "Daiquiri",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "dark-stormy",
+      "name": "Dark 'n' Stormy",
+      "recipe_type": "cocktail",
+      "source": "Classic highball reference"
+    },
+    {
+      "key": "dark-rum-cola",
+      "name": "Dark Rum and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "dark-rum-coffee",
+      "name": "Dark Rum Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "dark-rum-ginger",
+      "name": "Dark Rum Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "dark-rum-orange",
+      "name": "Dark Rum Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "dark-rum-pineapple",
+      "name": "Dark Rum Pineapple",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "dark-rum-sour",
+      "name": "Dark Rum Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "dark-rum-tonic",
+      "name": "Dark Rum Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe"
+    },
+    {
+      "key": "dons-special-daiquiri",
+      "name": "Don's Special Daiquiri",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "espresso-martini",
+      "name": "Espresso Martini",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "fernandito",
+      "name": "Fernandito",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "french-75",
+      "name": "French 75",
+      "recipe_type": "cocktail",
+      "source": "IBA reference"
+    },
+    {
+      "key": "french-connection",
+      "name": "French Connection",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "french-martini",
+      "name": "French Martini",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    },
+    {
+      "key": "garibaldi",
+      "name": "Garibaldi",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe"
+    }
+  ]
+}
