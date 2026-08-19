@@ -8,6 +8,13 @@ type Props = {
   manageRecipes?: () => void;
 };
 
+function normalizeSearch(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
 export default function RecipesPage({ onHome, openRecipe, manageRecipes }: Props) {
   const [recipes, setRecipes] = useState<any[]>([]);
   const [query, setQuery] = useState("");
@@ -19,8 +26,8 @@ export default function RecipesPage({ onHome, openRecipe, manageRecipes }: Props
   }, []);
 
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    let rows = recipes.filter((r) => !q || r.name.toLowerCase().includes(q));
+    const q = normalizeSearch(query.trim());
+    let rows = recipes.filter((r) => !q || normalizeSearch(r.name).includes(q));
     if (type !== "all") rows = rows.filter((r) => r.recipe_type === type);
     rows = [...rows].sort((a, b) => {
       if (sort === "type") return (a.recipe_type || "").localeCompare(b.recipe_type || "") || a.name.localeCompare(b.name);
