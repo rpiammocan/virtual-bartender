@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install backend dependencies needed by planner
-        run: python -m pip install sqlalchemy
+        run: python -m pip install -r backend/requirements.txt
       - name: Plan all recipes still missing images
         run: python scripts/plan_recipe_photo_batch.py --size 999 --output docs/recipe-photo-final-batch.json
       - name: Discover Wikimedia Commons candidates for all remaining recipes
