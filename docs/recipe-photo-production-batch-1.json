@@ -1,0 +1,1505 @@
+{
+  "catalog_total": 310,
+  "existing_image_total": 10,
+  "batch_size": 100,
+  "approved_commons_total": 58,
+  "needs_original_or_manual_match_total": 42,
+  "policy": {
+    "max_dimensions": [
+      800,
+      800
+    ],
+    "format": "WebP",
+    "quality": 80,
+    "crop": false,
+    "allowed_license_families": [
+      "CC0",
+      "Public domain",
+      "CC BY",
+      "CC BY-SA"
+    ],
+    "selection_note": "Only strongly name-matched image files are auto-approved; ambiguous results remain unresolved."
+  },
+  "recipes": [
+    {
+      "key": "agave-lime-soda",
+      "name": "Agave Lime Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "agave-lime-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Mocktails - English's of Brighton 2025-07-29.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mocktails_-_English%27s_of_Brighton_2025-07-29.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mocktails_-_English%27s_of_Brighton_2025-07-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Andy Li",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "amaretto-cola",
+      "name": "Amaretto and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "amaretto-cola.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "amaretto-coffee",
+      "name": "Amaretto Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated hot drink",
+      "output_file": "amaretto-coffee.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Gray espresso cup with amaretto 1.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Gray_espresso_cup_with_amaretto_1.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Gray_espresso_cup_with_amaretto_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Friedrich Haag",
+        "credit": "Self-photographed"
+      }
+    },
+    {
+      "key": "amaretto-cream",
+      "name": "Amaretto Cream",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "amaretto-cream.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Panettone IMG 3607 (32264620218).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Panettone_IMG_3607_(32264620218).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Panettone_IMG_3607_%2832264620218%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "N i c o l a from Fiumicino (Rome), Italy",
+        "credit": "IMG_3607"
+      }
+    },
+    {
+      "key": "amaretto-coffee-sour",
+      "name": "Amaretto Espresso Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "amaretto-coffee-sour.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "amaretto-ginger",
+      "name": "Amaretto Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "amaretto-ginger.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "amaretto-sour",
+      "name": "Amaretto Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated classic",
+      "output_file": "amaretto-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:VTR - Ultimate Amaretto Sour.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:VTR_-_Ultimate_Amaretto_Sour.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/VTR_-_Ultimate_Amaretto_Sour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Edsel L",
+        "credit": "https://www.flickr.com/photos/27119975@N00/10752254325/"
+      }
+    },
+    {
+      "key": "amaretto-spritz",
+      "name": "Amaretto Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "amaretto-spritz.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "americano",
+      "name": "Americano",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "americano.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Americano Cocktail (15052466276).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Americano_Cocktail_(15052466276).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Americano_Cocktail_%2815052466276%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Personal Creations",
+        "credit": "Americano Cocktail"
+      }
+    },
+    {
+      "key": "angel-face",
+      "name": "Angel Face",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "angel-face.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:IBA Cocktail Angel Face (28068833805).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:IBA_Cocktail_Angel_Face_(28068833805).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/IBA_Cocktail_Angel_Face_%2828068833805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Michael Styne from Averill Park, NY, USA",
+        "credit": "IBA Cocktail Angel Face"
+      }
+    },
+    {
+      "key": "aperol-soda",
+      "name": "Aperol Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "aperol-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Ebbelrol Spritz Dauth-Schneider-.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Ebbelrol_Spritz_Dauth-Schneider-.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ebbelrol_Spritz_Dauth-Schneider-.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Benreis",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "aperol-spritz",
+      "name": "Aperol Spritz",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "aperol-spritz.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Mitch (cocktail).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Mitch_(cocktail).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Mitch_%28cocktail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Andreamicci",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "aperol-tonic",
+      "name": "Aperol Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "aperol-tonic.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "aviation",
+      "name": "Aviation",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "aviation.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Aviation Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Aviation_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Aviation_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bskinner112 at English Wikipedia",
+        "credit": "Transferred from en.wikipedia to Commons by Mangomix."
+      }
+    },
+    {
+      "key": "basil-gimlet",
+      "name": "Basil Gimlet",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "basil-gimlet.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "basil-lime-soda",
+      "name": "Basil Lime Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "basil-lime-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Alinea - COURSE 22.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Alinea_-_COURSE_22.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Alinea_-_COURSE_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Matthew Hine",
+        "credit": "Flickr: COURSE 22"
+      }
+    },
+    {
+      "key": "bees-knees",
+      "name": "Bee's Knees",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "bees-knees.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Bee's Knees (cocktail).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bee%27s_Knees_(cocktail).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Bee%27s_Knees_%28cocktail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kenneth C. Zirkel",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "bellini",
+      "name": "Bellini",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "bellini.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Bellini cocktail in a flute-glass.png",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bellini_cocktail_in_a_flute-glass.png",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Bellini_cocktail_in_a_flute-glass.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/png",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Bruce The Deus",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "between-the-sheets",
+      "name": "Between the Sheets",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "between-the-sheets.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Between The Sheets Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Between_The_Sheets_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Between_The_Sheets_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Zach",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "black-and-tan-coffee",
+      "name": "Black Coffee Cocktail",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "black-and-tan-coffee.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "black-russian",
+      "name": "Black Russian",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "black-russian.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Black Russian.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Black_Russian.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Black_Russian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/black-russian/bjh"
+      }
+    },
+    {
+      "key": "bloody-mary",
+      "name": "Bloody Mary",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "bloody-mary.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:VTR - Bloody Mary.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:VTR_-_Bloody_Mary.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/VTR_-_Bloody_Mary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Edsel L",
+        "credit": "https://www.flickr.com/photos/27119975@N00/4508294543/"
+      }
+    },
+    {
+      "key": "boulevardier",
+      "name": "Boulevardier",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "boulevardier.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Boulevardier Cocktail, Burgersmith Baton Rouge.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Boulevardier_Cocktail,_Burgersmith_Baton_Rouge.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Boulevardier_Cocktail%2C_Burgersmith_Baton_Rouge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Paul Lowry",
+        "credit": "https://www.flickr.com/photos/paul_lowry/53850875696/"
+      }
+    },
+    {
+      "key": "bourbon-cola",
+      "name": "Bourbon and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball",
+      "output_file": "bourbon-cola.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 90,
+        "file_title": "File:Skopje (North) Macedonia 2023-02-09 - Bourbon Street and Coca-Cola.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Skopje_(North)_Macedonia_2023-02-09_-_Bourbon_Street_and_Coca-Cola.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Skopje_%28North%29_Macedonia_2023-02-09_-_Bourbon_Street_and_Coca-Cola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sharon Hahn Darlin",
+        "credit": "https://www.flickr.com/photos/sharonhahndarlin/52679329492/"
+      }
+    },
+    {
+      "key": "bourbon-root-beer",
+      "name": "Bourbon and Root Beer",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball",
+      "output_file": "bourbon-root-beer.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "coffee-bourbon",
+      "name": "Bourbon Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated hot drink",
+      "output_file": "coffee-bourbon.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bourbon-daisy",
+      "name": "Bourbon Daisy",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "bourbon-daisy.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bourbon-lemonade",
+      "name": "Bourbon Lemonade",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball",
+      "output_file": "bourbon-lemonade.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bourbon-party-punch",
+      "name": "Bourbon Party Punch",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "bourbon-party-punch.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bourbon-soda",
+      "name": "Bourbon Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball",
+      "output_file": "bourbon-soda.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bourbon-sour-no-egg",
+      "name": "Bourbon Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated classic",
+      "output_file": "bourbon-sour-no-egg.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bourbon-tonic",
+      "name": "Bourbon Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated highball",
+      "output_file": "bourbon-tonic.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bramble",
+      "name": "Bramble",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "bramble.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Bramble Cocktail (float).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bramble_Cocktail_(float).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bramble_Cocktail_%28float%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Erich Wagner (www.eventografie.de)",
+        "credit": "uploaded on behalf of the creator / hochgeladen im Auftrag des Urhebers"
+      }
+    },
+    {
+      "key": "brandy-alexander",
+      "name": "Brandy Alexander",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "brandy-alexander.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Brandy Alexander on the Rocks.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Brandy_Alexander_on_the_Rocks.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Brandy_Alexander_on_the_Rocks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/brandy-alexander/yrsy"
+      }
+    },
+    {
+      "key": "brandy-cola",
+      "name": "Brandy and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-cola.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:Kirk-a-kola.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Kirk-a-kola.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Kirk-a-kola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Shisma",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "brandy-coffee",
+      "name": "Brandy Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-coffee.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "brandy-collins",
+      "name": "Brandy Collins",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-collins.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "brandy-crusta",
+      "name": "Brandy Crusta",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "brandy-crusta.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Bellocq brandy crusta, New Orleans.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bellocq_brandy_crusta,_New_Orleans.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Bellocq_brandy_crusta%2C_New_Orleans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Krista",
+        "credit": "https://www.flickr.com/photos/scaredykat/6954719115/"
+      }
+    },
+    {
+      "key": "brandy-daisy",
+      "name": "Brandy Daisy",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-daisy.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "brandy-ginger",
+      "name": "Brandy Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-ginger.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "brandy-sour-lemon",
+      "name": "Brandy Lemon Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-sour-lemon.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "brandy-orange",
+      "name": "Brandy Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-orange.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:Glass of Sangria - Tinto Taperia 2026-05-17.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Glass_of_Sangria_-_Tinto_Taperia_2026-05-17.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Glass_of_Sangria_-_Tinto_Taperia_2026-05-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Andy Li",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "brandy-pineapple",
+      "name": "Brandy Pineapple",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-pineapple.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Brandy sour (22656571926).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Brandy_sour_(22656571926).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Brandy_sour_%2822656571926%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Walter Schärer from Switzerland",
+        "credit": "Drinks"
+      }
+    },
+    {
+      "key": "brandy-soda",
+      "name": "Brandy Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-soda.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "brandy-sour",
+      "name": "Brandy Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated classic",
+      "output_file": "brandy-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Brandy sour (22656571926).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Brandy_sour_(22656571926).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Brandy_sour_%2822656571926%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Walter Schärer from Switzerland",
+        "credit": "Drinks"
+      }
+    },
+    {
+      "key": "brandy-spritz",
+      "name": "Brandy Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "brandy-spritz.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "bronx",
+      "name": "Bronx",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "bronx.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "caipirinha",
+      "name": "Caipirinha",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "caipirinha.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Cocktail Caipirinha raw.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cocktail_Caipirinha_raw.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cocktail_Caipirinha_raw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Christian",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "campari-orange",
+      "name": "Campari Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "campari-orange.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Campari Orange.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Campari_Orange.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Campari_Orange.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "eWikiLearner",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "campari-soda",
+      "name": "Campari Soda",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "campari-soda.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Campari Soda (2).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Campari_Soda_(2).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Campari_Soda_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "https://www.flickr.com/photos/mesec/",
+        "credit": "https://www.flickr.com/photos/mesec/5747118330/"
+      }
+    },
+    {
+      "key": "campari-spritz",
+      "name": "Campari Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "campari-spritz.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:20120704 170702 venezia 1584.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:20120704_170702_venezia_1584.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/20120704_170702_venezia_1584.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Gunther H.G. Geick",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "campari-tonic",
+      "name": "Campari Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "campari-tonic.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Fiola - March 2018 - Sarah Stierch 04.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Fiola_-_March_2018_-_Sarah_Stierch_04.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Fiola_-_March_2018_-_Sarah_Stierch_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Missvain",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "canchanchara",
+      "name": "Canchanchara",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "canchanchara.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Canchanchara.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Canchanchara.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Canchanchara.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Miriam Gómez Blanes",
+        "credit": "https://www.flickr.com/photos/miriam_gb/14034597762/"
+      }
+    },
+    {
+      "key": "cape-codder",
+      "name": "Cape Codder",
+      "recipe_type": "cocktail",
+      "source": "Classic reference",
+      "output_file": "cape-codder.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Cape Codder, Tommy Doyles Irish Pub, Hyannis MA.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cape_Codder,_Tommy_Doyles_Irish_Pub,_Hyannis_MA.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Cape_Codder%2C_Tommy_Doyles_Irish_Pub%2C_Hyannis_MA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "John Phelan",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "cardinale",
+      "name": "Cardinale",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "cardinale.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "casino",
+      "name": "Casino",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "casino.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Bistro Napa at the Atlantis Casino Resort Spa in Reno, Nevada - July 2021 - Sarah Stierch 03.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Bistro_Napa_at_the_Atlantis_Casino_Resort_Spa_in_Reno,_Nevada_-_July_2021_-_Sarah_Stierch_03.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bistro_Napa_at_the_Atlantis_Casino_Resort_Spa_in_Reno%2C_Nevada_-_July_2021_-_Sarah_Stierch_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Missvain",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "champagne-cocktail",
+      "name": "Champagne Cocktail",
+      "recipe_type": "cocktail",
+      "source": "Classic reference",
+      "output_file": "champagne-cocktail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Pear cranberry sparkling wine or champagne cocktail in a flute (15668298752).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Pear_cranberry_sparkling_wine_or_champagne_cocktail_in_a_flute_(15668298752).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pear_cranberry_sparkling_wine_or_champagne_cocktail_in_a_flute_%2815668298752%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Personal Creations",
+        "credit": "pear cranberry sparkling wine or champagne cocktail in a flute"
+      }
+    },
+    {
+      "key": "chartreuse-swizzle",
+      "name": "Chartreuse Swizzle",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "chartreuse-swizzle.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Chartreuse swizzle.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Chartreuse_swizzle.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Chartreuse_swizzle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "BanjoZebra",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "cherry-cola-style",
+      "name": "Cherry Cola",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cherry-cola-style.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Cherry Cola.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cherry_Cola.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cherry_Cola.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Graciepitts",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "virgin-whiskey-sour",
+      "name": "Citrus Sour Mocktail",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "virgin-whiskey-sour.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "clover-club",
+      "name": "Clover Club",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "clover-club.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:15-09-26-RalfR-WLC-0120.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0120.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/15-09-26-RalfR-WLC-0120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Ralf Roletschek",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "coffee-cognac",
+      "name": "Coffee and Cognac",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated hot drink",
+      "output_file": "coffee-cognac.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Brûlot charentais 01.JPG",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Br%C3%BBlot_charentais_01.JPG",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Br%C3%BBlot_charentais_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Salix",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "coffee-liqueur-cola",
+      "name": "Coffee Liqueur and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "coffee-liqueur-cola.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "coffee-liqueur-cream",
+      "name": "Coffee Liqueur Cream",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "coffee-liqueur-cream.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Heugemeug.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Heugemeug.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Heugemeug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Takeaway",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "coffee-old-fashioned",
+      "name": "Coffee Old Fashioned",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "coffee-old-fashioned.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Old fashioned doughnut1.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Old_fashioned_doughnut1.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Old_fashioned_doughnut1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Kenny Louie from Burnaby, Canada",
+        "credit": "Old fashioned"
+      }
+    },
+    {
+      "key": "cognac-cola",
+      "name": "Cognac and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-cola.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "cognac-coffee",
+      "name": "Cognac Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-coffee.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:Restaurant Lluçanès Kaffe, petit fours og cognac (4254823806).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Restaurant_Llu%C3%A7an%C3%A8s_Kaffe,_petit_fours_og_cognac_(4254823806).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Restaurant_Llu%C3%A7an%C3%A8s_Kaffe%2C_petit_fours_og_cognac_%284254823806%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "cyclonebill from Copenhagen, Denmark",
+        "credit": "Restaurant Lluçanès: Kaffe, petit fours og cognac\n\nUploaded by FAEP"
+      }
+    },
+    {
+      "key": "cognac-collins",
+      "name": "Cognac Collins",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-collins.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "cognac-cranberry",
+      "name": "Cognac Cranberry",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-cranberry.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Selection of hot dogs.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Selection_of_hot_dogs.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Selection_of_hot_dogs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Paul Goyette",
+        "credit": "https://www.flickr.com/photos/pgoyette/169590870/"
+      }
+    },
+    {
+      "key": "cognac-ginger",
+      "name": "Cognac Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-ginger.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "cognac-orange",
+      "name": "Cognac Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-orange.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:Sidecar-cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Sidecar-cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sidecar-cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Evan Swigart from Chicago, USA",
+        "credit": "Sidecar Cocktail"
+      }
+    },
+    {
+      "key": "cognac-sour",
+      "name": "Cognac Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-sour.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "cognac-spritz",
+      "name": "Cognac Spritz",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-spritz.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "cognac-tonic",
+      "name": "Cognac Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cognac-tonic.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "corpse-reviver-2",
+      "name": "Corpse Reviver #2",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "corpse-reviver-2.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Corpse Reviver 2.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Corpse_Reviver_2.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Corpse_Reviver_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/corpse-reviver-2/lisy"
+      }
+    },
+    {
+      "key": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "cosmopolitan.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Cosmopolitan cocktail ingredients.png",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cosmopolitan_cocktail_ingredients.png",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cosmopolitan_cocktail_ingredients.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/png",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "GeoO",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "cranberry-ginger-mocktail",
+      "name": "Cranberry Ginger",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated mocktail",
+      "output_file": "cranberry-ginger-mocktail.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "cranberry-lime-spritz",
+      "name": "Cranberry Lime Spritz",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated mocktail",
+      "output_file": "cranberry-lime-spritz.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "cranberry-orange-spritz",
+      "name": "Cranberry Orange Spritz",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cranberry-orange-spritz.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "club-cranberry-mocktail",
+      "name": "Cranberry Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "club-cranberry-mocktail.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:SeaDream II — Top Of The Yacht Bar — Drink of the Day.JPG",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:SeaDream_II_%E2%80%94_Top_Of_The_Yacht_Bar_%E2%80%94_Drink_of_the_Day.JPG",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/SeaDream_II_%E2%80%94_Top_Of_The_Yacht_Bar_%E2%80%94_Drink_of_the_Day.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0 de",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/de/deed.en",
+        "artist": "User:Mattes",
+        "credit": "Self-photographed"
+      }
+    },
+    {
+      "key": "cuba-libre",
+      "name": "Cuba Libre",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "cuba-libre.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:15-09-26-RalfR-WLC-0056.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0056.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/15-09-26-RalfR-WLC-0056.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Ralf Roletschek",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "cucumber-cooler",
+      "name": "Cucumber Cooler",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated mocktail",
+      "output_file": "cucumber-cooler.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Cucumber pachadi- My home Bangalore -Karnataka -pic 08.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cucumber_pachadi-_My_home_Bangalore_-Karnataka_-pic_08.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Cucumber_pachadi-_My_home_Bangalore_-Karnataka_-pic_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Shruthi Gaurav Alva",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "cucumber-gimlet",
+      "name": "Cucumber Gimlet",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cucumber-gimlet.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:Cucumbers! (4921518956).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Cucumbers!_(4921518956).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cucumbers%21_%284921518956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Karen and Brad Emerson",
+        "credit": "Cucumbers!"
+      }
+    },
+    {
+      "key": "cucumber-mint-soda",
+      "name": "Cucumber Mint Soda",
+      "recipe_type": "mocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "cucumber-mint-soda.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "daiquiri",
+      "name": "Daiquiri",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "daiquiri.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Classic Daiquiri in Cocktail Glass.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Classic_Daiquiri_in_Cocktail_Glass.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Classic_Daiquiri_in_Cocktail_Glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Will Shenton",
+        "credit": "https://bevvy.co/cocktail/daiquiri/wbi"
+      }
+    },
+    {
+      "key": "dark-stormy",
+      "name": "Dark 'n' Stormy",
+      "recipe_type": "cocktail",
+      "source": "Classic highball reference",
+      "output_file": "dark-stormy.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 95,
+        "file_title": "File:15-09-26-RalfR-WLC-0202.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0202.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/15-09-26-RalfR-WLC-0202.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Ralf Roletschek",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "dark-rum-cola",
+      "name": "Dark Rum and Cola",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "dark-rum-cola.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Coca-Cola-signature mixers-smoky notes-back.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Coca-Cola-signature_mixers-smoky_notes-back.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Coca-Cola-signature_mixers-smoky_notes-back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "FlippyFlink",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "dark-rum-coffee",
+      "name": "Dark Rum Coffee",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "dark-rum-coffee.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "dark-rum-ginger",
+      "name": "Dark Rum Ginger",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "dark-rum-ginger.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "dark-rum-orange",
+      "name": "Dark Rum Orange",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "dark-rum-orange.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "dark-rum-pineapple",
+      "name": "Dark Rum Pineapple",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "dark-rum-pineapple.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Zombiecocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Zombiecocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Zombiecocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Magnetic Rag",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "dark-rum-sour",
+      "name": "Dark Rum Sour",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "dark-rum-sour.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 85,
+        "file_title": "File:Punch Davy Jones's Locker.png",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Punch_Davy_Jones%27s_Locker.png",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Punch_Davy_Jones%27s_Locker.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/png",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "John Tenniel",
+        "credit": "Punch, vol. 103"
+      }
+    },
+    {
+      "key": "dark-rum-tonic",
+      "name": "Dark Rum Tonic",
+      "recipe_type": "cocktail",
+      "source": "Virtual Bartender curated recipe",
+      "output_file": "dark-rum-tonic.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "dons-special-daiquiri",
+      "name": "Don's Special Daiquiri",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "dons-special-daiquiri.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "espresso-martini",
+      "name": "Espresso Martini",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "espresso-martini.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Espresso Martini on a bar.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Espresso_Martini_on_a_bar.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Espresso_Martini_on_a_bar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "AlphaLemur",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "fernandito",
+      "name": "Fernandito",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "fernandito.webp",
+      "status": "needs_original_or_manual_match",
+      "selected": null
+    },
+    {
+      "key": "french-75",
+      "name": "French 75",
+      "recipe_type": "cocktail",
+      "source": "IBA reference",
+      "output_file": "french-75.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:French 75.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:French_75.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/French_75.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "https://www.flickr.com/people/garyjwood/",
+        "credit": "https://www.flickr.com/photos/garyjwood/5997007332/"
+      }
+    },
+    {
+      "key": "french-connection",
+      "name": "French Connection",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "french-connection.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:French Connection (cocktail).jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:French_Connection_(cocktail).jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/French_Connection_%28cocktail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Arnaud 25",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "french-martini",
+      "name": "French Martini",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "french-martini.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Chambord French Martini Cocktail.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Chambord_French_Martini_Cocktail.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chambord_French_Martini_Cocktail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Brown-Forman Corporation",
+        "credit": "Own work"
+      }
+    },
+    {
+      "key": "garibaldi",
+      "name": "Garibaldi",
+      "recipe_type": "cocktail",
+      "source": "IBA reference; Virtual Bartender normalized recipe",
+      "output_file": "garibaldi.webp",
+      "status": "approved_commons",
+      "selected": {
+        "score": 100,
+        "file_title": "File:Garibaldi cocktail bright.jpg",
+        "commons_page": "https://commons.wikimedia.org/wiki/File:Garibaldi_cocktail_bright.jpg",
+        "download_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Garibaldi_cocktail_bright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "User:BanjoZebra",
+        "credit": "Wikipedia : https://commons.wikimedia.org/wiki/File:Garibaldi_cocktail.jpg"
+      }
+    }
+  ]
+}

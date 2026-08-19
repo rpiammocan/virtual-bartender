@@ -1,0 +1,408 @@
+{
+  "agave-lime-soda": {
+    "image_path": "/media/agave-lime-soda.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Mocktails_-_English%27s_of_Brighton_2025-07-29.jpg",
+    "image_license": "CC0",
+    "image_attribution": "Andy Li",
+    "image_ai_generated": false
+  },
+  "amaretto-coffee": {
+    "image_path": "/media/amaretto-coffee.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Gray_espresso_cup_with_amaretto_1.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Friedrich Haag",
+    "image_ai_generated": false
+  },
+  "amaretto-cream": {
+    "image_path": "/media/amaretto-cream.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Panettone_IMG_3607_(32264620218).jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "N i c o l a from Fiumicino (Rome), Italy",
+    "image_ai_generated": false
+  },
+  "amaretto-sour": {
+    "image_path": "/media/amaretto-sour.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:VTR_-_Ultimate_Amaretto_Sour.jpg",
+    "image_license": "CC BY-SA 2.0",
+    "image_attribution": "Edsel L",
+    "image_ai_generated": false
+  },
+  "americano": {
+    "image_path": "/media/americano.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Americano_Cocktail_(15052466276).jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Personal Creations",
+    "image_ai_generated": false
+  },
+  "angel-face": {
+    "image_path": "/media/angel-face.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:IBA_Cocktail_Angel_Face_(28068833805).jpg",
+    "image_license": "CC BY-SA 2.0",
+    "image_attribution": "Michael Styne from Averill Park, NY, USA",
+    "image_ai_generated": false
+  },
+  "aperol-soda": {
+    "image_path": "/media/aperol-soda.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Ebbelrol_Spritz_Dauth-Schneider-.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Benreis",
+    "image_ai_generated": false
+  },
+  "aperol-spritz": {
+    "image_path": "/media/aperol-spritz.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Mitch_(cocktail).jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Andreamicci",
+    "image_ai_generated": false
+  },
+  "aviation": {
+    "image_path": "/media/aviation.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Aviation_Cocktail.jpg",
+    "image_license": "Public domain",
+    "image_attribution": "Bskinner112 at English Wikipedia",
+    "image_ai_generated": false
+  },
+  "basil-lime-soda": {
+    "image_path": "/media/basil-lime-soda.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Alinea_-_COURSE_22.jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Matthew Hine",
+    "image_ai_generated": false
+  },
+  "bees-knees": {
+    "image_path": "/media/bees-knees.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Bee%27s_Knees_(cocktail).jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Kenneth C. Zirkel",
+    "image_ai_generated": false
+  },
+  "bellini": {
+    "image_path": "/media/bellini.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Bellini_cocktail_in_a_flute-glass.png",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Bruce The Deus",
+    "image_ai_generated": false
+  },
+  "between-the-sheets": {
+    "image_path": "/media/between-the-sheets.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Between_The_Sheets_Cocktail.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Zach",
+    "image_ai_generated": false
+  },
+  "black-russian": {
+    "image_path": "/media/black-russian.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Black_Russian.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Will Shenton",
+    "image_ai_generated": false
+  },
+  "bloody-mary": {
+    "image_path": "/media/bloody-mary.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:VTR_-_Bloody_Mary.jpg",
+    "image_license": "CC BY-SA 2.0",
+    "image_attribution": "Edsel L",
+    "image_ai_generated": false
+  },
+  "boulevardier": {
+    "image_path": "/media/boulevardier.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Boulevardier_Cocktail,_Burgersmith_Baton_Rouge.jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Paul Lowry",
+    "image_ai_generated": false
+  },
+  "bourbon-cola": {
+    "image_path": "/media/bourbon-cola.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Skopje_(North)_Macedonia_2023-02-09_-_Bourbon_Street_and_Coca-Cola.jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Sharon Hahn Darlin",
+    "image_ai_generated": false
+  },
+  "bramble": {
+    "image_path": "/media/bramble.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Bramble_Cocktail_(float).jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Erich Wagner (www.eventografie.de)",
+    "image_ai_generated": false
+  },
+  "brandy-alexander": {
+    "image_path": "/media/brandy-alexander.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Brandy_Alexander_on_the_Rocks.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Will Shenton",
+    "image_ai_generated": false
+  },
+  "brandy-cola": {
+    "image_path": "/media/brandy-cola.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Kirk-a-kola.jpg",
+    "image_license": "CC0",
+    "image_attribution": "Shisma",
+    "image_ai_generated": false
+  },
+  "brandy-crusta": {
+    "image_path": "/media/brandy-crusta.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Bellocq_brandy_crusta,_New_Orleans.jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Krista",
+    "image_ai_generated": false
+  },
+  "brandy-orange": {
+    "image_path": "/media/brandy-orange.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Glass_of_Sangria_-_Tinto_Taperia_2026-05-17.jpg",
+    "image_license": "CC0",
+    "image_attribution": "Andy Li",
+    "image_ai_generated": false
+  },
+  "brandy-pineapple": {
+    "image_path": "/media/brandy-pineapple.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Brandy_sour_(22656571926).jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Walter Schärer from Switzerland",
+    "image_ai_generated": false
+  },
+  "brandy-sour": {
+    "image_path": "/media/brandy-sour.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Brandy_sour_(22656571926).jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Walter Schärer from Switzerland",
+    "image_ai_generated": false
+  },
+  "caipirinha": {
+    "image_path": "/media/caipirinha.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Cocktail_Caipirinha_raw.jpg",
+    "image_license": "Public domain",
+    "image_attribution": "Christian",
+    "image_ai_generated": false
+  },
+  "campari-orange": {
+    "image_path": "/media/campari-orange.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Campari_Orange.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "eWikiLearner",
+    "image_ai_generated": false
+  },
+  "campari-soda": {
+    "image_path": "/media/campari-soda.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Campari_Soda_(2).jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "https://www.flickr.com/photos/mesec/",
+    "image_ai_generated": false
+  },
+  "campari-spritz": {
+    "image_path": "/media/campari-spritz.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:20120704_170702_venezia_1584.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Gunther H.G. Geick",
+    "image_ai_generated": false
+  },
+  "campari-tonic": {
+    "image_path": "/media/campari-tonic.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Fiola_-_March_2018_-_Sarah_Stierch_04.jpg",
+    "image_license": "CC BY 4.0",
+    "image_attribution": "Missvain",
+    "image_ai_generated": false
+  },
+  "canchanchara": {
+    "image_path": "/media/canchanchara.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Canchanchara.jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Miriam Gómez Blanes",
+    "image_ai_generated": false
+  },
+  "cape-codder": {
+    "image_path": "/media/cape-codder.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Cape_Codder,_Tommy_Doyles_Irish_Pub,_Hyannis_MA.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "John Phelan",
+    "image_ai_generated": false
+  },
+  "casino": {
+    "image_path": "/media/casino.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Bistro_Napa_at_the_Atlantis_Casino_Resort_Spa_in_Reno,_Nevada_-_July_2021_-_Sarah_Stierch_03.jpg",
+    "image_license": "CC BY 4.0",
+    "image_attribution": "Missvain",
+    "image_ai_generated": false
+  },
+  "champagne-cocktail": {
+    "image_path": "/media/champagne-cocktail.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Pear_cranberry_sparkling_wine_or_champagne_cocktail_in_a_flute_(15668298752).jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Personal Creations",
+    "image_ai_generated": false
+  },
+  "chartreuse-swizzle": {
+    "image_path": "/media/chartreuse-swizzle.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Chartreuse_swizzle.jpg",
+    "image_license": "CC BY 4.0",
+    "image_attribution": "BanjoZebra",
+    "image_ai_generated": false
+  },
+  "cherry-cola-style": {
+    "image_path": "/media/cherry-cola-style.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Cherry_Cola.jpg",
+    "image_license": "CC0",
+    "image_attribution": "Graciepitts",
+    "image_ai_generated": false
+  },
+  "clover-club": {
+    "image_path": "/media/clover-club.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0120.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Ralf Roletschek",
+    "image_ai_generated": false
+  },
+  "coffee-cognac": {
+    "image_path": "/media/coffee-cognac.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Br%C3%BBlot_charentais_01.JPG",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Salix",
+    "image_ai_generated": false
+  },
+  "coffee-liqueur-cream": {
+    "image_path": "/media/coffee-liqueur-cream.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Heugemeug.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Takeaway",
+    "image_ai_generated": false
+  },
+  "coffee-old-fashioned": {
+    "image_path": "/media/coffee-old-fashioned.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Old_fashioned_doughnut1.jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Kenny Louie from Burnaby, Canada",
+    "image_ai_generated": false
+  },
+  "cognac-coffee": {
+    "image_path": "/media/cognac-coffee.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Restaurant_Llu%C3%A7an%C3%A8s_Kaffe,_petit_fours_og_cognac_(4254823806).jpg",
+    "image_license": "CC BY-SA 2.0",
+    "image_attribution": "cyclonebill from Copenhagen, Denmark",
+    "image_ai_generated": false
+  },
+  "cognac-cranberry": {
+    "image_path": "/media/cognac-cranberry.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Selection_of_hot_dogs.jpg",
+    "image_license": "CC BY-SA 2.0",
+    "image_attribution": "Paul Goyette",
+    "image_ai_generated": false
+  },
+  "cognac-orange": {
+    "image_path": "/media/cognac-orange.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Sidecar-cocktail.jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Evan Swigart from Chicago, USA",
+    "image_ai_generated": false
+  },
+  "corpse-reviver-2": {
+    "image_path": "/media/corpse-reviver-2.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Corpse_Reviver_2.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Will Shenton",
+    "image_ai_generated": false
+  },
+  "cosmopolitan": {
+    "image_path": "/media/cosmopolitan.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Cosmopolitan_cocktail_ingredients.png",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "GeoO",
+    "image_ai_generated": false
+  },
+  "club-cranberry-mocktail": {
+    "image_path": "/media/club-cranberry-mocktail.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:SeaDream_II_%E2%80%94_Top_Of_The_Yacht_Bar_%E2%80%94_Drink_of_the_Day.JPG",
+    "image_license": "CC BY 2.0 de",
+    "image_attribution": "User:Mattes",
+    "image_ai_generated": false
+  },
+  "cuba-libre": {
+    "image_path": "/media/cuba-libre.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0056.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Ralf Roletschek",
+    "image_ai_generated": false
+  },
+  "cucumber-cooler": {
+    "image_path": "/media/cucumber-cooler.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Cucumber_pachadi-_My_home_Bangalore_-Karnataka_-pic_08.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Shruthi Gaurav Alva",
+    "image_ai_generated": false
+  },
+  "cucumber-gimlet": {
+    "image_path": "/media/cucumber-gimlet.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Cucumbers!_(4921518956).jpg",
+    "image_license": "CC BY 2.0",
+    "image_attribution": "Karen and Brad Emerson",
+    "image_ai_generated": false
+  },
+  "daiquiri": {
+    "image_path": "/media/daiquiri.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Classic_Daiquiri_in_Cocktail_Glass.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Will Shenton",
+    "image_ai_generated": false
+  },
+  "dark-stormy": {
+    "image_path": "/media/dark-stormy.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0202.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Ralf Roletschek",
+    "image_ai_generated": false
+  },
+  "dark-rum-cola": {
+    "image_path": "/media/dark-rum-cola.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Coca-Cola-signature_mixers-smoky_notes-back.jpg",
+    "image_license": "CC0",
+    "image_attribution": "FlippyFlink",
+    "image_ai_generated": false
+  },
+  "dark-rum-pineapple": {
+    "image_path": "/media/dark-rum-pineapple.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Zombiecocktail.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Magnetic Rag",
+    "image_ai_generated": false
+  },
+  "dark-rum-sour": {
+    "image_path": "/media/dark-rum-sour.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Punch_Davy_Jones%27s_Locker.png",
+    "image_license": "Public domain",
+    "image_attribution": "John Tenniel",
+    "image_ai_generated": false
+  },
+  "espresso-martini": {
+    "image_path": "/media/espresso-martini.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Espresso_Martini_on_a_bar.jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "AlphaLemur",
+    "image_ai_generated": false
+  },
+  "french-75": {
+    "image_path": "/media/french-75.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:French_75.jpg",
+    "image_license": "CC BY-SA 2.0",
+    "image_attribution": "https://www.flickr.com/people/garyjwood/",
+    "image_ai_generated": false
+  },
+  "french-connection": {
+    "image_path": "/media/french-connection.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:French_Connection_(cocktail).jpg",
+    "image_license": "CC BY-SA 4.0",
+    "image_attribution": "Arnaud 25",
+    "image_ai_generated": false
+  },
+  "french-martini": {
+    "image_path": "/media/french-martini.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Chambord_French_Martini_Cocktail.jpg",
+    "image_license": "CC BY-SA 3.0",
+    "image_attribution": "Brown-Forman Corporation",
+    "image_ai_generated": false
+  },
+  "garibaldi": {
+    "image_path": "/media/garibaldi.webp",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Garibaldi_cocktail_bright.jpg",
+    "image_license": "CC BY 4.0",
+    "image_attribution": "User:BanjoZebra",
+    "image_ai_generated": false
+  }
+}

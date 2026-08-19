@@ -1,0 +1,745 @@
+{
+  "catalog_total": 310,
+  "existing_image_total_before_batch": 10,
+  "batch_size": 100,
+  "approved_for_build": 58,
+  "built_total": 58,
+  "unresolved_total": 42,
+  "expected_integrated_total_after_build": 68,
+  "built": [
+    {
+      "key": "agave-lime-soda",
+      "name": "Agave Lime Soda",
+      "file": "frontend/public/media/agave-lime-soda.webp",
+      "width": 800,
+      "height": 602,
+      "bytes": 21348,
+      "status": "built"
+    },
+    {
+      "key": "amaretto-coffee",
+      "name": "Amaretto Coffee",
+      "file": "frontend/public/media/amaretto-coffee.webp",
+      "width": 800,
+      "height": 754,
+      "bytes": 18044,
+      "status": "built"
+    },
+    {
+      "key": "amaretto-cream",
+      "name": "Amaretto Cream",
+      "file": "frontend/public/media/amaretto-cream.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 15694,
+      "status": "built"
+    },
+    {
+      "key": "amaretto-sour",
+      "name": "Amaretto Sour",
+      "file": "frontend/public/media/amaretto-sour.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 17168,
+      "status": "built"
+    },
+    {
+      "key": "americano",
+      "name": "Americano",
+      "file": "frontend/public/media/americano.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 34408,
+      "status": "built"
+    },
+    {
+      "key": "angel-face",
+      "name": "Angel Face",
+      "file": "frontend/public/media/angel-face.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 46574,
+      "status": "built"
+    },
+    {
+      "key": "aperol-soda",
+      "name": "Aperol Soda",
+      "file": "frontend/public/media/aperol-soda.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 36798,
+      "status": "built"
+    },
+    {
+      "key": "aperol-spritz",
+      "name": "Aperol Spritz",
+      "file": "frontend/public/media/aperol-spritz.webp",
+      "width": 480,
+      "height": 515,
+      "bytes": 35124,
+      "status": "built"
+    },
+    {
+      "key": "aviation",
+      "name": "Aviation",
+      "file": "frontend/public/media/aviation.webp",
+      "width": 577,
+      "height": 800,
+      "bytes": 43336,
+      "status": "built"
+    },
+    {
+      "key": "basil-lime-soda",
+      "name": "Basil Lime Soda",
+      "file": "frontend/public/media/basil-lime-soda.webp",
+      "width": 573,
+      "height": 800,
+      "bytes": 24766,
+      "status": "built"
+    },
+    {
+      "key": "bees-knees",
+      "name": "Bee's Knees",
+      "file": "frontend/public/media/bees-knees.webp",
+      "width": 800,
+      "height": 641,
+      "bytes": 41462,
+      "status": "built"
+    },
+    {
+      "key": "bellini",
+      "name": "Bellini",
+      "file": "frontend/public/media/bellini.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 8128,
+      "status": "built"
+    },
+    {
+      "key": "between-the-sheets",
+      "name": "Between the Sheets",
+      "file": "frontend/public/media/between-the-sheets.webp",
+      "width": 800,
+      "height": 532,
+      "bytes": 11890,
+      "status": "built"
+    },
+    {
+      "key": "black-russian",
+      "name": "Black Russian",
+      "file": "frontend/public/media/black-russian.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 47904,
+      "status": "built"
+    },
+    {
+      "key": "bloody-mary",
+      "name": "Bloody Mary",
+      "file": "frontend/public/media/bloody-mary.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 85410,
+      "status": "built"
+    },
+    {
+      "key": "boulevardier",
+      "name": "Boulevardier",
+      "file": "frontend/public/media/boulevardier.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 26156,
+      "status": "built"
+    },
+    {
+      "key": "bourbon-cola",
+      "name": "Bourbon and Cola",
+      "file": "frontend/public/media/bourbon-cola.webp",
+      "width": 746,
+      "height": 800,
+      "bytes": 129404,
+      "status": "built"
+    },
+    {
+      "key": "bramble",
+      "name": "Bramble",
+      "file": "frontend/public/media/bramble.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 27334,
+      "status": "built"
+    },
+    {
+      "key": "brandy-alexander",
+      "name": "Brandy Alexander",
+      "file": "frontend/public/media/brandy-alexander.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 25916,
+      "status": "built"
+    },
+    {
+      "key": "brandy-cola",
+      "name": "Brandy and Cola",
+      "file": "frontend/public/media/brandy-cola.webp",
+      "width": 800,
+      "height": 799,
+      "bytes": 57252,
+      "status": "built"
+    },
+    {
+      "key": "brandy-crusta",
+      "name": "Brandy Crusta",
+      "file": "frontend/public/media/brandy-crusta.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 33148,
+      "status": "built"
+    },
+    {
+      "key": "brandy-orange",
+      "name": "Brandy Orange",
+      "file": "frontend/public/media/brandy-orange.webp",
+      "width": 602,
+      "height": 800,
+      "bytes": 35398,
+      "status": "built"
+    },
+    {
+      "key": "brandy-pineapple",
+      "name": "Brandy Pineapple",
+      "file": "frontend/public/media/brandy-pineapple.webp",
+      "width": 241,
+      "height": 481,
+      "bytes": 14452,
+      "status": "built"
+    },
+    {
+      "key": "brandy-sour",
+      "name": "Brandy Sour",
+      "file": "frontend/public/media/brandy-sour.webp",
+      "width": 241,
+      "height": 481,
+      "bytes": 14452,
+      "status": "built"
+    },
+    {
+      "key": "caipirinha",
+      "name": "Caipirinha",
+      "file": "frontend/public/media/caipirinha.webp",
+      "width": 638,
+      "height": 800,
+      "bytes": 16854,
+      "status": "built"
+    },
+    {
+      "key": "campari-orange",
+      "name": "Campari Orange",
+      "file": "frontend/public/media/campari-orange.webp",
+      "width": 800,
+      "height": 601,
+      "bytes": 10312,
+      "status": "built"
+    },
+    {
+      "key": "campari-soda",
+      "name": "Campari Soda",
+      "file": "frontend/public/media/campari-soda.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 19500,
+      "status": "built"
+    },
+    {
+      "key": "campari-spritz",
+      "name": "Campari Spritz",
+      "file": "frontend/public/media/campari-spritz.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 100532,
+      "status": "built"
+    },
+    {
+      "key": "campari-tonic",
+      "name": "Campari Tonic",
+      "file": "frontend/public/media/campari-tonic.webp",
+      "width": 649,
+      "height": 800,
+      "bytes": 52560,
+      "status": "built"
+    },
+    {
+      "key": "canchanchara",
+      "name": "Canchanchara",
+      "file": "frontend/public/media/canchanchara.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 20986,
+      "status": "built"
+    },
+    {
+      "key": "cape-codder",
+      "name": "Cape Codder",
+      "file": "frontend/public/media/cape-codder.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 102336,
+      "status": "built"
+    },
+    {
+      "key": "casino",
+      "name": "Casino",
+      "file": "frontend/public/media/casino.webp",
+      "width": 538,
+      "height": 800,
+      "bytes": 50718,
+      "status": "built"
+    },
+    {
+      "key": "champagne-cocktail",
+      "name": "Champagne Cocktail",
+      "file": "frontend/public/media/champagne-cocktail.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 19708,
+      "status": "built"
+    },
+    {
+      "key": "chartreuse-swizzle",
+      "name": "Chartreuse Swizzle",
+      "file": "frontend/public/media/chartreuse-swizzle.webp",
+      "width": 576,
+      "height": 800,
+      "bytes": 54812,
+      "status": "built"
+    },
+    {
+      "key": "cherry-cola-style",
+      "name": "Cherry Cola",
+      "file": "frontend/public/media/cherry-cola-style.webp",
+      "width": 738,
+      "height": 800,
+      "bytes": 55470,
+      "status": "built"
+    },
+    {
+      "key": "clover-club",
+      "name": "Clover Club",
+      "file": "frontend/public/media/clover-club.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 16086,
+      "status": "built"
+    },
+    {
+      "key": "coffee-cognac",
+      "name": "Coffee and Cognac",
+      "file": "frontend/public/media/coffee-cognac.webp",
+      "width": 792,
+      "height": 800,
+      "bytes": 40762,
+      "status": "built"
+    },
+    {
+      "key": "coffee-liqueur-cream",
+      "name": "Coffee Liqueur Cream",
+      "file": "frontend/public/media/coffee-liqueur-cream.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 27120,
+      "status": "built"
+    },
+    {
+      "key": "coffee-old-fashioned",
+      "name": "Coffee Old Fashioned",
+      "file": "frontend/public/media/coffee-old-fashioned.webp",
+      "width": 800,
+      "height": 533,
+      "bytes": 26272,
+      "status": "built"
+    },
+    {
+      "key": "cognac-coffee",
+      "name": "Cognac Coffee",
+      "file": "frontend/public/media/cognac-coffee.webp",
+      "width": 800,
+      "height": 531,
+      "bytes": 24884,
+      "status": "built"
+    },
+    {
+      "key": "cognac-cranberry",
+      "name": "Cognac Cranberry",
+      "file": "frontend/public/media/cognac-cranberry.webp",
+      "width": 800,
+      "height": 532,
+      "bytes": 60000,
+      "status": "built"
+    },
+    {
+      "key": "cognac-orange",
+      "name": "Cognac Orange",
+      "file": "frontend/public/media/cognac-orange.webp",
+      "width": 532,
+      "height": 800,
+      "bytes": 11428,
+      "status": "built"
+    },
+    {
+      "key": "corpse-reviver-2",
+      "name": "Corpse Reviver #2",
+      "file": "frontend/public/media/corpse-reviver-2.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 18102,
+      "status": "built"
+    },
+    {
+      "key": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "file": "frontend/public/media/cosmopolitan.webp",
+      "width": 664,
+      "height": 800,
+      "bytes": 31858,
+      "status": "built"
+    },
+    {
+      "key": "club-cranberry-mocktail",
+      "name": "Cranberry Soda",
+      "file": "frontend/public/media/club-cranberry-mocktail.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 31272,
+      "status": "built"
+    },
+    {
+      "key": "cuba-libre",
+      "name": "Cuba Libre",
+      "file": "frontend/public/media/cuba-libre.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 22832,
+      "status": "built"
+    },
+    {
+      "key": "cucumber-cooler",
+      "name": "Cucumber Cooler",
+      "file": "frontend/public/media/cucumber-cooler.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 29814,
+      "status": "built"
+    },
+    {
+      "key": "cucumber-gimlet",
+      "name": "Cucumber Gimlet",
+      "file": "frontend/public/media/cucumber-gimlet.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 30808,
+      "status": "built"
+    },
+    {
+      "key": "daiquiri",
+      "name": "Daiquiri",
+      "file": "frontend/public/media/daiquiri.webp",
+      "width": 800,
+      "height": 800,
+      "bytes": 25156,
+      "status": "built"
+    },
+    {
+      "key": "dark-stormy",
+      "name": "Dark 'n' Stormy",
+      "file": "frontend/public/media/dark-stormy.webp",
+      "width": 502,
+      "height": 800,
+      "bytes": 13840,
+      "status": "built"
+    },
+    {
+      "key": "dark-rum-cola",
+      "name": "Dark Rum and Cola",
+      "file": "frontend/public/media/dark-rum-cola.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 48136,
+      "status": "built"
+    },
+    {
+      "key": "dark-rum-pineapple",
+      "name": "Dark Rum Pineapple",
+      "file": "frontend/public/media/dark-rum-pineapple.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 33580,
+      "status": "built"
+    },
+    {
+      "key": "dark-rum-sour",
+      "name": "Dark Rum Sour",
+      "file": "frontend/public/media/dark-rum-sour.webp",
+      "width": 605,
+      "height": 800,
+      "bytes": 202608,
+      "status": "built"
+    },
+    {
+      "key": "espresso-martini",
+      "name": "Espresso Martini",
+      "file": "frontend/public/media/espresso-martini.webp",
+      "width": 800,
+      "height": 600,
+      "bytes": 34266,
+      "status": "built"
+    },
+    {
+      "key": "french-75",
+      "name": "French 75",
+      "file": "frontend/public/media/french-75.webp",
+      "width": 533,
+      "height": 800,
+      "bytes": 17442,
+      "status": "built"
+    },
+    {
+      "key": "french-connection",
+      "name": "French Connection",
+      "file": "frontend/public/media/french-connection.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 42970,
+      "status": "built"
+    },
+    {
+      "key": "french-martini",
+      "name": "French Martini",
+      "file": "frontend/public/media/french-martini.webp",
+      "width": 464,
+      "height": 800,
+      "bytes": 9750,
+      "status": "built"
+    },
+    {
+      "key": "garibaldi",
+      "name": "Garibaldi",
+      "file": "frontend/public/media/garibaldi.webp",
+      "width": 600,
+      "height": 800,
+      "bytes": 45104,
+      "status": "built"
+    }
+  ],
+  "unresolved": [
+    {
+      "key": "amaretto-cola",
+      "name": "Amaretto and Cola",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "amaretto-coffee-sour",
+      "name": "Amaretto Espresso Sour",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "amaretto-ginger",
+      "name": "Amaretto Ginger",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "amaretto-spritz",
+      "name": "Amaretto Spritz",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "aperol-tonic",
+      "name": "Aperol Tonic",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "basil-gimlet",
+      "name": "Basil Gimlet",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "black-and-tan-coffee",
+      "name": "Black Coffee Cocktail",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bourbon-root-beer",
+      "name": "Bourbon and Root Beer",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "coffee-bourbon",
+      "name": "Bourbon Coffee",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bourbon-daisy",
+      "name": "Bourbon Daisy",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bourbon-lemonade",
+      "name": "Bourbon Lemonade",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bourbon-party-punch",
+      "name": "Bourbon Party Punch",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bourbon-soda",
+      "name": "Bourbon Soda",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bourbon-sour-no-egg",
+      "name": "Bourbon Sour",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bourbon-tonic",
+      "name": "Bourbon Tonic",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "brandy-coffee",
+      "name": "Brandy Coffee",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "brandy-collins",
+      "name": "Brandy Collins",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "brandy-daisy",
+      "name": "Brandy Daisy",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "brandy-ginger",
+      "name": "Brandy Ginger",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "brandy-sour-lemon",
+      "name": "Brandy Lemon Sour",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "brandy-soda",
+      "name": "Brandy Soda",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "brandy-spritz",
+      "name": "Brandy Spritz",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "bronx",
+      "name": "Bronx",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cardinale",
+      "name": "Cardinale",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "virgin-whiskey-sour",
+      "name": "Citrus Sour Mocktail",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "coffee-liqueur-cola",
+      "name": "Coffee Liqueur and Cola",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cognac-cola",
+      "name": "Cognac and Cola",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cognac-collins",
+      "name": "Cognac Collins",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cognac-ginger",
+      "name": "Cognac Ginger",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cognac-sour",
+      "name": "Cognac Sour",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cognac-spritz",
+      "name": "Cognac Spritz",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cognac-tonic",
+      "name": "Cognac Tonic",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cranberry-ginger-mocktail",
+      "name": "Cranberry Ginger",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cranberry-lime-spritz",
+      "name": "Cranberry Lime Spritz",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cranberry-orange-spritz",
+      "name": "Cranberry Orange Spritz",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "cucumber-mint-soda",
+      "name": "Cucumber Mint Soda",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "dark-rum-coffee",
+      "name": "Dark Rum Coffee",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "dark-rum-ginger",
+      "name": "Dark Rum Ginger",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "dark-rum-orange",
+      "name": "Dark Rum Orange",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "dark-rum-tonic",
+      "name": "Dark Rum Tonic",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "dons-special-daiquiri",
+      "name": "Don's Special Daiquiri",
+      "status": "needs_original_or_manual_match"
+    },
+    {
+      "key": "fernandito",
+      "name": "Fernandito",
+      "status": "needs_original_or_manual_match"
+    }
+  ]
+}
