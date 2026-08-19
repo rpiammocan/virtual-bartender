@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, UnidentifiedImageError
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "docs/recipe-photo-final-production.json"
@@ -57,11 +57,17 @@ def download(url: str, slug: str) -> bytes:
 def build_one(row: dict, selected: dict) -> tuple[dict, dict, str]:
     key = row["key"]
     raw = download(selected["download_url"], key)
-    with Image.open(BytesIO(raw)) as source:
-        image = ImageOps.exif_transpose(source).convert("RGB")
-        image.thumbnail((800, 800), Image.Resampling.LANCZOS)
-        dest = OUT / row["output_file"]
-        image.save(dest, "WEBP", quality=80, method=6)
+    try:
+        with Image.open(BytesIO(raw)) as source:
+            image = ImageOps.exif_transpose(source).convert("RGB")
+            image.thumbnail((800, 800), Image.Resampling.LANCZOS)
+            dest = OUT / row["output_file"]
+            image.save(dest, "WEBP", quality=80, method=6)
+    except (UnidentifiedImageError, OSError) as exc:
+        raise RuntimeError(
+            f"Downloaded Commons file is not a Pillow-readable raster image: {selected['download_url']}"
+        ) from exc
+
     digest = hashlib.sha256(dest.read_bytes()).hexdigest()
     built = {
         "key": key,
@@ -88,16 +94,30 @@ def main() -> None:
     metadata = {}
     hashes: dict[str, str] = {}
     duplicate_hashes = []
+    build_failures = []
 
     queue = list(manifest["selected"])
     for index, row in enumerate(queue, 1):
         if index > 1:
             time.sleep(BETWEEN_IMAGES_SECONDS)
         print(f"[{index:03d}/{len(queue)}] {row['name']}", flush=True)
-        built_row, meta, digest = build_one(row, row["selected"])
+        try:
+            built_row, meta, digest = build_one(row, row["selected"])
+        except Exception as exc:
+            failure = {
+                "key": row["key"],
+                "name": row["name"],
+                "download_url": row["selected"].get("download_url"),
+                "commons_page": row["selected"].get("commons_page"),
+                "error": f"{type(exc).__name__}: {exc}",
+            }
+            build_failures.append(failure)
+            print(f"  skipped unusable source: {failure['error']}", flush=True)
+            continue
+
         if digest in hashes:
             duplicate_hashes.append({"key": row["key"], "duplicate_of": hashes[digest], "sha256": digest})
-            Path(built_row["file"]).unlink(missing_ok=True) if Path(built_row["file"]).is_absolute() else (ROOT / built_row["file"]).unlink(missing_ok=True)
+            (ROOT / built_row["file"]).unlink(missing_ok=True)
             print(f"  rejected duplicate output of {hashes[digest]}", flush=True)
             continue
         hashes[digest] = row["key"]
@@ -118,24 +138,30 @@ def main() -> None:
     metadata["margarita"] = margarita_meta
     built.append(margarita_built)
 
+    built_new_total = len([r for r in built if r["key"] != "margarita"])
     report = {
         "catalog_total": manifest["catalog_total"],
         "starting_image_total": manifest["starting_image_total"],
         "approved_unique_commons_total": manifest["approved_unique_commons_total"],
-        "built_new_recipe_images_total": len([r for r in built if r["key"] != "margarita"]),
+        "built_new_recipe_images_total": built_new_total,
         "margarita_corrected": True,
         "duplicate_output_hashes_rejected_total": len(duplicate_hashes),
         "duplicate_output_hashes_rejected": duplicate_hashes,
+        "build_failures_total": len(build_failures),
+        "build_failures": build_failures,
         "needs_original_image_total_before_hash_rejections": manifest["needs_original_image_total"],
-        "expected_image_total_after_build": manifest["starting_image_total"] + len([r for r in built if r["key"] != "margarita"]),
+        "needs_original_image_total_after_build": manifest["needs_original_image_total"] + len(duplicate_hashes) + len(build_failures),
+        "expected_image_total_after_build": manifest["starting_image_total"] + built_new_total,
         "built": built,
     }
     METADATA.write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     REPORT.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Built new final recipe images: {report['built_new_recipe_images_total']}")
     print(f"Duplicate output hashes rejected: {len(duplicate_hashes)}")
-    print(f"Margarita corrected: yes")
+    print(f"Unusable Commons sources skipped: {len(build_failures)}")
+    print("Margarita corrected: yes")
     print(f"Expected coverage: {report['expected_image_total_after_build']}/{manifest['catalog_total']}")
+    print(f"Still needing original images: {report['needs_original_image_total_after_build']}")
 
 
 if __name__ == "__main__":
