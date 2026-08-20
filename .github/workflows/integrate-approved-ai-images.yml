@@ -1,0 +1,53 @@
+name: Integrate approved AI recipe images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify approved image files exist
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          mapping = json.loads(Path('backend/app/recipe_photo_metadata_ai_approved.json').read_text())
+          missing = []
+          for key, meta in mapping.items():
+              p = Path('frontend/public') / meta['image_path'].lstrip('/')
+              if not p.exists():
+                  missing.append(str(p))
+          if missing:
+              raise SystemExit('Missing approved AI image files:\n' + '\n'.join(missing))
+          print(f'Verified {len(mapping)} approved AI image files')
+          PY
+
+      - name: Integrate metadata
+        run: python scripts/integrate_approved_ai_images.py
+
+      - name: Commit integration
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backend/app/seed.py
+          if git diff --cached --quiet; then
+            echo "No metadata changes to commit"
+            exit 0
+          fi
+          git commit -m "Integrate approved AI recipe images"
+          git pull --rebase origin main
+          git push origin HEAD:main
