@@ -1,0 +1,38 @@
+name: Audit recipe catalog and images
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "backend/app/**"
+      - "frontend/public/media/**"
+      - "scripts/audit_catalog_and_images.py"
+      - ".github/workflows/audit-catalog-images.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run catalog and image audit
+        run: python3 scripts/audit_catalog_and_images.py
+
+      - name: Commit QA reports
+        if: always()
+        run: |
+          if [ -f docs/catalog-image-qa.json ] && [ -f docs/catalog-image-qa.md ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/catalog-image-qa.json docs/catalog-image-qa.md
+            if ! git diff --cached --quiet; then
+              git commit -m "Update catalog and image QA report"
+              git push
+            fi
+          fi
