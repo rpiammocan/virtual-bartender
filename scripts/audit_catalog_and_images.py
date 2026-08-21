@@ -47,7 +47,7 @@ ALCOHOL_MARKERS = (
 )
 
 NONALCOHOLIC_EXCEPTIONS = {
-    "ginger beer", "root beer", "maraschino cherry", "maraschino cherries",
+    "ginger beer", "ginger ale", "root beer", "maraschino cherry", "maraschino cherries",
 }
 
 
