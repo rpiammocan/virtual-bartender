@@ -1,16 +1,16 @@
 {
   "summary": {
-    "catalog_total": 309,
-    "cocktails": 263,
+    "catalog_total": 307,
+    "cocktails": 261,
     "mocktails": 46,
-    "image_metadata_total": 166,
-    "recipes_with_images": 166,
-    "recipes_without_images": 143,
-    "real_source_images": 155,
+    "image_metadata_total": 165,
+    "recipes_with_images": 165,
+    "recipes_without_images": 142,
+    "real_source_images": 154,
     "ai_generated_images": 11,
-    "existing_image_files": 166,
+    "existing_image_files": 165,
     "hard_errors": 0,
-    "review_warnings": 18
+    "review_warnings": 17
   },
   "errors": [],
   "warnings": [
@@ -43,12 +43,6 @@
       "key": "club-cranberry-mocktail",
       "name": "Cranberry Soda",
       "source_file": "File:SeaDream_II_—_Top_Of_The_Yacht_Bar_—_Drink_of_the_Day.JPG"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "coffee-cognac",
-      "name": "Coffee and Cognac",
-      "source_file": "File:Brûlot_charentais_01.JPG"
     },
     {
       "kind": "suspicious_image_name_match",

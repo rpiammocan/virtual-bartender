@@ -1,18 +1,18 @@
 {
   "summary": {
-    "catalog_total": 309,
-    "cocktails": 263,
+    "catalog_total": 307,
+    "cocktails": 261,
     "mocktails": 46,
     "unique_ingredient_names": 144,
     "hard_errors": 0,
-    "review_warnings": 6,
+    "review_warnings": 4,
     "ingredient_spelling_variant_groups": 0,
     "unit_counts": {
       "barspoon": 8,
       "dash": 27,
       "drop": 6,
       "ml": 214,
-      "oz": 673,
+      "oz": 669,
       "pc": 42,
       "pinch": 1,
       "rim": 1,
@@ -60,32 +60,6 @@
         {
           "key": "vodka-cranberry",
           "name": "Vodka Cranberry"
-        }
-      ]
-    },
-    {
-      "kind": "same_required_formula_optional_variation",
-      "recipes": [
-        {
-          "key": "coffee-cognac",
-          "name": "Coffee and Cognac"
-        },
-        {
-          "key": "cognac-coffee",
-          "name": "Cognac Coffee"
-        }
-      ]
-    },
-    {
-      "kind": "same_required_formula_optional_variation",
-      "recipes": [
-        {
-          "key": "coffee-rum",
-          "name": "Rum Coffee"
-        },
-        {
-          "key": "dark-rum-coffee",
-          "name": "Dark Rum Coffee"
         }
       ]
     },
