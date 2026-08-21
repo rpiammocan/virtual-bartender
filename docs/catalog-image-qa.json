@@ -3,14 +3,14 @@
     "catalog_total": 309,
     "cocktails": 263,
     "mocktails": 46,
-    "image_metadata_total": 168,
-    "recipes_with_images": 168,
-    "recipes_without_images": 141,
-    "real_source_images": 157,
+    "image_metadata_total": 166,
+    "recipes_with_images": 166,
+    "recipes_without_images": 143,
+    "real_source_images": 155,
     "ai_generated_images": 11,
-    "existing_image_files": 168,
+    "existing_image_files": 166,
     "hard_errors": 0,
-    "review_warnings": 20
+    "review_warnings": 18
   },
   "errors": [],
   "warnings": [
@@ -31,12 +31,6 @@
       "key": "campari-spritz",
       "name": "Campari Spritz",
       "source_file": "File:20120704_170702_venezia_1584.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "campari-tonic",
-      "name": "Campari Tonic",
-      "source_file": "File:Fiola_-_March_2018_-_Sarah_Stierch_04.jpg"
     },
     {
       "kind": "suspicious_image_name_match",
@@ -109,12 +103,6 @@
       "key": "paper-plane",
       "name": "Paper Plane",
       "source_file": "File:Taub_Famiy_Outpost_-_June_9_2021_-_Sarah_Stierch.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "rum-lemonade",
-      "name": "Rum Lemonade",
-      "source_file": "File:Cocktails_(5297823968).jpg"
     },
     {
       "kind": "suspicious_image_name_match",
