@@ -1,0 +1,39 @@
+name: Apply deep catalog QA cleanup
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/cleanup_catalog_deep_pass1.py"
+      - ".github/workflows/cleanup-catalog-deep-pass1.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Remove redundant recipes
+        run: python3 scripts/cleanup_catalog_deep_pass1.py
+
+      - name: Run deep catalog audit
+        run: python3 scripts/audit_catalog_deep.py
+
+      - name: Run catalog and image audit
+        run: python3 scripts/audit_catalog_and_images.py
+
+      - name: Commit cleanup and QA reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backend/app docs/catalog-deep-qa.json docs/catalog-deep-qa.md docs/catalog-image-qa.json docs/catalog-image-qa.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply deep catalog QA cleanup"
+            git push
+          fi
