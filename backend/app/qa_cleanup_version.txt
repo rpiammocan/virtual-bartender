@@ -1,2 +1,3 @@
 Catalog/image QA cleanup baseline: 2026-08-20
 Audit heuristic refresh: ginger ale is nonalcoholic.
+Second image QA cleanup: 9 clearly mismatched images removed.
