@@ -2,6 +2,12 @@ name: Apply second image QA cleanup
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/cleanup_image_qa_pass2.py"
+      - ".github/workflows/cleanup-image-qa-pass2.yml"
 
 permissions:
   contents: write
