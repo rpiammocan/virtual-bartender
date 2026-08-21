@@ -17,6 +17,7 @@ from urllib.parse import unquote, urlparse
 ROOT = Path(__file__).resolve().parents[1]
 APP = ROOT / "backend" / "app"
 MEDIA = ROOT / "frontend" / "public" / "media"
+LEGACY_MEDIA = ROOT / "data" / "images"
 DOCS = ROOT / "docs"
 
 SOURCES = [
@@ -41,8 +42,13 @@ ALCOHOL_MARKERS = (
     "brandy", "campari", "aperol", "amaretto", "vermouth", "chartreuse", "liqueur",
     "cointreau", "triple sec", "pisco", "cacha", "prosecco", "champagne", "wine",
     "absinthe", "sherry", "port", "fernet", "galliano", "maraschino", "benedictine",
-    "drambuie", "irish cream", "coffee liqueur", "creme de", "crème de",
+    "drambuie", "irish cream", "coffee liqueur", "creme de", "crème de", "aguardiente",
+    "grappa",
 )
+
+NONALCOHOLIC_EXCEPTIONS = {
+    "ginger beer", "root beer", "maraschino cherry", "maraschino cherries",
+}
 
 
 def assignments(source: str) -> dict[str, object]:
@@ -132,8 +138,8 @@ def formula(recipe: dict) -> tuple:
 
 
 def is_alcoholic_ingredient(name: str) -> bool:
-    lower = name.casefold()
-    if lower in {"ginger beer", "root beer"}:
+    lower = name.casefold().strip()
+    if lower in NONALCOHOLIC_EXCEPTIONS:
         return False
     return any(marker in lower for marker in ALCOHOL_MARKERS)
 
@@ -144,6 +150,14 @@ def sha256(path: Path) -> str:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             h.update(chunk)
     return h.hexdigest()
+
+
+def locate_image(filename: str) -> Path | None:
+    for directory in (MEDIA, LEGACY_MEDIA):
+        candidate = directory / filename
+        if candidate.exists():
+            return candidate
+    return None
 
 
 def main() -> None:
@@ -201,8 +215,8 @@ def main() -> None:
             errors.append({"kind": "image_metadata_missing_path", "key": key})
             continue
         filename = Path(path_value).name
-        file_path = MEDIA / filename
-        if not file_path.exists():
+        file_path = locate_image(filename)
+        if file_path is None:
             errors.append({"kind": "image_file_missing", "key": key, "path": path_value})
         else:
             existing_image_files[key] = file_path
