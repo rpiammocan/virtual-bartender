@@ -3,14 +3,14 @@
     "catalog_total": 309,
     "cocktails": 263,
     "mocktails": 46,
-    "image_metadata_total": 177,
-    "recipes_with_images": 177,
-    "recipes_without_images": 132,
-    "real_source_images": 166,
+    "image_metadata_total": 168,
+    "recipes_with_images": 168,
+    "recipes_without_images": 141,
+    "real_source_images": 157,
     "ai_generated_images": 11,
-    "existing_image_files": 177,
+    "existing_image_files": 168,
     "hard_errors": 0,
-    "review_warnings": 29
+    "review_warnings": 20
   },
   "errors": [],
   "warnings": [
@@ -25,24 +25,6 @@
       "key": "aperol-soda",
       "name": "Aperol Soda",
       "source_file": "File:Ebbelrol_Spritz_Dauth-Schneider-.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "aperol-spritz",
-      "name": "Aperol Spritz",
-      "source_file": "File:Mitch_(cocktail).jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "basil-lime-soda",
-      "name": "Basil Lime Soda",
-      "source_file": "File:Alinea_-_COURSE_22.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "brandy-cola",
-      "name": "Brandy and Cola",
-      "source_file": "File:Kirk-a-kola.jpg"
     },
     {
       "kind": "suspicious_image_name_match",
@@ -70,12 +52,6 @@
     },
     {
       "kind": "suspicious_image_name_match",
-      "key": "club-pineapple-mocktail",
-      "name": "Pineapple Soda",
-      "source_file": "File:Recipes_for_the_Manufacture_of_Aerated_&_Mineral_Waters_and_Non-Alcoholic_Cordials_-_DPLA_-_f0f1ad85cbe19998d323fc350788106e_(page_51).jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
       "key": "coffee-cognac",
       "name": "Coffee and Cognac",
       "source_file": "File:Brûlot_charentais_01.JPG"
@@ -91,18 +67,6 @@
       "key": "cuba-libre",
       "name": "Cuba Libre",
       "source_file": "File:15-09-26-RalfR-WLC-0056.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "dark-rum-pineapple",
-      "name": "Dark Rum Pineapple",
-      "source_file": "File:Zombiecocktail.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "dark-rum-sour",
-      "name": "Dark Rum Sour",
-      "source_file": "File:Punch_Davy_Jones's_Locker.png"
     },
     {
       "kind": "suspicious_image_name_match",
@@ -148,12 +112,6 @@
     },
     {
       "kind": "suspicious_image_name_match",
-      "key": "pineapple-ginger-mocktail",
-      "name": "Pineapple Ginger",
-      "source_file": "File:Sobo_Juice_In_Northern_Nigeria_5.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
       "key": "rum-lemonade",
       "name": "Rum Lemonade",
       "source_file": "File:Cocktails_(5297823968).jpg"
@@ -172,21 +130,9 @@
     },
     {
       "kind": "suspicious_image_name_match",
-      "key": "tequila-orange",
-      "name": "Tequila Orange",
-      "source_file": "File:Mardi_Gras_Carnival_and_Mexican_Melon_-_Montagues_Tex_Mex_2026-06-03.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
       "key": "tommys-margarita",
       "name": "Tommy's Margarita",
       "source_file": "File:TommysMargarita.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "vodka-pineapple",
-      "name": "Vodka Pineapple",
-      "source_file": "File:Catwalk_cocktail.jpg"
     }
   ]
 }
