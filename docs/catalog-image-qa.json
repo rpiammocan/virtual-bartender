@@ -1,32 +1,19 @@
 {
   "summary": {
-    "catalog_total": 310,
-    "cocktails": 264,
+    "catalog_total": 309,
+    "cocktails": 263,
     "mocktails": 46,
-    "image_metadata_total": 188,
-    "recipes_with_images": 188,
-    "recipes_without_images": 122,
-    "real_source_images": 176,
-    "ai_generated_images": 12,
-    "existing_image_files": 188,
+    "image_metadata_total": 177,
+    "recipes_with_images": 177,
+    "recipes_without_images": 132,
+    "real_source_images": 166,
+    "ai_generated_images": 11,
+    "existing_image_files": 177,
     "hard_errors": 0,
-    "review_warnings": 50
+    "review_warnings": 38
   },
   "errors": [],
   "warnings": [
-    {
-      "kind": "identical_formula",
-      "recipes": [
-        {
-          "key": "brandy-sour",
-          "name": "Brandy Sour"
-        },
-        {
-          "key": "brandy-sour-lemon",
-          "name": "Brandy Lemon Sour"
-        }
-      ]
-    },
     {
       "kind": "mocktail_contains_alcohol_marker",
       "key": "shirley-temple",
@@ -80,12 +67,6 @@
     },
     {
       "kind": "suspicious_image_name_match",
-      "key": "amaretto-cream",
-      "name": "Amaretto Cream",
-      "source_file": "File:Panettone_IMG_3607_(32264620218).jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
       "key": "aperol-soda",
       "name": "Aperol Soda",
       "source_file": "File:Ebbelrol_Spritz_Dauth-Schneider-.jpg"
@@ -107,12 +88,6 @@
       "key": "brandy-cola",
       "name": "Brandy and Cola",
       "source_file": "File:Kirk-a-kola.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "brandy-orange",
-      "name": "Brandy Orange",
-      "source_file": "File:Glass_of_Sangria_-_Tinto_Taperia_2026-05-17.jpg"
     },
     {
       "kind": "suspicious_image_name_match",
@@ -158,27 +133,9 @@
     },
     {
       "kind": "suspicious_image_name_match",
-      "key": "cognac-cranberry",
-      "name": "Cognac Cranberry",
-      "source_file": "File:Selection_of_hot_dogs.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "cognac-orange",
-      "name": "Cognac Orange",
-      "source_file": "File:Sidecar-cocktail.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
       "key": "cuba-libre",
       "name": "Cuba Libre",
       "source_file": "File:15-09-26-RalfR-WLC-0056.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "cucumber-gimlet",
-      "name": "Cucumber Gimlet",
-      "source_file": "File:Cucumbers!_(4921518956).jpg"
     },
     {
       "kind": "suspicious_image_name_match",
@@ -203,18 +160,6 @@
       "key": "gin-cranberry",
       "name": "Gin Cranberry",
       "source_file": "File:Water_Grill_-_Las_Vegas_-_Dec_2019_-_Stierch_06.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "irish-creamless-coffee",
-      "name": "Whiskey Coffee",
-      "source_file": "File:Thomas_Butler_Gunn_Diaries-_Volume_9,_page_223,_October_11,_1858.jpg"
-    },
-    {
-      "kind": "suspicious_image_name_match",
-      "key": "lime-soda-mocktail",
-      "name": "Lime Soda",
-      "source_file": "File:Adios_Motherfucker_Cocktail.jpg"
     },
     {
       "kind": "suspicious_image_name_match",
@@ -287,38 +232,6 @@
       "key": "vodka-pineapple",
       "name": "Vodka Pineapple",
       "source_file": "File:Catwalk_cocktail.jpg"
-    },
-    {
-      "kind": "duplicate_image_bytes",
-      "keys": [
-        "brandy-pineapple",
-        "brandy-sour"
-      ],
-      "sha256": "4bb32c6e0f97cc3bdbf9a291507b8cab46de0009582849ac373624921f54e4d6"
-    },
-    {
-      "kind": "duplicate_image_bytes",
-      "keys": [
-        "cognac-orange",
-        "sidecar"
-      ],
-      "sha256": "b18179a34c63e728f2ee89f44a2027f36e92d0cc3204c16fc4dbace7034fdea2"
-    },
-    {
-      "kind": "duplicate_image_source",
-      "keys": [
-        "brandy-pineapple",
-        "brandy-sour"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Brandy_sour_(22656571926).jpg"
-    },
-    {
-      "kind": "duplicate_image_source",
-      "keys": [
-        "cognac-orange",
-        "sidecar"
-      ],
-      "source_url": "https://commons.wikimedia.org/wiki/File:Sidecar-cocktail.jpg"
     }
   ]
 }
