@@ -1,0 +1,41 @@
+name: Fix QA ginger false positives
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/fix-audit-ginger.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix nonalcoholic exception list
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/audit_catalog_and_images.py')
+          text = p.read_text(encoding='utf-8')
+          old = '    "ginger beer", "root beer", "maraschino cherry", "maraschino cherries",\n'
+          new = '    "ginger beer", "ginger ale", "root beer", "maraschino cherry", "maraschino cherries",\n'
+          if old not in text and '"ginger ale"' not in text:
+              raise SystemExit('Expected exception line not found')
+          if '"ginger ale"' not in text:
+              text = text.replace(old, new, 1)
+              p.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/audit_catalog_and_images.py
+          if ! git diff --cached --quiet; then
+            git commit -m "Fix ginger false positives in catalog QA"
+            git push
+          fi
