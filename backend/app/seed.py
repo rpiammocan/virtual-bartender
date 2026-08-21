@@ -267,6 +267,17 @@ def seed_builtin_data(db: Session) -> dict[str, int]:
                 ingredients[ingredient_name] = ingredient
 
     recipes_by_key = {}
+    canonical_builtin_keys = {data["key"] for data in all_recipes}
+    stale_builtins_retired = 0
+
+    # Retire built-in recipes that were removed from the canonical catalog.
+    # User-created/imported recipes are intentionally untouched.
+    existing_builtins = db.scalars(select(Recipe).where(Recipe.source_type == "built_in", Recipe.built_in_key.is_not(None))).all()
+    for existing_recipe in existing_builtins:
+        if existing_recipe.built_in_key not in canonical_builtin_keys and existing_recipe.is_active:
+            existing_recipe.is_active = False
+            stale_builtins_retired += 1
+
     for data in all_recipes:
         recipe = db.scalar(select(Recipe).where(Recipe.built_in_key == data["key"]))
         if not recipe:
@@ -277,6 +288,9 @@ def seed_builtin_data(db: Session) -> dict[str, int]:
                 db.add(RecipeIngredient(recipe_id=recipe.id, ingredient_id=ingredients[ingredient_name].id, quantity=quantity, unit_id=units[unit_abbr].id, is_optional=optional, display_order=order))
             db.add(RecipeSource(recipe_id=recipe.id, url=data["url"], source_name=data["source"], original_title=data["name"]))
             recipes_added += 1
+        else:
+            # A recipe restored to the canonical catalog should become active again.
+            recipe.is_active = True
         image_meta = IMAGE_METADATA.get(data["key"])
         if image_meta:
             for field, value in image_meta.items():
@@ -295,4 +309,4 @@ def seed_builtin_data(db: Session) -> dict[str, int]:
 
     db.commit()
     aliases_added = seed_aliases(db)
-    return {"units":len(units),"ingredients":len(ingredients),"recipes_total_catalog":len(all_recipes),"recipes_added":recipes_added,"substitutions_added":substitution_count,"variant_links_updated":variant_links,"aliases_added":aliases_added}
+    return {"units":len(units),"ingredients":len(ingredients),"recipes_total_catalog":len(all_recipes),"recipes_added":recipes_added,"stale_builtins_retired":stale_builtins_retired,"substitutions_added":substitution_count,"variant_links_updated":variant_links,"aliases_added":aliases_added}
