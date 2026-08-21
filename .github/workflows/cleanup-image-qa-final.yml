@@ -1,0 +1,36 @@
+name: Apply final image QA cleanup
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/cleanup_image_qa_final.py"
+      - ".github/workflows/cleanup-image-qa-final.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Apply final image cleanup
+        run: python3 scripts/cleanup_image_qa_final.py
+
+      - name: Run catalog and image audit
+        run: python3 scripts/audit_catalog_and_images.py
+
+      - name: Commit cleanup and QA report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backend/app/seed.py docs/catalog-image-qa.json docs/catalog-image-qa.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Apply final recipe image QA cleanup"
+            git push
+          fi
