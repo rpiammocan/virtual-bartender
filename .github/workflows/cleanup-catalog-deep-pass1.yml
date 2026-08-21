@@ -19,7 +19,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Remove redundant recipes
+      - name: Apply reviewed duplicate cleanup
         run: python3 scripts/cleanup_catalog_deep_pass1.py
 
       - name: Run deep catalog audit
