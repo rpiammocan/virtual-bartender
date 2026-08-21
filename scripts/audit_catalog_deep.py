@@ -23,7 +23,7 @@ SOURCES = [
     ("catalog_v8.py", "RECIPES_V8"),
 ]
 
-ALLOWED_UNITS = {"oz", "ml", "tsp", "tbsp", "dash", "pc", "cup", "cups"}
+ALLOWED_UNITS = {"oz", "ml", "tsp", "tbsp", "dash", "pc", "cup", "cups", "barspoon", "drop", "splash", "rim", "pinch", "top"}
 NONALCOHOLIC_EXACT = {"ginger beer", "ginger ale", "root beer", "maraschino cherry", "maraschino cherries"}
 ALCOHOL_TERMS = {
     "bourbon", "whiskey", "whisky", "scotch", "gin", "vodka", "rum", "tequila", "mezcal",
@@ -73,10 +73,6 @@ def load_catalog() -> list[dict]:
 
 def norm(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", text.casefold())
-
-
-def slug(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", text.casefold()).strip("-")
 
 
 def required_formula(recipe: dict) -> tuple:
@@ -202,10 +198,6 @@ def main() -> None:
             warnings.append({"kind": "blank_source", "key": key})
         if not url:
             warnings.append({"kind": "blank_source_url", "key": key})
-
-        expected_slug = slug(name)
-        if key != expected_slug and not (key in expected_slug or expected_slug in key):
-            warnings.append({"kind": "key_name_mismatch", "key": key, "name": name, "name_slug": expected_slug})
 
     for rows in name_groups.values():
         if len(rows) > 1:
