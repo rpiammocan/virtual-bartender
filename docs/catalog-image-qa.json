@@ -8,22 +8,11 @@
     "recipes_without_images": 122,
     "real_source_images": 176,
     "ai_generated_images": 12,
-    "existing_image_files": 186,
-    "hard_errors": 2,
-    "review_warnings": 52
+    "existing_image_files": 188,
+    "hard_errors": 0,
+    "review_warnings": 50
   },
-  "errors": [
-    {
-      "kind": "image_file_missing",
-      "key": "mojito",
-      "path": "/media/mojito.jpg"
-    },
-    {
-      "kind": "image_file_missing",
-      "key": "old-fashioned",
-      "path": "/media/old-fashioned.jpg"
-    }
-  ],
+  "errors": [],
   "warnings": [
     {
       "kind": "identical_formula",
@@ -82,16 +71,6 @@
       "kind": "mocktail_contains_alcohol_marker",
       "key": "mocktail-party-punch",
       "name": "Party Punch Mocktail"
-    },
-    {
-      "kind": "cocktail_without_alcohol_marker",
-      "key": "canchanchara",
-      "name": "Canchanchara"
-    },
-    {
-      "kind": "cocktail_without_alcohol_marker",
-      "key": "ve-n-to",
-      "name": "Ve.N.To"
     },
     {
       "kind": "suspicious_image_name_match",
