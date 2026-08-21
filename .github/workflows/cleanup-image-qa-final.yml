@@ -34,3 +34,5 @@ jobs:
             git commit -m "Apply final recipe image QA cleanup"
             git push
           fi
+
+# Final QA trigger refresh.
