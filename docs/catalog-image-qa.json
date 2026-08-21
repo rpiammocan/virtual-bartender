@@ -10,55 +10,10 @@
     "ai_generated_images": 11,
     "existing_image_files": 177,
     "hard_errors": 0,
-    "review_warnings": 38
+    "review_warnings": 29
   },
   "errors": [],
   "warnings": [
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "shirley-temple",
-      "name": "Shirley Temple"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "ginger-lime-fizz",
-      "name": "Ginger Lime Fizz"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "pineapple-ginger-mocktail",
-      "name": "Pineapple Ginger"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "cranberry-ginger-mocktail",
-      "name": "Cranberry Ginger"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "orange-ginger-mocktail",
-      "name": "Orange Ginger"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "ginger-grapefruit-spritz",
-      "name": "Ginger Grapefruit Spritz"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "ginger-orange-spritz",
-      "name": "Ginger Orange Spritz"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "ginger-cranberry-spritz",
-      "name": "Ginger Cranberry Spritz"
-    },
-    {
-      "kind": "mocktail_contains_alcohol_marker",
-      "key": "mocktail-party-punch",
-      "name": "Party Punch Mocktail"
-    },
     {
       "kind": "suspicious_image_name_match",
       "key": "agave-lime-soda",
