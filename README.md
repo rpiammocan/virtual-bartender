@@ -2,6 +2,12 @@
 
 Virtual Bartender is a local-first cocktail and mocktail recipe application designed to run on a home server such as CasaOS and be accessed from a laptop, phone, or tablet.
 
+## 🍸 Open the Live Application
+
+### [Launch Virtual Bartender](https://rpiammocan.github.io/virtual-bartender-web/)
+
+The link above opens the browser-hosted Web edition. The CasaOS edition remains self-hosted on your own server.
+
 ## 🍹 Install on CasaOS
 
 ### ⬇️ [Download the latest CasaOS installation YAML](https://raw.githubusercontent.com/rpiammocan/virtual-bartender-casaos/main/casaos/virtual-bartender.yaml)
